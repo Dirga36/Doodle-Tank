@@ -1,62 +1,222 @@
 {
-  "format_version": "1.20.0",
+  "format_version": "1.21.0",
   "minecraft:entity": {
-    "components": {
-      "minecraft:collision_box": {
-        "height": 1.7,
-        "width": 2
+    "component_groups": {
+      "minecraft:melee_attack": {
+        "minecraft:attack": {
+          "damage": [
+            7,
+            21
+          ],
+          "effect_duration": 10,
+          "effect_name": "slowness"
+        },
+        "minecraft:behavior.melee_box_attack": {
+          "can_spread_on_fire": true,
+          "cooldown_time": 0.75,
+          "priority": 4,
+          "speed_multiplier": 1.25,
+          "track_target": true
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "minecraft:ranged_mode",
+              "filters": {
+                "all_of": [
+                  {
+                    "operator": "==",
+                    "subject": "self",
+                    "test": "in_water",
+                    "value": false
+                  },
+                  {
+                    "operator": "==",
+                    "subject": "self",
+                    "test": "has_ranged_weapon",
+                    "value": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
       },
-      "minecraft:input_ground_controlled": {
+      "minecraft:ranged_attack": {
+        "minecraft:behavior.ranged_attack": {
+          "attack_interval": 5.4,
+          "attack_radius": 64,
+          "priority": 0,
+          "ranged_fov": 360,
+          "set_persistent": true,
+          "swing": true,
+          "x_max_rotation": 360
+        },
+        "minecraft:environment_sensor": {
+          "triggers": [
+            {
+              "event": "minecraft:melee_mode",
+              "filters": {
+                "operator": "==",
+                "subject": "self",
+                "test": "is_underwater",
+                "value": true
+              }
+            },
+            {
+              "event": "minecraft:melee_mode",
+              "filters": {
+                "operator": "==",
+                "subject": "self",
+                "test": "has_ranged_weapon",
+                "value": false
+              }
+            }
+          ]
+        },
+        "minecraft:shooter": {
+          "def": "minecraft:arrow",
+          "power": 10,
+          "sound": "random.explode"
+        }
+      }
+    },
+    "components": {
+      "minecraft:behavior.look_at_player": {
+        "angle_of_view_vertical": 180,
+        "priority": 7
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "attack_interval": 5,
+        "entity_types": [
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "player"
+            },
+            "max_dist": 128
+          },
+          {
+            "filters": {
+              "subject": "other",
+              "test": "is_family",
+              "value": "irongolem"
+            },
+            "max_dist": 128
+          }
+        ],
+        "must_see": true,
+        "priority": 2,
+        "reselect_targets": true,
+        "set_persistent": true,
+        "within_radius": 25
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval": 5.4,
+        "attack_radius": 64,
+        "priority": 0,
+        "ranged_fov": 360,
+        "set_persistent": true,
+        "swing": true,
+        "x_max_rotation": 360
+      },
+      "minecraft:breathable": {
+        "breathes_lava": false,
+        "breathes_solids": true,
+        "inhale_time": 4,
+        "suffocate_time": 1,
+        "total_supply": 20
+      },
+      "minecraft:collision_box": {
+        "height": 4,
+        "width": 5
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {
+        }
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 20 + (query.equipment_count * Math.Random(1,3)) : 0"
+      },
+      "minecraft:health": {
+        "max": 120,
+        "value": 50
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "cause": "lava",
+            "damage_per_tick": 2,
+            "filters": {
+              "operator": "==",
+              "subject": "self",
+              "test": "in_lava",
+              "value": true
+            }
+          }
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:jump.static": {
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/doodle_tank.json"
       },
       "minecraft:movement": {
-        "value": 0.2
+        "value": 0.25
       },
       "minecraft:movement.basic": {
       },
-      "minecraft:navigation.generic": {
-        "avoid_damage_blocks": true,
+      "minecraft:nameable": {
+      },
+      "minecraft:navigation.walk": {
         "avoid_sun": true,
         "avoid_water": true,
-        "blocks_to_avoid": [
-          ""
-        ],
-        "can_break_doors": true,
-        "can_path_from_air": true
+        "is_amphibious": true
       },
       "minecraft:physics": {
-        "has_collision": true,
-        "has_gravity": true
-      },
-      "minecraft:push_through": {
-        "value": 1
       },
       "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
       },
       "minecraft:rideable": {
-        "controlling_seat": 1,
-        "dismount_mode": "on_top_center",
-        "family_types": [
-          ""
-        ],
         "interact_text": "Take Command",
         "seat_count": 5,
         "seats": [
           {
-            "max_rider_count": 5,
             "position": [
               0,
-              0,
+              3,
               0
             ]
           }
         ]
       },
-      "minecraft:variable_max_auto_step": {
-        "base_value": 1.2,
-        "controlled_value": 1.2
+      "minecraft:shooter": {
+        "def": "minecraft:arrow",
+        "power": 10,
+        "projectiles": [
+          ""
+        ],
+        "sound": "random.bow"
+      },
+      "minecraft:type_family": {
+        "family": [
+          "monster",
+          "mob"
+        ]
       }
     },
     "description": {
@@ -64,6 +224,49 @@
       "is_experimental": false,
       "is_spawnable": true,
       "is_summonable": true
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        },
+        "filters": {
+        },
+        "remove": {
+          "component_groups": [
+          ]
+        }
+      },
+      "minecraft:melee_mode": {
+        "add": {
+          "component_groups": [
+            "minecraft:melee_attack"
+          ]
+        },
+        "filters": {
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        }
+      },
+      "minecraft:ranged_mode": {
+        "add": {
+          "component_groups": [
+            "minecraft:ranged_attack"
+          ]
+        },
+        "filters": {
+        },
+        "remove": {
+          "component_groups": [
+            "minecraft:melee_attack"
+          ]
+        }
+      }
     }
   }
 }
