@@ -1,0 +1,42 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:client_entity": {
+    "description": {
+      "animations": {
+        "gun_fire": "animation.doodle_tank.gun_fire",
+        "gun_turn_down": "animation.doodle_tank.gun_turn_down",
+        "gun_turn_up": "animation.doodle_tank.gun_turn_up",
+        "move": "animation.doodle_tank.move",
+        "turret_rotation": "animation.doodle_tank.turret_rotation"
+      },
+      "geometry": {
+        "default": "geometry.doodle_tank"
+      },
+      "identifier": "myname:doodle_tank",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "scripts": {
+        "animate": [
+          "move"
+        ],
+        "initialize": [
+          "variable.steering = 0;"
+        ],
+        "pre_animation": [
+          "query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"
+        ]
+      },
+      "spawn_egg": {
+        "base_color": "#ffffff",
+        "overlay_color": "#000000"
+      },
+      "textures": {
+        "default": "textures/entity/doodle_tank"
+      }
+    }
+  }
+}

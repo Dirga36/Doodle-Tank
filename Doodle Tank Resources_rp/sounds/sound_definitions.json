@@ -1,0 +1,17 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "doodle_tank.gun_fire": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/88mm-flak"
+      ]
+    },
+    "doodle_tank.move": {
+      "category": "ui",
+      "sounds": [
+        "sounds/tank-track-ratteling-197409"
+      ]
+    }
+  }
+}

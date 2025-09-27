@@ -1,0 +1,69 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "components": {
+      "minecraft:collision_box": {
+        "height": 1.7,
+        "width": 2
+      },
+      "minecraft:input_ground_controlled": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/doodle_tank.json"
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:navigation.generic": {
+        "avoid_damage_blocks": true,
+        "avoid_sun": true,
+        "avoid_water": true,
+        "blocks_to_avoid": [
+          ""
+        ],
+        "can_break_doors": true,
+        "can_path_from_air": true
+      },
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:pushable": {
+      },
+      "minecraft:rideable": {
+        "controlling_seat": 1,
+        "dismount_mode": "on_top_center",
+        "family_types": [
+          ""
+        ],
+        "interact_text": "Take Command",
+        "seat_count": 5,
+        "seats": [
+          {
+            "max_rider_count": 5,
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:variable_max_auto_step": {
+        "base_value": 1.2,
+        "controlled_value": 1.2
+      }
+    },
+    "description": {
+      "identifier": "myname:doodle_tank",
+      "is_experimental": false,
+      "is_spawnable": true,
+      "is_summonable": true
+    }
+  }
+}
