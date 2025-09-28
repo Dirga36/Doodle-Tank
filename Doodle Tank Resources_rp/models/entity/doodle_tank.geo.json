@@ -638,7 +638,7 @@
 					]
 				},
 				{
-					"name": "right_passive_gear_",
+					"name": "left_passive_gear_2",
 					"parent": "left_track",
 					"pivot": [29.01516, 10.30132, 31.24983],
 					"cubes": [
@@ -914,7 +914,7 @@
 					]
 				},
 				{
-					"name": "left_passive_gear_",
+					"name": "right_passive_gear_2",
 					"parent": "right_track",
 					"pivot": [-26.37516, 10.30132, 31.24983],
 					"cubes": [
