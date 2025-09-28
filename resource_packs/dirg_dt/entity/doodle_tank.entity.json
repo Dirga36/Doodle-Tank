@@ -12,7 +12,7 @@
       "geometry": {
         "default": "geometry.doodle_tank"
       },
-      "identifier": "myname:doodle_tank",
+      "identifier": "dirg_dt:doodle_tank",
       "materials": {
         "default": "entity_alphatest"
       },
