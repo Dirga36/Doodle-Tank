@@ -62,7 +62,7 @@
 		"animation.doodle_tank.turret_rotation": {
 			"animation_length": 11,
 			"bones": {
-				"turret": {
+				"head": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"11.0": [0, 360, 0]

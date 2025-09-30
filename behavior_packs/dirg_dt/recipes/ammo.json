@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dirg_dt:doodle_tank"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#",
+      "#",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "X": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:gunpowder"
+      }
+    ],
+    "result": {
+      "item": "dirg_dt:doodle_tank",
+      "count": 8
+    }
+  }
+}
