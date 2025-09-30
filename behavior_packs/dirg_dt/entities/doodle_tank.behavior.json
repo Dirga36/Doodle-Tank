@@ -18,15 +18,15 @@
       },
       "minecraft:nameable": {},
       "minecraft:health": {
-        "value": 10,
-        "max": 10
+        "value": 50,
+        "max": 50
       },
       "minecraft:collision_box": {
         "width": 4.02,
         "height": 4
       },
       "minecraft:movement": {
-        "value": 0.25
+        "value": 0.3
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/doodle_tank.json"
@@ -117,8 +117,8 @@
             "max_rider_count": 4,
             "position": [
               0,
-              3.8,
-              1.7
+              4,
+              0.7
             ],
             "third_person_camera_radius": 8,
             "camera_relax_distance_smoothing": 6
