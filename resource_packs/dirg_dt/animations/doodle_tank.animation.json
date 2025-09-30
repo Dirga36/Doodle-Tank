@@ -104,7 +104,7 @@
 							"lerp_mode": "catmullrom"
 						},
 						"0.0833": {
-							"post": [0, 0, -7],
+							"post": [0, 0, 7],
 							"lerp_mode": "catmullrom"
 						},
 						"1.0": {

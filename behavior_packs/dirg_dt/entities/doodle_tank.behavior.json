@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "dirg_dt:doodle_tank",
-      "spawn_category": "animal",
+      "spawn_category": "monster",
       "is_spawnable": true,
       "is_summonable": true
     },
@@ -37,7 +37,7 @@
       "minecraft:type_family": {
         "family": [
           "Doodle Tank",
-          "animal",
+          "monster",
           "mob"
         ]
       },
@@ -100,6 +100,67 @@
       },
       "minecraft:behavior.random_look_around": {
         "priority": 7
+      },
+      "minecraft:behavior.move_to_village": {
+        "goal_radius": 2,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:rideable": {
+        "seat_count": 4,
+        "family_types": [
+          "player"
+        ],
+        "interact_text": "Enter",
+        "seats": [
+          {
+            "min_rider_count": 0,
+            "max_rider_count": 4,
+            "position": [
+              0,
+              3.8,
+              1.7
+            ],
+            "third_person_camera_radius": 8,
+            "camera_relax_distance_smoothing": 6
+          },
+          {
+            "min_rider_count": 1,
+            "max_rider_count": 4,
+            "position": [
+              -1.7,
+              3.8,
+              0
+            ],
+            "third_person_camera_radius": 8,
+            "camera_relax_distance_smoothing": 6
+          },
+          {
+            "min_rider_count": 2,
+            "max_rider_count": 4,
+            "position": [
+              0,
+              3.8,
+              -1.7
+            ],
+            "third_person_camera_radius": 8,
+            "camera_relax_distance_smoothing": 6
+          },
+          {
+            "min_rider_count": 3,
+            "max_rider_count": 4,
+            "position": [
+              1.7,
+              3.8,
+              0
+            ],
+            "third_person_camera_radius": 8,
+            "camera_relax_distance_smoothing": 6
+          }
+        ]
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:variable_max_auto_step": {
+        "controlled_value": 1.5625
       }
     }
   }
