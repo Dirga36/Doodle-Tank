@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animations": {
-		"animation.doodle_tank.move": {
+		"animation.tiger_1.move": {
 			"loop": true,
 			"animation_length": 1.25,
 			"bones": {
@@ -55,11 +55,11 @@
 			},
 			"sound_effects": {
 				"1.25": {
-					"effect": "doodle_tank.move"
+					"effect": "tiger_1.move"
 				}
 			}
 		},
-		"animation.doodle_tank.turret_rotation": {
+		"animation.tiger_1.turret_rotation": {
 			"animation_length": 11,
 			"bones": {
 				"head": {
@@ -70,7 +70,7 @@
 				}
 			}
 		},
-		"animation.doodle_tank.gun_turn_down": {
+		"animation.tiger_1.gun_turn_down": {
 			"animation_length": 0.5417,
 			"bones": {
 				"barrel": {
@@ -81,7 +81,7 @@
 				}
 			}
 		},
-		"animation.doodle_tank.gun_turn_up": {
+		"animation.tiger_1.gun_turn_up": {
 			"animation_length": 0.75,
 			"bones": {
 				"barrel": {
@@ -92,7 +92,7 @@
 				}
 			}
 		},
-		"animation.doodle_tank.gun_fire": {
+		"animation.tiger_1.gun_fire": {
 			"loop": true,
 			"animation_length": 2.625,
 			"loop_delay": 5.3,
@@ -116,7 +116,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "doodle_tank.gun_fire",
+					"effect": "tiger_1.gun_fire",
 					"locator": "locator"
 				}
 			},

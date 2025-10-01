@@ -3,16 +3,16 @@
   "minecraft:client_entity": {
     "description": {
       "animations": {
-        "gun_fire": "animation.doodle_tank.gun_fire",
-        "gun_turn_down": "animation.doodle_tank.gun_turn_down",
-        "gun_turn_up": "animation.doodle_tank.gun_turn_up",
-        "move": "animation.doodle_tank.move",
-        "turret_rotation": "animation.doodle_tank.turret_rotation"
+        "gun_fire": "animation.tiger_1.gun_fire",
+        "gun_turn_down": "animation.tiger_1.gun_turn_down",
+        "gun_turn_up": "animation.tiger_1.gun_turn_up",
+        "move": "animation.tiger_1.move",
+        "turret_rotation": "animation.tiger_1.turret_rotation"
       },
       "geometry": {
-        "default": "geometry.doodle_tank"
+        "default": "geometry.tiger_1"
       },
-      "identifier": "dirg_dt:doodle_tank",
+      "identifier": "dirg_dt:tiger_1",
       "materials": {
         "default": "entity_alphatest"
       },
@@ -35,7 +35,7 @@
         "overlay_color": "#000000"
       },
       "textures": {
-        "default": "textures/entity/doodle_tank"
+        "default": "textures/entity/tiger_1"
       }
     }
   }
