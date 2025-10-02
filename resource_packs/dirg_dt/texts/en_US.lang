@@ -1,2 +1,5 @@
-entity.dirg_dt:doodle_tank.name=Doodle Tank
-item.spawn_egg.entity.dirg_dt:doodle_tank.name=Spawn Doodle Tank
+entity.dirg_dt:tiger_1.name=Tiger 1
+item.spawn_egg.entity.dirg_dt:tiger_1.name=Spawn Tiger 1
+entity.dirg_dt:centurion_mk._13.name=Centurion Mk. 13
+item.spawn_egg.entity.dirg_dt:centurion_mk._13.name=Spawn Centurion Mk. 13
+item.myname:ammo=Ammo

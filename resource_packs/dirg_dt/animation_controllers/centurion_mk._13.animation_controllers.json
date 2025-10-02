@@ -1,5 +1,5 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.21.0",
   "animation_controllers": {
     "controller.animation.centurion_mk._13.attack": {
       "initial_state": "default",
