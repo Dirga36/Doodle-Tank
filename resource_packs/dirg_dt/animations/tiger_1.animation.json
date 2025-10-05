@@ -6,51 +6,127 @@
 			"animation_length": 1.25,
 			"bones": {
 				"right_passive_gear_1": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_passive_gear_3": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_passive_gear_4": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_front": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_back": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_passive_gear_1": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_passive_gear_3": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_passive_gear_4": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_front": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_back": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"body": {
 					"position": {
-						"0.0": [0, 0, 0],
-						"0.1667": [0, 0.5, 0],
-						"0.5": [0, 0, 0],
-						"0.6667": [0, 0.5, 0],
-						"0.8333": [0, 0, 0],
-						"1.0833": [0, 0.5, 0],
-						"1.25": [0, 0, 0]
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.1667": [
+							0,
+							0.5,
+							0
+						],
+						"0.5": [
+							0,
+							0,
+							0
+						],
+						"0.6667": [
+							0,
+							0.5,
+							0
+						],
+						"0.8333": [
+							0,
+							0,
+							0
+						],
+						"1.0833": [
+							0,
+							0.5,
+							0
+						],
+						"1.25": [
+							0,
+							0,
+							0
+						]
 					}
 				},
 				"left_passive_gear_2": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_passive_gear_2": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				}
 			},
 			"sound_effects": {
@@ -64,8 +140,16 @@
 			"bones": {
 				"head": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"11.0": [0, 360, 0]
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"11.0": [
+							0,
+							360,
+							0
+						]
 					}
 				}
 			}
@@ -75,8 +159,16 @@
 			"bones": {
 				"barrel": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.5": [-5, 0, 0]
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.5": [
+							-5,
+							0,
+							0
+						]
 					}
 				}
 			}
@@ -86,8 +178,16 @@
 			"bones": {
 				"barrel": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.75": [15, 0, 0]
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.75": [
+							15,
+							0,
+							0
+						]
 					}
 				}
 			}
@@ -100,15 +200,27 @@
 				"suspension_barrel": {
 					"position": {
 						"0.0": {
-							"post": [0, 0, 0],
+							"post": [
+								0,
+								0,
+								0
+							],
 							"lerp_mode": "catmullrom"
 						},
 						"0.0833": {
-							"post": [0, 0, 7],
+							"post": [
+								0,
+								0,
+								7
+							],
 							"lerp_mode": "catmullrom"
 						},
 						"1.0": {
-							"post": [0, 0, 0],
+							"post": [
+								0,
+								0,
+								0
+							],
 							"lerp_mode": "catmullrom"
 						}
 					}
@@ -124,6 +236,18 @@
 				"0.0": {
 					"effect": "nozzle_barrel_blast",
 					"locator": "locator"
+				}
+			}
+		},
+		"animation.tiger_1.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"-this",
+						0.0,
+						0.0
+					]
 				}
 			}
 		}

@@ -1,11 +1,100 @@
 {
-	"format_version" : "1.10.0",
-	"animation_controllers" : {
-		"controller.animation.tiger_1.move" : {
-			"initial_state" : "default",
-			"states" : {
-				"default" : {
-					"animations" : [ "move" ]
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tiger_1.look_at_target": {
+			"initial_state": "looking_at_target",
+			"states": {
+				"looking_at_target": {
+					"animations": [
+						"look_at_target"
+					]				},
+				"default": {}
+			}
+		},
+		"controller.animation.tiger_1.move": {
+			"initial_state": "default",
+			"states": {
+				"moving": {
+					"animations": [
+						{
+							"move": "1.5 - math.pow(1.5, 1.0 - 015.0 * query.modified_move_speed)"
+						}
+					],
+					"transitions": [
+						{
+							"default": "!variable.moving || variable.attacking"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"default": {
+					"transitions": [
+						{
+							"moving": "variable.moving && !variable.attacking"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		},
+		"controller.animation.tiger_1.attack": {
+			"initial_state": "default",
+			"states": {
+				"attack": {
+					"animations": [
+						"attack"
+					],
+					"transitions": [
+						{
+							"default": "!variable.attacking"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attacking && query.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.tiger_1.sway": {
+			"initial_state": "default",
+			"states": {
+				"sway": {
+					"animations": [
+						"sway"
+					],
+					"transitions": [
+						{
+							"default": "!variable.swaying && query.all_animations_finished"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"sway": "variable.swaying"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.tiger_1.twitch": {
+			"initial_state": "default",
+			"states": {
+				"twitch": {
+					"animations": [
+						"twitch"
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"twitch": "variable.twitching"
+						}
+					]
 				}
 			}
 		}
