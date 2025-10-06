@@ -1,13 +1,25 @@
 {
   "format_version": "1.21.0",
   "sound_definitions": {
-    "doodle_tank.gun_fire": {
+    "tiger_1.shoot": {
       "category": "hostile",
       "sounds": [
         "sounds/88mm-flak"
       ]
     },
-    "doodle_tank.move": {
+    "tiger_1.move": {
+      "category": "ui",
+      "sounds": [
+        "sounds/tank-track-ratteling-197409"
+      ]
+    },
+    "centurion_mk._13.shoot": {
+      "category": "hostile",
+      "sounds": [
+        "sounds/88mm-flak"
+      ]
+    },
+    "centurion_mk._13.move": {
       "category": "ui",
       "sounds": [
         "sounds/tank-track-ratteling-197409"

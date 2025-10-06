@@ -3,9 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "animations": {
-        "move": "animation.tiger_1.move",
-        "turret_rotation": "animation.tiger_1.turret_rotation",
-        "gun_fire": "animation.tiger_1.gun_fire"
+        "move": "animation.centurion_mk._13.move",
+        "look_at_target": "animation.centurion_mk._13.look_at_target",
+        "shoot": "animation.centurion_mk._13.shoot"
       },
       "geometry": {
         "default": "geometry.centurion_mk._13"
@@ -20,7 +20,7 @@
       "scripts": {
         "animate": [
           "move",
-          "turret_rotation"
+          "look_at_target"
         ]
       },
       "spawn_egg": {

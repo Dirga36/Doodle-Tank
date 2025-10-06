@@ -21,23 +21,6 @@
         "value": 50,
         "max": 50
       },
-      "minecraft:collision_box": {
-        "width": 4.5,
-        "height": 2.03
-      },
-      "minecraft:custom_hit_test": {
-        "hitboxes": [
-          {
-            "width": 3.5,
-            "height": 2.97,
-            "pivot": [
-              0,
-              1.485,
-              -3.4
-            ]
-          }
-        ]
-      },
       "minecraft:movement": {
         "value": 0.5
       },
@@ -256,8 +239,8 @@
       {
         "default": [
           "controller.animation.centurion_mk.13.move",
-          "controller.animation.centurion_mk.13.turret_rotation",
-          "controller.animation.centurion_mk.13.gun_fire"
+          "controller.animation.centurion_mk.13.look_at_target",
+          "controller.animation.centurion_mk.13.shoot"
         ]
       }
     ]

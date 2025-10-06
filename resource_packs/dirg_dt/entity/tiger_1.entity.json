@@ -3,11 +3,9 @@
   "minecraft:client_entity": {
     "description": {
       "animations": {
-        "gun_fire": "animation.tiger_1.gun_fire",
-        "gun_turn_down": "animation.tiger_1.gun_turn_down",
-        "gun_turn_up": "animation.tiger_1.gun_turn_up",
         "move": "animation.tiger_1.move",
-        "turret_rotation": "animation.tiger_1.turret_rotation"
+        "look_at_target": "animation.tiger_1.look_at_target",
+        "shoot": "animation.tiger_1.shoot"
       },
       "geometry": {
         "default": "geometry.tiger_1"
@@ -21,17 +19,12 @@
       ],
       "scripts": {
         "animate": [
-          "move"
-        ],
-        "initialize": [
-          "variable.steering = 0;"
-        ],
-        "pre_animation": [
-          "query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"
+          "move",
+          "look_at_target"
         ]
       },
       "spawn_egg": {
-        "texture": "spawn_egg_tiger_1"
+        "textures": "spawn_egg_tiger_1"
       },
       "textures": {
         "default": "textures/entity/tiger_1"
