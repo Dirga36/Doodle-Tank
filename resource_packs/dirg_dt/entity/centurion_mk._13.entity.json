@@ -2,6 +2,11 @@
   "format_version": "1.21.0",
   "minecraft:client_entity": {
     "description": {
+      "animations": {
+        "move": "animation.tiger_1.move",
+        "turret_rotation": "animation.tiger_1.turret_rotation",
+        "gun_fire": "animation.tiger_1.gun_fire"
+      },
       "geometry": {
         "default": "geometry.centurion_mk._13"
       },
@@ -14,13 +19,8 @@
       ],
       "scripts": {
         "animate": [
-          "move"
-        ],
-        "initialize": [
-          "variable.steering = 0;"
-        ],
-        "pre_animation": [
-          "query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"
+          "move",
+          "turret_rotation"
         ]
       },
       "spawn_egg": {

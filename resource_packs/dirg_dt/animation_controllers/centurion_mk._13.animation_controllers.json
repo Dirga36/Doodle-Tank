@@ -1,23 +1,45 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.17.30",
   "animation_controllers": {
-    "controller.animation.centurion_mk._13.attack": {
-      "initial_state": "default",
+    "controller.animation.centurion_mk.13.turret_rotation": {
+      "states": {
+        "default": {
+          "animations": [
+            "animation.entity.turret_rotation"
+          ]
+        }
+      }
+    },
+    "controller.animation.centurion_mk.13.move": {
+      "states": {
+        "default": {
+          "animations": [
+            "animation.entity.move"
+          ]
+        }
+      }
+    },
+    "controller.animation.centurion_mk.13.gun_fire": {
       "states": {
         "default": {
           "transitions": [
             {
-              "attack": "query.has_target && !query.facing_target_to_range_attack"
+              "attack": "query.is_attacking"
             }
           ]
         },
         "attack": {
-          "animations": [
-            "centurion_mk._13_attack"
+          "on_entry": [
+            {
+              "spawn_entity": {
+                "entity": "minecraft:fireball",
+                "locator": "nozzle"
+              }
+            }
           ],
           "transitions": [
             {
-              "default": "!query.has_target || query.facing_target_to_range_attack"
+              "default": "query.is_not_attacking"
             }
           ]
         }

@@ -1,85 +1,60 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.21.0",
   "minecraft:spawn_rules": {
     "description": {
       "identifier": "dirg_dt:tiger_1",
-      "population_control": "animal"
+      "population_control": "monster"
     },
     "conditions": [
       {
         "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_on_block_filter": [
-          { "name": "minecraft:grass_block" },
-          { "name": "minecraft:sand" },
-          { "name": "minecraft:dirt" }
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight"
         ],
         "minecraft:brightness_filter": {
-          "min": 7,
-          "max": 15,
-          "adjust_for_weather": false
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
         },
         "minecraft:weight": {
-          "default": 10
-        },
-        "minecraft:herd": {
-          "min_size": 2,
-          "max_size": 3
-        },
-        "minecraft:biome_filter": {
-          "test": "has_biome_tag", "value": "savanna"
-        }
-      },
-      {
-        "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_on_block_filter": [
-          { "name": "minecraft:grass_block" },
-          { "name": "minecraft:sand" },
-          { "name": "minecraft:dirt" }
-        ],
-        "minecraft:brightness_filter": {
-          "min": 7,
-          "max": 15,
-          "adjust_for_weather": false
-        },
-        "minecraft:weight": {
-          "default": 6,
-          "rarity": 3
+          "default": 80
         },
         "minecraft:herd": {
           "min_size": 1,
           "max_size": 2
         },
         "minecraft:biome_filter": {
-          "all_of": [
-            { "test": "has_biome_tag", "value": "mesa" },
-            { "test": "has_biome_tag", "operator": "not", "value": "plain" }
-          ]
-        }
-      },
-      {
-        "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_on_block_filter": [
-          { "name": "minecraft:grass_block" },
-          { "name": "minecraft:sand" },
-          { "name": "minecraft:dirt" }
-        ],
-        "minecraft:brightness_filter": {
-          "min": 7,
-          "max": 15,
-          "adjust_for_weather": false
-        },
-        "minecraft:weight": {
-          "default": 6,
-          "rarity": 2
-        },
-        "minecraft:herd": {
-          "min_size": 1,
-          "max_size": 2
-        },
-        "minecraft:biome_filter": {
-          "all_of": [
-            { "test": "has_biome_tag", "value": "mesa" },
-            { "test": "has_biome_tag", "value": "plain" }
+          "any_of": [
+            {
+              "all_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "monster"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "!=",
+                  "value": "frozen"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "operator": "!=",
+                  "value": "mangrove_swamp"
+                }
+              ]
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "soulsand_valley"
+            }
           ]
         }
       }
