@@ -82,9 +82,20 @@
         "entity_types": [
           {
             "filters": {
-              "test": "is_family",
-              "subject": "other",
-              "value": "player"
+              "any_of": [
+                {
+                  "operator": "==",
+                  "test": "is_family",
+                  "value": "player",
+                  "subject": "other"
+                },
+                {
+                  "operator": "==",
+                  "test": "is_family",
+                  "value": "zombie",
+                  "subject": "other"
+                }
+              ]
             },
             "max_dist": 64
           }
@@ -174,6 +185,24 @@
       "minecraft:input_ground_controlled": {},
       "minecraft:variable_max_auto_step": {
         "controlled_value": 1.5625
+      },
+      "minecraft:boss": {
+        "hud_range": 64,
+        "name": "Tiger 1"
+      },
+      "minecraft:break_blocks": {
+        "breakable_blocks": [
+          "bamboo",
+          "beetroot",
+          "double_plant"
+        ]
+      },
+      "minecraft:free_camera_controlled": {
+        "backwards_movement_modifier": 0.8
+      },
+      "minecraft:annotation.break_door": {
+        "break_time": 1,
+        "min_difficulty": "peacful"
       }
     }
   }
