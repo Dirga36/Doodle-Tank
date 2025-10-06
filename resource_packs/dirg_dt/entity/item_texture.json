@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "doodle",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "ammo": {
-      "textures": "textures/items/ammo"
-    }
-  }
-}

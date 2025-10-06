@@ -5,6 +5,9 @@
 		},
 		"spawn_egg_tiger_1": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1.png"
+		},
+		"spawn_egg_centurion_mk._13": {
+			"textures": "textures/items/spawn_eggs/spawn_egg_centurion_mk._13.png"
 		}
 	}
 }
