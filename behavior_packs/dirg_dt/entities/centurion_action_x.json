@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "dirg_dt:centurion_mk._13",
+      "identifier": "dirg_dt:centurion_action_x",
       "spawn_category": "monster",
       "is_spawnable": true,
       "is_summonable": true
@@ -48,7 +48,7 @@
         "value": 0.5
       },
       "minecraft:loot": {
-        "table": "loot_tables/entities/centurion_mk._13.json"
+        "table": "loot_tables/entities/centurion_action_x.json"
       },
       "minecraft:type_family": {
         "family": [
@@ -278,9 +278,9 @@
     "animation_controllers": [
       {
         "default": [
-          "controller.animation.centurion_mk._13.move",
-          "controller.animation.centurion_mk._13.look_at_target",
-          "controller.animation.centurion_mk._13.shoot"
+          "controller.animation.centurion_action_x.move",
+          "controller.animation.centurion_action_x.look_at_target",
+          "controller.animation.centurion_action_x.shoot"
         ]
       }
     ]

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animations": {
-		"animation.centurion_mk._13.move": {
+		"animation.centurion_action_x.move": {
 			"loop": true,
 			"animation_length": 1.25,
 			"bones": {
@@ -159,11 +159,11 @@
 			},
 			"sound_effects": {
 				"1.25": {
-					"effect": "centurion_mk._13.move"
+					"effect": "centurion_action_x.move"
 				}
 			}
 		},
-		"animation.centurion_mk._13.look_at_target": {
+		"animation.centurion_action_x.look_at_target": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -188,7 +188,7 @@
 				}
 			}
 		},
-		"animation.centurion_mk._13.shoot": {
+		"animation.centurion_action_x.shoot": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -242,7 +242,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "centurion_mk._13.shoot",
+					"effect": "centurion_action_x.shoot",
 					"locator": "nozzle"
 				}
 			},

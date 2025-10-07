@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "dirg_dt:centurion_mk._13",
+      "identifier": "dirg_dt:centurion_action_x",
       "population_control": "monster"
     },
     "conditions": [

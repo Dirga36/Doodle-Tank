@@ -13,13 +13,13 @@
         "sounds/tank-track-ratteling-197409"
       ]
     },
-    "centurion_mk._13.shoot": {
+    "centurion_action_x.shoot": {
       "category": "neutral",
       "sounds": [
         "sounds/88mm-flak"
       ]
     },
-    "centurion_mk._13.move": {
+    "centurion_action_x.move": {
       "category": "neutral",
       "sounds": [
         "sounds/tank-track-ratteling-197409"

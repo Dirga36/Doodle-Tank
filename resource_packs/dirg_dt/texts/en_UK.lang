@@ -1,7 +1,7 @@
 entity.dirg_dt:tiger_1.name=Tiger 1
 item.spawn_egg.entity.dirg_dt:tiger_1.name=Spawn Tiger 1
 action.hint.exit.dirg_dt:tiger_1.name=Tiger 1 is under your command
-entity.dirg_dt:centurion_mk._13.name=Centurion Mk. 13
-item.spawn_egg.entity.dirg_dt:centurion_mk._13.name=Spawn Centurion Mk. 13
-action.hint.exit.dirg_dt:centurion_mk._13=Centurion is under your command
+entity.dirg_dt:centurion_action_x.name=Centurion Mk. 13
+item.spawn_egg.entity.dirg_dt:centurion_action_x.name=Spawn Centurion Mk. 13
+action.hint.exit.dirg_dt:centurion_action_x=Centurion is under your command
 item.myname:ammo=Ammo

@@ -1,29 +1,29 @@
 {
   "format_version": "1.17.30",
   "animation_controllers": {
-    "controller.animation.centurion_mk.13.move": {
+    "controller.animation.centurion_action_x.move": {
       "states": {
         "default": {
           "animations": [
-            "animation.centurion_mk.13.move"
+            "animation.centurion_action_x.move"
           ]
         }
       }
     },
-    "controller.animation.centurion_mk.13.look_at_target": {
+    "controller.animation.centurion_action_x.look_at_target": {
       "states": {
         "default": {
           "animations": [
-            "animation.centurion_mk.13.look_at_target"
+            "animation.centurion_action_x.look_at_target"
           ]
         }
       }
     },
-    "controller.animation.centurion_mk.13.shoot": {
+    "controller.animation.centurion_action_x.shoot": {
       "states": {
         "default": {
           "animations": [
-            "animation.centurion_mk.13.shoot"
+            "animation.centurion_action_x.shoot"
           ]
         }
       }
