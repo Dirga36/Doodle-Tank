@@ -3,14 +3,14 @@
   "minecraft:client_entity": {
     "description": {
       "animations": {
-        "move": "animation.centurion_mk._13.move",
-        "look_at_target": "animation.centurion_mk._13.look_at_target",
-        "shoot": "animation.centurion_mk._13.shoot"
+        "move": "animation.centurion_action_x.move",
+        "look_at_target": "animation.common.look_at_target",
+        "shoot": "animation.centurion_action_x.shoot"
       },
       "geometry": {
-        "default": "geometry.centurion_mk._13"
+        "default": "geometry.centurion_action_x"
       },
-      "identifier": "dirg_dt:centurion_mk._13",
+      "identifier": "dirg_dt:centurion_action_x",
       "materials": {
         "default": "entity_alphatest"
       },
@@ -20,15 +20,15 @@
       "scripts": {
         "animate": [
           "move",
-          "look_at_target"
+          "look_at_target",
+          "shoot"
         ]
       },
       "spawn_egg": {
-        "base_color": "#ffffff",
-        "overlay_color": "#000000"
+        "textures": "spawn_egg_centurion_action_x"
       },
       "textures": {
-        "default": "textures/entity/centurion_mk._13"
+        "default": "textures/dirga/doodle_tank/entity/centurion_action_x"
       }
     }
   }

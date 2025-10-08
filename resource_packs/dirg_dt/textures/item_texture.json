@@ -1,13 +1,16 @@
 {
 	"texture_data": {
 		"ammo": {
-			"textures": "textures/items/ammo.png"
+			"textures": "textures/dirga/doodle_tank/items/ammo.png"
+		},
+		"ammo_3d": {
+			"textures": "textures/dirga/doodle_tank/items/ammo.png"
 		},
 		"spawn_egg_tiger_1": {
-			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1.png"
+			"textures": "textures/dirga/doodle_tank/items/spawn_eggs/spawn_egg_tiger_1.png"
 		},
 		"spawn_egg_centurion_action_x": {
-			"textures": "textures/items/spawn_eggs/spawn_egg_centurion_action_x.png"
+			"textures": "textures/dirga/doodle_tank/items/spawn_eggs/spawn_egg_centurion_action_x.png"
 		}
 	}
 }

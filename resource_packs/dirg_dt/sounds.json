@@ -1,5 +1,16 @@
 {
   "entity_sounds": {
-    "entities": {}
+    "entities": {
+      "dirg_dt:tiger_1": {
+        "events": {
+          "ambient": "mob.shulker.ambient"
+        },
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "volume": 1
+      }
+    }
   }
 }

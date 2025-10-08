@@ -4,7 +4,7 @@
     "description": {
       "animations": {
         "move": "animation.tiger_1.move",
-        "look_at_target": "animation.tiger_1.look_at_target",
+        "look_at_target": "animation.common.look_at_target",
         "shoot": "animation.tiger_1.shoot"
       },
       "geometry": {
@@ -20,14 +20,15 @@
       "scripts": {
         "animate": [
           "move",
-          "look_at_target"
+          "look_at_target",
+          "shoot"
         ]
       },
       "spawn_egg": {
         "textures": "spawn_egg_tiger_1"
       },
       "textures": {
-        "default": "textures/entity/tiger_1"
+        "default": "textures/dirga/doodle_tank/entity/tiger_1"
       }
     }
   }

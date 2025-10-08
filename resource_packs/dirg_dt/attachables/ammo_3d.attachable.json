@@ -9,7 +9,7 @@
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/entity/attachable/ammo_3d",
+				"default": "textures/dirga/doodle_tank/entity/attachable/ammo_3d",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {

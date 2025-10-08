@@ -1,29 +1,4 @@
 {
   "format_version": "1.21.0",
-  "sound_definitions": {
-    "tiger_1.shoot": {
-      "category": "neutral",
-      "sounds": [
-        "sounds/88mm-flak"
-      ]
-    },
-    "tiger_1.move": {
-      "category": "neutral",
-      "sounds": [
-        "sounds/tank-track-ratteling-197409"
-      ]
-    },
-    "centurion_action_x.shoot": {
-      "category": "neutral",
-      "sounds": [
-        "sounds/88mm-flak"
-      ]
-    },
-    "centurion_action_x.move": {
-      "category": "neutral",
-      "sounds": [
-        "sounds/tank-track-ratteling-197409"
-      ]
-    }
-  }
+  "sound_definitions": {}
 }
