@@ -1,10 +1,28 @@
 {
 	"format_version": 2,
+	"header": {
+		"name": "Doodle Tank",
+		"description": "Add doodle looking tanks to Minecraft.",
+		"uuid": "9a673033-4554-28b9-0341-4fd24e22c550",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
 	"metadata": {
 		"authors": [
-			"bridge."
+			"Dirga"
 		],
 		"generated_with": {
+			"blockbench_entity_wizard": [
+				"1.7.0"
+			],
 			"bridge": [
 				"2.7.51"
 			],
@@ -13,35 +31,11 @@
 			]
 		}
 	},
-	"header": {
-		"name": "Doodle Tank",
-		"description": "",
-		"min_engine_version": [
-			1,
-			21,
-			90
-		],
-		"uuid": "507e272c-bf79-4cb8-bb4e-f4b061772dc4",
-		"version": [
-			1,
-			0,
-			0
-		]
-	},
 	"modules": [
 		{
+			"description": "Doodle Tank",
 			"type": "resources",
-			"uuid": "6aaa70f9-ac4f-46b4-84e1-de02c979be85",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"dependencies": [
-		{
-			"uuid": "6bba5795-8a0e-4987-bcbc-e3b114a90adf",
+			"uuid": "90591fca-3f96-2a2a-cf21-b761acaa7fa8",
 			"version": [
 				1,
 				0,

@@ -1,0 +1,9 @@
+entity.dt:tiger_1=Tiger 1
+item.spawn_egg.entity.dt:tiger_1=Spawn Tiger 1
+action.hint.exit.dt:tiger_1=Tiger 1 is under your command
+
+entity.dt:centurion_action_x=Centurion Action X
+item.spawn_egg.entity.dt:centurion_action_x=Spawn Centurion Action X
+action.hint.exit.dt:centurion_action_x=Centurion is under your command
+
+item.dt:ammo=Ammo

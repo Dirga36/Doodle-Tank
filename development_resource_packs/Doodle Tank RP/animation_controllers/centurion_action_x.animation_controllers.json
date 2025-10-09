@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.30",
+	"animation_controllers": {
+		"controller.animation.centurion_action_x.move": {
+			"states": {
+				"default": {
+					"animations": [
+						"move"
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.look_at_target": {
+			"states": {
+				"default": {
+					"animations": [
+						"look_at_target"
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.shoot": {
+			"states": {
+				"default": {
+					"animations": [
+						"shoot"
+					]
+				}
+			}
+		}
+	}
+}
