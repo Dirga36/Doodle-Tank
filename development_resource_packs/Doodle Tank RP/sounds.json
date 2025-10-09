@@ -1,16 +1,1 @@
-{
-  "entity_sounds": {
-    "entities": {
-      "dt:tiger_1": {
-        "events": {
-          "ambient": "mob.irongolem.walk"
-        },
-        "pitch": [
-          0.8,
-          1.2
-        ],
-        "volume": 1
-      }
-    }
-  }
-}
+{}

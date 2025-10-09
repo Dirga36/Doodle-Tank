@@ -2,7 +2,7 @@
 	"format_version": 2,
 	"metadata": {
 		"authors": [
-			""
+			"bridge."
 		],
 		"generated_with": {
 			"bridge": [
@@ -14,14 +14,14 @@
 		}
 	},
 	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
+		"name": "Doodle Tank",
+		"description": "",
 		"min_engine_version": [
 			1,
 			21,
 			90
 		],
-		"uuid": "818a2f41-ae08-4ef2-86ba-ca8fa352e4f2",
+		"uuid": "97178ed4-a228-4bc6-8dcb-c05a2f2cb4cc",
 		"version": [
 			1,
 			0,
@@ -31,7 +31,7 @@
 	"modules": [
 		{
 			"type": "skin_pack",
-			"uuid": "b711f10e-94d0-461d-8e67-bcf8aab62ce7",
+			"uuid": "ffdcdec9-2384-4072-b495-1e135fc6536b",
 			"version": [
 				1,
 				0,
