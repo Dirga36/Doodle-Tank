@@ -1,0 +1,13 @@
+{
+	"texture_data": {
+		"ammo": {
+			"textures": "textures/items/ammo"
+		},
+		"spawn_egg_tiger_1": {
+			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1"
+		},
+		"spawn_egg_centurion_action_x": {
+			"textures": "textures/items/spawn_eggs/spawn_egg_centurion_action_x"
+		}
+	}
+}

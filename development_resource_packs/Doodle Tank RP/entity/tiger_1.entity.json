@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dt:tiger_1",
+			"animations": {
+				"move": "animation.tiger_1.move",
+				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.tiger_1.shoot"
+			},
+			"geometry": {
+				"default": "geometry.tiger_1"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"scripts": {
+				"animate": [
+					"move",
+					"look_at_target",
+					"shoot"
+				]
+			},
+			"spawn_egg": {
+				"base_color": "#FFFFFF",
+				"overlay_color": "#0073ff"
+			},
+			"textures": {
+				"default": "textures/entity/tiger_1"
+			}
+		}
+	}
+}

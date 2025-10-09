@@ -1,0 +1,248 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dt:centurion_action_x",
+			"spawn_category": "creature",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 4,
+						"height": 3,
+						"pivot": [
+							0,
+							1.6,
+							0
+						]
+					}
+				]
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:persistent": {},
+			"minecraft:collision_box": {
+				"height": 4.2,
+				"width": 4
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player?100:0"
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": true,
+				"always_show": false
+			},
+			"minecraft:health": {
+				"value": 200,
+				"max": 200
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:type_family": {
+				"family": [
+					"Tank"
+				]
+			},
+			"minecraft:jump.static": {
+				"jump_power": 0.42
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true,
+				"push_towards_closest_space": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:movement.basic": {
+				"max_turn": 30
+			},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"rider_can_interact": true,
+				"crouching_skip_interact": true,
+				"interact_text": "Enter",
+				"family_types": [
+					"player"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0,
+							1,
+							0
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 1
+					}
+				],
+				"controlling_seat": 1
+			},
+			"minecraft:variable_max_auto_step": {
+				"controlled_value": 1.5625
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"bamboo",
+					"bamboo_sapling",
+					"beetroot",
+					"brown_mushroom",
+					"carrots",
+					"carved_pumpkin",
+					"chorus_flower",
+					"chorus_plant",
+					"deadbush",
+					"lit_pumpkin",
+					"melon_block",
+					"melon_stem",
+					"potatoes",
+					"pumpkin",
+					"pumpkin_stem",
+					"red_mushroom",
+					"crimson_fungus",
+					"warped_fungus",
+					"reeds",
+					"snow_layer",
+					"sweet_berry_bush",
+					"turtle_egg",
+					"vine",
+					"waterlily",
+					"wheat",
+					"dandelion",
+					"azalea",
+					"flowering_azalea",
+					"azalea_leaves",
+					"azalea_leaves_flowered",
+					"cave_vines",
+					"cave_vines_body_with_berries",
+					"cave_vines_head_with_berries",
+					"small_dripleaf_block",
+					"big_dripleaf",
+					"spore_blossom",
+					"hanging_roots",
+					"mangrove_leaves",
+					"pale_hanging_moss",
+					"cherry_leaves",
+					"pale_oak_leaves",
+					"firefly_bush",
+					"bush"
+				]
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.03
+			},
+			"minecraft:fire_immune": {},
+			"minecraft:knockback_resistance": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:navigation.walk": {
+				"avoid_damage_blocks": false,
+				"avoid_portals": false,
+				"avoid_sun": false,
+				"avoid_water": false,
+				"blocks_to_avoid": [],
+				"can_breach": false,
+				"can_break_doors": false,
+				"can_jump": true,
+				"can_open_doors": false,
+				"can_open_iron_doors": false,
+				"can_pass_doors": true,
+				"can_path_from_air": false,
+				"can_path_over_lava": false,
+				"can_path_over_water": false,
+				"can_sink": true,
+				"can_swim": false,
+				"can_walk": true,
+				"can_walk_in_lava": false,
+				"is_amphibious": true
+			},
+			"minecraft:equip_item": {},
+			"minecraft:behavior.equip_item": {},
+			"minecraft:on_death": {
+				"event": "on:death",
+				"target": "self"
+			},
+			"minecraft:inventory": {
+				"additional_slots_per_strength": 2,
+				"can_be_siphoned_from": true,
+				"container_type": "minecart_chest",
+				"inventory_size": 32,
+				"private": false,
+				"restrict_to_owner": false
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/centurion_action_x.json"
+			},
+			"minecraft:strength": {
+				"max": 4,
+				"value": 4
+			},
+			"minecraft:game_event_movement_tracking": {
+				"emit_flap": false,
+				"emit_move": true,
+				"emit_swim": false
+			},
+			"minecraft:behavior.pickup_items": {
+				"can_pickup_any_item": true,
+				"can_pickup_to_hand_or_equipment": true,
+				"goal_radius": 0.5,
+				"max_dist": 0,
+				"pickup_based_on_chance": false,
+				"speed_multiplier": 1,
+				"track_target": false
+			}
+		},
+		"events": {
+			"on:death": {
+				"randomize": []
+			},
+			"on:hurt": {
+				"queue_command": {
+					"command": []
+				}
+			},
+			"on:hurt_by_player": {
+				"queue_command": {
+					"command": []
+				}
+			},
+			"on:ignite": {
+				"queue_command": {
+					"command": []
+				}
+			},
+			"on:target_acquired": {
+				"queue_command": {
+					"command": []
+				}
+			},
+			"on:target_escape": {
+				"queue_command": {
+					"command": []
+				}
+			},
+			"on:wake_with_owner": {
+				"queue_command": {
+					"command": []
+				}
+			}
+		},
+		"component_groups": {}
+	}
+}
