@@ -1,8 +1,5 @@
 {
 	"texture_data": {
-		"ammo": {
-			"textures": "textures/items/ammo"
-		},
 		"spawn_egg_tiger_1": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1"
 		},
