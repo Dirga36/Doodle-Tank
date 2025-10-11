@@ -2,22 +2,16 @@
   "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "dt:centurion_action_x",
+      "identifier": "dt:tiger_1",
       "spawn_category": "creature",
       "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
+      "is_summonable": true
     },
+    "component_groups": {},
     "components": {
       "minecraft:behavior.random_stroll": {
         "interval": 100,
         "xz_dist": 32
-      },
-      "minecraft:behavior.look_at_entity": {
-        "probability": 0.3
-      },
-      "minecraft:behavior.look_at_player": {
-        "probability": 0.3
       },
       "minecraft:behavior.random_look_around": {
         "max_angle_of_view_horizontal": 360,
@@ -230,7 +224,7 @@
         "set_target": "once_and_keep_scanning"
       },
       "minecraft:loot": {
-        "table": "loot_tables/entities/dt_centurion_action_x.json"
+        "table": "loot_tables/dt/entities/tiger_1.json"
       },
       "minecraft:shooter": {
         "def": "minecraft:fireball",
@@ -336,7 +330,6 @@
           "command": []
         }
       }
-    },
-    "component_groups": {}
+    }
   }
 }

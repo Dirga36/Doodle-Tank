@@ -25,11 +25,10 @@
 				]
 			},
 			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#0073ff"
+				"texture": "spawn_egg_tiger_1"
 			},
 			"textures": {
-				"default": "textures/entity/tiger_1"
+				"default": "textures/dt/entity/tiger_1"
 			}
 		}
 	}

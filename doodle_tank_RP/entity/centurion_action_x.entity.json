@@ -25,11 +25,10 @@
 				]
 			},
 			"spawn_egg": {
-				"base_color": "#FFFFFF",
-				"overlay_color": "#000000"
+				"texture": "spawn_egg_centurion_action_x"
 			},
 			"textures": {
-				"default": "textures/entity/centurion_action_x"
+				"default": "textures/dt/entity/centurion_action_x"
 			}
 		}
 	}

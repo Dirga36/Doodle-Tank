@@ -1,11 +1,11 @@
-pack.name=Doodle Tank [R]
+pack.name=Doodle Tank [RP]
 pack.description=Add doodle looking into Minecraft
 modules.description=doodle_tank
 
 entity.dt:tiger_1.name=Tiger 1
-item.spawn_egg.entity.dt:tiger_1.name=Spawn Tiger 1
+item.spawn_egg.entity.dt:tiger_1.name=Deploy Tiger 1
 action.hint.exit.dt:tiger_1=Tiger 1 is under your command
 
 entity.dt:centurion_action_x.name=Centurion Action X
-item.spawn_egg.entity.dt:centurion_action_x.name=Spawn Centurion Action X
+item.spawn_egg.entity.dt:centurion_action_x.name=Deploy Centurion Action X
 action.hint.exit.dt:centurion_action_x=Centurion Action X is under your command
