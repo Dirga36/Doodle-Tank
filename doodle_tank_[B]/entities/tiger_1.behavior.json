@@ -12,7 +12,7 @@
 				"hitboxes": [
 					{
 						"width": 4,
-						"height": 3,
+						"height": 3.7,
 						"pivot": [
 							0,
 							1.6,
@@ -24,7 +24,7 @@
 			"minecraft:is_stackable": {},
 			"minecraft:persistent": {},
 			"minecraft:collision_box": {
-				"height": 4.2,
+				"height": 4.6,
 				"width": 4
 			},
 			"minecraft:is_hidden_when_invisible": {},

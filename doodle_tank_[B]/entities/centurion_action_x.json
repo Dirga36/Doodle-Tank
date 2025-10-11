@@ -11,7 +11,7 @@
 			"minecraft:custom_hit_test": {
 				"hitboxes": [
 					{
-						"width": 4,
+						"width": 4.5,
 						"height": 3,
 						"pivot": [
 							0,
@@ -24,8 +24,8 @@
 			"minecraft:is_stackable": {},
 			"minecraft:persistent": {},
 			"minecraft:collision_box": {
-				"height": 4.2,
-				"width": 4
+				"height": 4.5,
+				"width": 3
 			},
 			"minecraft:is_hidden_when_invisible": {},
 			"minecraft:experience_reward": {
@@ -70,12 +70,11 @@
 				"family_types": [
 					"player"
 				],
-				"pull_in_entities": true,
 				"seats": [
 					{
 						"position": [
-							0,
-							1,
+							-0.5,
+							2.4,
 							0
 						],
 						"min_rider_count": 0,
