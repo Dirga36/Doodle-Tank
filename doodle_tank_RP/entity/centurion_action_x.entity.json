@@ -28,7 +28,7 @@
 				"texture": "spawn_egg_centurion_action_x"
 			},
 			"textures": {
-				"default": "textures/dt/entity/centurion_action_x"
+				"default": "textures/entity/centurion_action_x"
 			}
 		}
 	}

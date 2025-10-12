@@ -28,7 +28,7 @@
 				"texture": "spawn_egg_tiger_1"
 			},
 			"textures": {
-				"default": "textures/dt/entity/tiger_1"
+				"default": "textures/entity/tiger_1"
 			}
 		}
 	}

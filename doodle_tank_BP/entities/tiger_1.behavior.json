@@ -9,6 +9,11 @@
     },
     "component_groups": {},
     "components": {
+      "minecraft:type_family": {
+        "family": [
+          "Tank"
+        ]
+      },
       "minecraft:behavior.random_stroll": {
         "interval": 100,
         "xz_dist": 32
@@ -50,12 +55,7 @@
         "max": 200
       },
       "minecraft:movement": {
-        "value": 0.2
-      },
-      "minecraft:type_family": {
-        "family": [
-          "Tank"
-        ]
+        "value": 0.25
       },
       "minecraft:jump.static": {
         "jump_power": 0.42
@@ -83,9 +83,9 @@
         "seats": [
           {
             "position": [
-              -0.5,
+              -0.65,
               2.4,
-              0
+              -0.9
             ],
             "min_rider_count": 0,
             "max_rider_count": 1
@@ -182,8 +182,6 @@
         "can_walk_in_lava": true,
         "is_amphibious": true
       },
-      "minecraft:equip_item": {},
-      "minecraft:behavior.equip_item": {},
       "minecraft:inventory": {
         "additional_slots_per_strength": 0,
         "can_be_siphoned_from": true,
@@ -195,7 +193,7 @@
       "minecraft:game_event_movement_tracking": {
         "emit_flap": false,
         "emit_move": true,
-        "emit_swim": true
+        "emit_swim": false
       },
       "minecraft:behavior.pickup_items": {
         "can_pickup_any_item": true,
@@ -208,91 +206,45 @@
       },
       "minecraft:annotation.break_door": {
         "break_time": 2,
-        "min_difficulty": "Peaceful"
+        "min_difficulty": "peaceful"
       },
+      "minecraft:break_door": {},
       "minecraft:follow_range": {
         "max": 64,
         "value": 64
       },
-      "minecraft:looked_at": {
-        "field_of_view": 26.0,
-        "find_players_only": false,
-        "line_of_sight_obstruction_type": "collision",
-        "min_looked_at_duration": 0.0,
-        "scale_fov_by_distance": true,
-        "search_radius": 100.0,
-        "set_target": "once_and_keep_scanning"
-      },
       "minecraft:loot": {
         "table": "loot_tables/dt/entities/tiger_1.json"
       },
-      "minecraft:shooter": {
-        "def": "minecraft:fireball",
-        "magic": false,
-        "power": 10.0
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 28
+          }
+        ],
+        "must_see": true
       },
+      "minecraft:behavior.ranged_attack": {
+        "priority": 1,
+        "attack_radius": 64,
+        "charge_shoot_trigger": 4,
+        "charge_charged_trigger": 1
+      },
+      "minecraft:shooter": {
+        "def": "minecraft:fireball"
+      },
+      "minecraft:behavior.owner_hurt_by_target": {},
       "minecraft:behavior.hurt_by_target": {
         "alert_same_type": false,
         "hurt_owner": false
       },
-      "minecraft:behavior.nearest_attackable_target": {
-        "attack_owner": false,
-        "must_reach": false,
-        "must_see": false,
-        "must_see_forget_duration": 3.0,
-        "persist_time": 0.0,
-        "reselect_targets": true,
-        "scan_interval": 10,
-        "set_persistent": true,
-        "target_invisible_multiplier": 0.7,
-        "target_search_height": -1.0,
-        "target_sneak_visibility_multiplier": 0.8,
-        "within_radius": 64,
-        "entity_types": [
-          {
-            "filters": {
-              "any_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "skeleton"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "spider"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "zombie"
-                }
-              ]
-            },
-            "must_see": false,
-            "max_dist": 100.0
-          }
-        ]
-      },
-      "minecraft:behavior.owner_hurt_by_target": {},
-      "minecraft:behavior.owner_hurt_target": {},
-      "minecraft:behavior.ranged_attack": {
-        "attack_interval_max": 1.0,
-        "attack_interval_min": 0.0,
-        "attack_radius": 0.0,
-        "attack_radius_min": 0.0,
-        "burst_interval": 0.0,
-        "burst_shots": 1,
-        "charge_charged_trigger": 0.0,
-        "charge_shoot_trigger": 0.0,
-        "ranged_fov": 360.0,
-        "set_persistent": true,
-        "speed_multiplier": 1.0,
-        "swing": true,
-        "target_in_sight_time": 1.0,
-        "x_max_rotation": 360.0,
-        "y_max_head_rotation": 90.0
-      }
+      "minecraft:behavior.owner_hurt_target": {}
     },
     "events": {
       "on:death": {

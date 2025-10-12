@@ -9,3 +9,6 @@ action.hint.exit.dt:tiger_1=Tiger 1 is under your command
 entity.dt:centurion_action_x.name=Centurion Action X
 item.spawn_egg.entity.dt:centurion_action_x.name=Deploy Centurion Action X
 action.hint.exit.dt:centurion_action_x=Centurion Action X is under your command
+
+entity.dt:high_explosive_shell.name=High Explosive Shell
+entity.dt:armor_piercing_shell.name=Armor Piercing Shell
