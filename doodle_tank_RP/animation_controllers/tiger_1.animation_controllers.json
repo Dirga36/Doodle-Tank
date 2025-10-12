@@ -1,29 +1,27 @@
 {
-	"format_version": "1.17.30",
+	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.tiger_1.move": {
-			"states": {
-				"default": {
-					"animations": [
-						"move"
-					]
-				}
-			}
-		},
-		"controller.animation.tiger_1.look_at_target": {
-			"states": {
-				"default": {
-					"animations": [
-						"look_at_target"
-					]
-				}
-			}
-		},
 		"controller.animation.tiger_1.shoot": {
+			"initial_state": "default",
 			"states": {
 				"default": {
+					"transitions": [
+						{
+							"shooting": "variable.shoot_timer > 0"
+						}
+					]
+				},
+				"shooting": {
 					"animations": [
 						"shoot"
+					],
+					"transitions": [
+						{
+							"default": "variable.shoot_timer <= 0"
+						}
+					],
+					"on_entry": [
+						"variable.shoot_timer = 0.5"
 					]
 				}
 			}
