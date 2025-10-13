@@ -9,16 +9,10 @@
     },
     "component_groups": {},
     "components": {
-      // general tank components
+      // stats
       "minecraft:experience_reward": {
-        "on_death": "query.last_hit_by_player ? 150 + (query.equipment_count * Math.Random(1,3)) : 0"
+        "on_death": "query.last_hit_by_player ? 100 + (query.equipment_count * Math.Random(1,3)) : 0"
       },
-      "minecraft:breathable": {
-        "total_supply": 15,
-        "suffocate_time": 0
-      },
-      "minecraft:fire_immune": {},
-      "minecraft:nameable": {},
       "minecraft:health": {
         "value": 200,
         "max": 200
@@ -28,23 +22,29 @@
           {
             "width": 4.5,
             "height": 3,
-            "pivot": [
-              0,
-              1.6,
-              0
-            ]
+            "pivot": [0, 2.4, 0.55]
           }
         ]
       },
-      "minecraft:is_stackable": {},
-      "minecraft:persistent": {},
       "minecraft:collision_box": {
         "height": 4.5,
         "width": 3.0
       },
       "minecraft:movement": {
-        "value": 0.3
+        "value": 0.25
       },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+
+      // general tank components
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:nameable": {},
       "minecraft:navigation.walk": {
         "can_walk": true
       },
@@ -79,10 +79,6 @@
         }
       },
       "minecraft:jump.static": {},
-      "minecraft:follow_range": {
-        "value": 64,
-        "max": 64
-      },
       "minecraft:behavior.hurt_by_target": {
         "priority": 2
       },
@@ -92,6 +88,7 @@
         "is_pushable_by_piston": true
       },
       "minecraft:conditional_bandwidth_optimization": {},
+
       // attack style
       "minecraft:behavior.ranged_attack": {
         "priority": 1,
@@ -107,6 +104,7 @@
         "def": "minecraft:arrow",
         "power": 10
       },
+
       // special components
       "minecraft:behavior.nearest_attackable_target": {
         "priority": 3,

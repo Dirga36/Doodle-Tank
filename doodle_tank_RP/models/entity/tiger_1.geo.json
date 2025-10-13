@@ -269,7 +269,7 @@
 					]
 				},
 				{
-					"name": "turret_antenne",
+					"name": "turret_antenna",
 					"parent": "turret",
 					"pivot": [-8.602, 65.74116, 16.22939],
 					"cubes": [
@@ -288,7 +288,7 @@
 					]
 				},
 				{
-					"name": "barrel",
+					"name": "gun_barrel",
 					"parent": "turret",
 					"pivot": [-1.41464, 45.42159, -26.43487],
 					"cubes": [
@@ -324,7 +324,7 @@
 				},
 				{
 					"name": "spaced_armor_turret",
-					"parent": "barrel",
+					"parent": "gun_barrel",
 					"pivot": [-0.1584, 44.91684, -27.64301],
 					"cubes": [
 						{
@@ -343,7 +343,7 @@
 				},
 				{
 					"name": "suspension_barrel",
-					"parent": "barrel",
+					"parent": "gun_barrel",
 					"pivot": [0.21992, 44.82432, -89.19241],
 					"cubes": [
 						{
@@ -381,7 +381,7 @@
 				},
 				{
 					"name": "gun_blast",
-					"parent": "barrel",
+					"parent": "gun_barrel",
 					"pivot": [-0.00323, 44.58288, -103.54784],
 					"poly_mesh": {
 						"normalized_uvs": true,

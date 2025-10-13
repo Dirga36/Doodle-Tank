@@ -2,38 +2,38 @@
 	"format_version": "1.21.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "dt:centurion_action_x",
-			"animations": {
-				"move": "animation.centurion_action_x.move",
-				"turn": "animation.centurion_action_x.turn",
-				"look": "animation.centurion_action_x.look",
-				"look_at_target": "animation.common.look_at_target",
-				"shoot": "animation.centurion_action_x.shoot"
-			},
-			"geometry": {
-				"default": "geometry.centurion_action_x"
-			},
+			"identifier": "dt:centurion_action_x.entity",
 			"materials": {
 				"default": "entity_alphatest"
 			},
-			"render_controllers": [
-				"controller.render.default"
-			],
+			"geometry": {
+				"default": "geometry.centurion_action_x.entity"
+			},
+			"textures": {
+				"default": "textures/entity/centurion_action_x.entity"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_centurion_action_x.entity"
+			},
+			"animations": {
+				"move": "animation.centurion_action_x.entity.move",
+				"turn": "animation.centurion_action_x.entity.turn",
+				"look": "animation.centurion_action_x.entity.look",
+				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.centurion_action_x.entity.shoot"
+			},
 			"scripts": {
 				"animate": [
 					"move",
 					"turn",
 					"look",
 					"look_at_target",
-					"controller.animation.centurion_action_x.shoot"
+					"controller.animation.centurion_action_x.entity.shoot"
 				]
 			},
-			"spawn_egg": {
-				"texture": "spawn_egg_centurion_action_x"
-			},
-			"textures": {
-				"default": "textures/entity/centurion_action_x"
-			}
+			"render_controllers": [
+				"controller.render.default"
+			]
 		}
 	}
 }
