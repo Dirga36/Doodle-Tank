@@ -1,6 +1,44 @@
 {
 	"format_version": "1.21.0",
 	"animations": {
+		"animation.tiger_1.turn": {
+			"loop": true,
+			"bones": {
+				"turret": {
+					"rotation": [
+						0,
+						"query.target_y_rotation",
+						0
+					]
+				},
+				"root": {
+					"rotation": [
+						"query.vertical_speed * -3",
+						0,
+						0
+					]
+				},
+				"gun_barrel": {
+					"rotation": [
+						"query.target_x_rotation",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.tiger_1.look": {
+			"loop": true,
+			"bones": {
+				"barrel": {
+					"rotation": [
+						"query.target_x_rotation",
+						0,
+						0
+					]
+				}
+			}
+		},
 		"animation.tiger_1.move": {
 			"loop": true,
 			"animation_length": 1.25,
@@ -160,44 +198,6 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
-				}
-			}
-		},
-		"animation.tiger_1.turn": {
-			"loop": true,
-			"bones": {
-				"turret": {
-					"rotation": [
-						0,
-						"query.target_y_rotation",
-						0
-					]
-				},
-				"root": {
-					"rotation": [
-						"query.vertical_speed * -3",
-						0,
-						0
-					]
-				},
-				"gun_barrel": {
-					"rotation": [
-						"query.target_x_rotation",
-						0,
-						0
-					]
-				}
-			}
-		},
-		"animation.tiger_1.look": {
-			"loop": true,
-			"bones": {
-				"barrel": {
-					"rotation": [
-						"query.target_x_rotation",
-						0,
-						0
-					]
 				}
 			}
 		}
