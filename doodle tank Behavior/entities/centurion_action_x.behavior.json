@@ -3,6 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "dt:centurion_action_x",
+	  "runtime_identifier": "minecraft:warden",
       "spawn_category": "creature",
       "is_spawnable": true,
       "is_summonable": true

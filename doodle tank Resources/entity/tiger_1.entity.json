@@ -20,15 +20,11 @@
 				"turn": "animation.tiger_1.turn",
 				"look": "animation.tiger_1.look",
 				"look_at_target": "animation.common.look_at_target",
-				"shoot": "animation.tiger_1.shoot"
+				"shoot": "controller.animation.tiger_1.shoot"
 			},
 			"scripts": {
 				"animate": [
-					"move",
-					"turn",
-					"look",
-					"look_at_target",
-					"controller.animation.tiger_1.shoot"
+					"shoot"
 				]
 			},
 			"render_controllers": [

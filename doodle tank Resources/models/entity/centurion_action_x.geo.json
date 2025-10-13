@@ -7,8 +7,8 @@
 				"texture_width": 512,
 				"texture_height": 512,
 				"visible_bounds_width": 24,
-				"visible_bounds_height": 12,
-				"visible_bounds_offset": [0, 2, 0]
+				"visible_bounds_height": 16,
+				"visible_bounds_offset": [0, 0, 0]
 			},
 			"bones": [
 				{
@@ -1951,7 +1951,7 @@
 				{
 					"name": "right_spaced_armor",
 					"parent": "spaced_armors",
-					"pivot": [-37.5, 13, -17.58026],
+					"pivot": [-37.5, 13, 12.41974],
 					"cubes": [
 						{
 							"origin": [-35.95, 27.85, 61.11974],
@@ -2251,7 +2251,7 @@
 				{
 					"name": "left_spaced_armor",
 					"parent": "spaced_armors",
-					"pivot": [37.5, 13, -17.58026],
+					"pivot": [37.5, 13, 12.41974],
 					"cubes": [
 						{
 							"origin": [21.55, 27.85, 61.11974],

@@ -4,13 +4,14 @@
 		"description": {
 			"identifier": "dt:centurion_action_x",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "warden",
+				"bioluminescent_layer": "warden_bioluminescent_layer"
 			},
 			"geometry": {
 				"default": "geometry.centurion_action_x"
 			},
 			"textures": {
-				"default": "textures/entity/centurion_action_x"
+				"default": "textures/entity/centurion_action_x/centurion_action_x"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_centurion_action_x"
