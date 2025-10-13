@@ -12,7 +12,12 @@
 			},
 			"bones": [
 				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
 					"name": "body",
+					"parent": "root",
 					"pivot": [0, 0, 0]
 				},
 				{
@@ -632,13 +637,13 @@
 					}
 				},
 				{
-					"name": "head",
+					"name": "turret",
 					"parent": "body",
 					"pivot": [0, 42, -11]
 				},
 				{
 					"name": "turret_center",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [0, 0, -2],
 					"cubes": [
 						{
@@ -972,7 +977,7 @@
 				},
 				{
 					"name": "turret_plane",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [8.83333, 43.949, -0.57411],
 					"poly_mesh": {
 						"normalized_uvs": true,
@@ -1216,7 +1221,7 @@
 				},
 				{
 					"name": "turret_lamp",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [-1, 6.5, 17.75922],
 					"cubes": [
 						{
@@ -1247,7 +1252,7 @@
 				},
 				{
 					"name": "gun_barrel",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [0, 42, -29.75],
 					"cubes": [
 						{
@@ -1303,7 +1308,7 @@
 				},
 				{
 					"name": "antenna",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [18.25, 55.074, 16.88922],
 					"cubes": [
 						{
@@ -1882,13 +1887,13 @@
 					]
 				},
 				{
-					"name": "spaced_armor",
+					"name": "spaced_armors",
 					"parent": "body",
 					"pivot": [-37, 13, -17.58026]
 				},
 				{
 					"name": "composite_armor",
-					"parent": "spaced_armor",
+					"parent": "spaced_armors",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -1945,7 +1950,7 @@
 				},
 				{
 					"name": "right_spaced_armor",
-					"parent": "spaced_armor",
+					"parent": "spaced_armors",
 					"pivot": [-37.5, 13, -17.58026],
 					"cubes": [
 						{
@@ -2245,7 +2250,7 @@
 				},
 				{
 					"name": "left_spaced_armor",
-					"parent": "spaced_armor",
+					"parent": "spaced_armors",
 					"pivot": [37.5, 13, -17.58026],
 					"cubes": [
 						{
@@ -2544,12 +2549,13 @@
 					}
 				},
 				{
-					"name": "track",
+					"name": "tracks",
+					"parent": "body",
 					"pivot": [0, 1, -22]
 				},
 				{
 					"name": "left_track",
-					"parent": "track",
+					"parent": "tracks",
 					"pivot": [3.25, -1.5, -20.24078]
 				},
 				{
@@ -3009,7 +3015,7 @@
 				},
 				{
 					"name": "right_track",
-					"parent": "track",
+					"parent": "tracks",
 					"pivot": [-3.25, -1.5, -20.24078]
 				},
 				{

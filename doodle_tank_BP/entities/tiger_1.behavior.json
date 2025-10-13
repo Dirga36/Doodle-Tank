@@ -148,21 +148,18 @@
         "is_pushable_by_piston": true
       },
       "minecraft:conditional_bandwidth_optimization": {},
-      
-      // attack stylw
+      // attack style
       "minecraft:behavior.ranged_attack": {
         "priority": 1,
         "attack_radius": 64,
         "ranged_fov": 360,
         "speed_multiplier": 1.25,
         "attack_interval_max": 5.6,
-        "attack_interval_min": 4.3,
-        "attack_radius_min": 8
+        "attack_interval_min": 4.3
       },
       "minecraft:shooter": {
         "def": "minecraft:fireball"
       },
-
       // special components
       "minecraft:behavior.nearest_attackable_target": {
         "priority": 3,
@@ -346,7 +343,7 @@
         "sequence": [
           {
             "set_variable": {
-              "shoot_timer": 1
+              "attack_state": true
             }
           }
         ]

@@ -5,6 +5,8 @@
 			"identifier": "dt:centurion_action_x",
 			"animations": {
 				"move": "animation.centurion_action_x.move",
+				"turn": "animation.centurion_action_x.turn",
+				"look": "animation.centurion_action_x.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot"
 			},
@@ -20,6 +22,8 @@
 			"scripts": {
 				"animate": [
 					"move",
+					"turn",
+					"look",
 					"look_at_target",
 					"controller.animation.centurion_action_x.shoot"
 				]
