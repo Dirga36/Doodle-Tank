@@ -1,29 +1,27 @@
 {
-	"format_version": "1.17.30",
+	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.centurion_action_x.move": {
-			"states": {
-				"default": {
-					"animations": [
-						"move"
-					]
-				}
-			}
-		},
-		"controller.animation.centurion_action_x.look_at_target": {
-			"states": {
-				"default": {
-					"animations": [
-						"look_at_target"
-					]
-				}
-			}
-		},
 		"controller.animation.centurion_action_x.shoot": {
+			"initial_state": "default",
 			"states": {
 				"default": {
+					"transitions": [
+						{
+							"shooting": "variable.attack_animation_tick > 0"
+						}
+					]
+				},
+				"shooting": {
 					"animations": [
 						"shoot"
+					],
+					"transitions": [
+						{
+							"default": "variable.attack_animation_tick <= 0"
+						}
+					],
+					"on_entry": [
+						"variable.attack_animation_tick = 0.5"
 					]
 				}
 			}

@@ -10,15 +10,30 @@
 						"pitch": 1,
 						"sound": "mob.irongolem.walk",
 						"volume": 1
-					},
-					"throw": {
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.2
+			},
+			"dt:centurion_action_x": {
+				"events": {
+					"ambient": "mob.ravager.ambient",
+					"death": "mob.ravager.death",
+					"hurt": "mob.ravager.hurt",
+					"step": {
 						"pitch": 1,
-						"sound": "mob.irongolem.throw",
+						"sound": "mob.ravager.step",
 						"volume": 1
 					}
 				},
-				"pitch": [0.8, 1.2],
-				"volume": 1
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1.2
 			}
 		}
 	}

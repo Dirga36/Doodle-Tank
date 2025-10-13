@@ -7,7 +7,7 @@
 				"default": {
 					"transitions": [
 						{
-							"shooting": "variable.shoot_timer > 0"
+							"shooting": "variable.attack_animation_tick > 0"
 						}
 					]
 				},
@@ -17,11 +17,11 @@
 					],
 					"transitions": [
 						{
-							"default": "variable.shoot_timer <= 0"
+							"default": "variable.attack_animation_tick <= 0"
 						}
 					],
 					"on_entry": [
-						"variable.shoot_timer = 0.5"
+						"variable.attack_animation_tick = 0.5"
 					]
 				}
 			}

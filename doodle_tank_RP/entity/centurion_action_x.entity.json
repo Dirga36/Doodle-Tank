@@ -21,7 +21,7 @@
 				"animate": [
 					"move",
 					"look_at_target",
-					"shoot"
+					"controller.animation.centurion_action_x.shoot"
 				]
 			},
 			"spawn_egg": {

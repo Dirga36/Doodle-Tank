@@ -634,7 +634,7 @@
 				{
 					"name": "head",
 					"parent": "body",
-					"pivot": [0, 33, -11]
+					"pivot": [0, 42, -11]
 				},
 				{
 					"name": "turret_center",
