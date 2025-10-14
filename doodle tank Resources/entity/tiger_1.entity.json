@@ -16,16 +16,19 @@
 				"texture": "spawn_egg_tiger_1"
 			},
 			"animations": {
-				"move": "animation.abrams.move",
-				"turn": "animation.abrams.turn",
-				"look": "animation.abrams.look",
-				"look_at_target": "animation.common.look_at_target"
+				"move": "animation.tiger_1.move",
+				"turn": "animation.tiger_1.turn",
+				"look": "animation.tiger_1.look",
+				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.tiger_1.shoot",
+				"shoot_controller": "controller.animation.tiger_1.shoot"
 			},
 			"scripts": {
 				"animate": [
                     "turn",
                     "look",
-                    "look_at_target"
+                    "look_at_target",
+					"shoot_controller"
 				]
 			},
 			"render_controllers": [

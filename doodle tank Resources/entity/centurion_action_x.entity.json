@@ -22,10 +22,12 @@
 				"texture": "spawn_egg_centurion_action_x"
 			},
 			"animations": {
-				"move": "animation.abrams.move",
-				"turn": "animation.abrams.turn",
-				"look": "animation.abrams.look",
+				"move": "animation.centurion_action_x.move",
+				"turn": "animation.centurion_action_x.turn",
+				"look": "animation.centurion_action_x.look",
 				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.tiger_1.shoot",
+				"shoot_controller": "controller.animation.tiger_1.shoot",
 				"emerge": "animation.centurion_action_x.emerge",
 				"sniff": "animation.centurion_action_x.sniff",
 				"sniff_controller": "controller.animation.centurion_action_x.sniff",
@@ -98,7 +100,8 @@
 						"swimming": "query.swim_amount > 0.0"
 					},
 					"hurt_controller",
-					"sonic_boom_controller"
+					"sonic_boom_controller",
+					"shoot_controller"
 				]
 			},
 			"render_controllers": [
