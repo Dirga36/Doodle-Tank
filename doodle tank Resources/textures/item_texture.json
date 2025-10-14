@@ -1,12 +1,15 @@
 {
-	"resource_pack_name": "dt",
-	"texture_name": "atlas.items",
 	"texture_data": {
+		"amortol": {
+			"textures": "textures/items/amortol.png"
+		},
 		"spawn_egg_tiger_1": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1"
 		},
 		"spawn_egg_centurion_action_x": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_centurion_action_x"
 		}
-	}
+	},
+	"resource_pack_name": "dt",
+	"texture_name": "atlas.items"
 }

@@ -12,3 +12,6 @@ action.hint.exit.dt:centurion_action_x=Centurion Action X is under your command
 
 entity.dt:high_explosive_shell.name=High Explosive Shell
 entity.dt:armor_piercing_shell.name=Armor Piercing Shell
+
+tile.dt:doodle_block.name=Doodle Block
+item.dt:amortol=Amortol
