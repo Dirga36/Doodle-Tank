@@ -25,21 +25,21 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.agitated",
+						"sound": "mob.centurion_action_x.agitated",
 						"volume": 10.0
 					},
-					"ambient": "mob.warden.idle",
+					"ambient": "mob.centurion_action_x.idle",
 					"angry": {
 						"pitch": [
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.angry",
+						"sound": "mob.centurion_action_x.angry",
 						"volume": 10.0
 					},
 					"attack": {
 						"pitch": 1.0,
-						"sound": "mob.warden.attack",
+						"sound": "mob.centurion_action_x.attack",
 						"volume": 10.0
 					},
 					"death": {
@@ -47,12 +47,12 @@
 							0.80,
 							1.0
 						],
-						"sound": "mob.warden.death",
+						"sound": "mob.centurion_action_x.death",
 						"volume": 1.0
 					},
 					"heartbeat": {
 						"pitch": 1.0,
-						"sound": "mob.warden.heartbeat",
+						"sound": "mob.centurion_action_x.heartbeat",
 						"volume": 5.0
 					},
 					"hurt": {
@@ -60,7 +60,7 @@
 							0.80,
 							1.0
 						],
-						"sound": "mob.warden.hurt",
+						"sound": "mob.centurion_action_x.hurt",
 						"volume": 1.0
 					},
 					"listening": {
@@ -68,7 +68,7 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.listening",
+						"sound": "mob.centurion_action_x.listening",
 						"volume": 10.0
 					},
 					"listening_angry": {
@@ -76,7 +76,7 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.listening_angry",
+						"sound": "mob.centurion_action_x.listening_angry",
 						"volume": 10.0
 					},
 					"nearby_close": {
@@ -84,7 +84,7 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.nearby_close",
+						"sound": "mob.centurion_action_x.nearby_close",
 						"volume": 5.0
 					},
 					"nearby_closer": {
@@ -92,7 +92,7 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.nearby_closer",
+						"sound": "mob.centurion_action_x.nearby_closer",
 						"volume": 5.0
 					},
 					"nearby_closest": {
@@ -100,17 +100,17 @@
 							0.80,
 							1.20
 						],
-						"sound": "mob.warden.nearby_closest",
+						"sound": "mob.centurion_action_x.nearby_closest",
 						"volume": 5.0
 					},
 					"roar": {
 						"pitch": 1.0,
-						"sound": "mob.warden.roar",
+						"sound": "mob.centurion_action_x.roar",
 						"volume": 10.0
 					},
 					"step": {
 						"pitch": 1.0,
-						"sound": "mob.warden.step",
+						"sound": "mob.centurion_action_x.step",
 						"volume": 10.0
 					}
 				},
