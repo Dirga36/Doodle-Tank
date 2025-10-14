@@ -22,123 +22,106 @@
 				"events": {
 					"agitated": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.agitated",
-						"volume": 10
+						"volume": 10.0
 					},
 					"ambient": "mob.warden.idle",
 					"angry": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.angry",
-						"volume": 10
+						"volume": 10.0
 					},
 					"attack": {
-						"pitch": 1,
+						"pitch": 1.0,
 						"sound": "mob.warden.attack",
-						"volume": 10
+						"volume": 10.0
 					},
 					"death": {
 						"pitch": [
-							0.8,
-							1
+							0.80,
+							1.0
 						],
 						"sound": "mob.warden.death",
-						"volume": 1
-					},
-					"dig": {
-						"pitch": 1,
-						"sound": "mob.warden.dig",
-						"volume": 5
-					},
-					"emerge": {
-						"pitch": 1,
-						"sound": "mob.warden.emerge",
-						"volume": 5
+						"volume": 1.0
 					},
 					"heartbeat": {
-						"pitch": 1,
+						"pitch": 1.0,
 						"sound": "mob.warden.heartbeat",
-						"volume": 5
+						"volume": 5.0
 					},
 					"hurt": {
 						"pitch": [
-							0.8,
-							1
+							0.80,
+							1.0
 						],
 						"sound": "mob.warden.hurt",
-						"volume": 1
-					},
-					"idle": {
-						"pitch": 1,
-						"sound": "mob.warden.idle",
-						"volume": 3
+						"volume": 1.0
 					},
 					"listening": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.listening",
-						"volume": 10
+						"volume": 10.0
 					},
 					"listening_angry": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.listening_angry",
-						"volume": 10
+						"volume": 10.0
 					},
 					"nearby_close": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.nearby_close",
-						"volume": 5
+						"volume": 5.0
 					},
 					"nearby_closer": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.nearby_closer",
-						"volume": 5
+						"volume": 5.0
 					},
 					"nearby_closest": {
 						"pitch": [
-							0.8,
-							1.2
+							0.80,
+							1.20
 						],
 						"sound": "mob.warden.nearby_closest",
-						"volume": 5
+						"volume": 5.0
 					},
 					"roar": {
-						"pitch": 1,
+						"pitch": 1.0,
 						"sound": "mob.warden.roar",
-						"volume": 10
-					},
-					"sniff": {
-						"pitch": 1,
-						"sound": "mob.warden.sniff",
-						"volume": 5
+						"volume": 10.0
 					},
 					"step": {
-						"pitch": 1,
+						"pitch": 1.0,
 						"sound": "mob.warden.step",
-						"volume": 10
+						"volume": 10.0
 					}
 				},
 				"pitch": [
-					0.8,
-					1.2
+					0.80,
+					1.20
 				],
-				"volume": 1.2
+				"variants": {
+					"key": null
+				},
+				"volume": 1.1
 			}
 		}
 	}

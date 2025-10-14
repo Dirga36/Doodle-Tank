@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.centurion_action_x.shoot": {
+		"controller.animation.tiger_1.shoot": {
 			"initial_state": "default",
 			"states": {
 				"default": {
@@ -21,7 +21,7 @@
 						}
 					],
 					"on_entry": [
-						"variable.attack_time = 0.5;"
+						"variable.attack_time = 0.1;"
 					]
 				}
 			}

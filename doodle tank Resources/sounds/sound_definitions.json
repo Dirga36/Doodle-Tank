@@ -1,0 +1,246 @@
+{
+    "format_version": "1.20.20",
+    "sound_definitions": {
+        "mob.warden.agitated": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/agitated_1",
+                "sounds/mob/warden/agitated_2",
+                "sounds/mob/warden/agitated_3",
+                "sounds/mob/warden/agitated_4",
+                "sounds/mob/warden/agitated_5",
+                "sounds/mob/warden/agitated_6"
+            ]
+        },
+        "mob.warden.angry": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/angry_1",
+                "sounds/mob/warden/angry_2",
+                "sounds/mob/warden/angry_3",
+                "sounds/mob/warden/angry_4",
+                "sounds/mob/warden/angry_5",
+                "sounds/mob/warden/angry_6"
+            ]
+        },
+        "mob.warden.attack": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/attack_impact_1",
+                "sounds/mob/warden/attack_impact_2"
+            ]
+        },
+        "mob.warden.clicking": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/tendril_clicks_1",
+                "sounds/mob/warden/tendril_clicks_2",
+                "sounds/mob/warden/tendril_clicks_3",
+                "sounds/mob/warden/tendril_clicks_4",
+                "sounds/mob/warden/tendril_clicks_5",
+                "sounds/mob/warden/tendril_clicks_6"
+            ]
+        },
+        "mob.warden.death": {
+            "category": "hostile",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/death_1",
+                "sounds/mob/warden/death_2"
+            ]
+        },
+        "mob.warden.dig": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/dig"
+            ]
+        },
+        "mob.warden.emerge": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/emerge"
+            ]
+        },
+        "mob.warden.heartbeat": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/heartbeat_1",
+                "sounds/mob/warden/heartbeat_2",
+                "sounds/mob/warden/heartbeat_3",
+                "sounds/mob/warden/heartbeat_4"
+            ]
+        },
+        "mob.warden.hurt": {
+            "category": "hostile",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/hurt_1",
+                "sounds/mob/warden/hurt_2",
+                "sounds/mob/warden/hurt_3",
+                "sounds/mob/warden/hurt_4"
+            ]
+        },
+        "mob.warden.idle": {
+            "category": "hostile",
+            "max_distance": 64.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/idle_1",
+                "sounds/mob/warden/idle_2",
+                "sounds/mob/warden/idle_3",
+                "sounds/mob/warden/idle_4",
+                "sounds/mob/warden/idle_5",
+                "sounds/mob/warden/idle_6",
+                "sounds/mob/warden/idle_7",
+                "sounds/mob/warden/idle_8",
+                "sounds/mob/warden/idle_9",
+                "sounds/mob/warden/idle_10",
+                "sounds/mob/warden/idle_11",
+                "sounds/mob/warden/idle_12"
+            ]
+        },
+        "mob.warden.listening": {
+            "category": "hostile",
+            "max_distance": 160.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/listening_1",
+                "sounds/mob/warden/listening_2",
+                "sounds/mob/warden/listening_3",
+                "sounds/mob/warden/listening_4",
+                "sounds/mob/warden/listening_5"
+            ]
+        },
+        "mob.warden.listening_angry": {
+            "category": "hostile",
+            "max_distance": 160.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/listening_angry_1",
+                "sounds/mob/warden/listening_angry_2",
+                "sounds/mob/warden/listening_angry_3",
+                "sounds/mob/warden/listening_angry_4",
+                "sounds/mob/warden/listening_angry_5"
+            ]
+        },
+        "mob.warden.nearby_close": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/nearby_close_1",
+                "sounds/mob/warden/nearby_close_2",
+                "sounds/mob/warden/nearby_close_3",
+                "sounds/mob/warden/nearby_close_4"
+            ]
+        },
+        "mob.warden.nearby_closer": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/nearby_closer_1",
+                "sounds/mob/warden/nearby_closer_2",
+                "sounds/mob/warden/nearby_closer_3"
+            ]
+        },
+        "mob.warden.nearby_closest": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/nearby_closest_1",
+                "sounds/mob/warden/nearby_closest_2",
+                "sounds/mob/warden/nearby_closest_3"
+            ]
+        },
+        "mob.warden.roar": {
+            "category": "hostile",
+            "max_distance": 48.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/roar_1",
+                "sounds/mob/warden/roar_2",
+                "sounds/mob/warden/roar_3",
+                "sounds/mob/warden/roar_4",
+                "sounds/mob/warden/roar_5"
+            ]
+        },
+        "mob.warden.sniff": {
+            "category": "hostile",
+            "max_distance": 80.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/sniff_1",
+                "sounds/mob/warden/sniff_2",
+                "sounds/mob/warden/sniff_3",
+                "sounds/mob/warden/sniff_4"
+            ]
+        },
+        "mob.warden.sonic_boom": {
+            "category": "hostile",
+            "max_distance": 160.0,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "name": "sounds/mob/warden/sonic_boom1"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_boom2"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_boom3"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_boom4"
+                }
+            ]
+        },
+        "mob.warden.sonic_charge": {
+            "category": "hostile",
+            "max_distance": 160.0,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "name": "sounds/mob/warden/sonic_charge1"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_charge2"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_charge3"
+                },
+                {
+                    "name": "sounds/mob/warden/sonic_charge4"
+                }
+            ]
+        },
+        "mob.warden.step": {
+            "category": "hostile",
+            "max_distance": 160.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/warden/step_1",
+                "sounds/mob/warden/step_2",
+                "sounds/mob/warden/step_3",
+                "sounds/mob/warden/step_4"
+            ]
+        }
+    }
+}

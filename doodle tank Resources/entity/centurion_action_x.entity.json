@@ -5,7 +5,7 @@
 			"identifier": "dt:centurion_action_x",
 			"materials": {
 				"default": "warden",
-				"bioluminescent_layer": "warden_bioluminescent_layer"
+				"bioluminescent_layer": "centurion_action_x_bioluminescent_layer"
 			},
 			"geometry": {
 				"default": "geometry.centurion_action_x"
@@ -17,6 +17,12 @@
 				"texture": "spawn_egg_centurion_action_x"
 			},
 			"animations": {
+				"turn": "animation.centurion_action_x.turn",
+				"look": "animation.centurion_action_x.look",
+				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.centurion_action_x.shoot",
+				//"shoot_controller": "controller.animation.centurion_action_x.shoot",
+
 				"emerge": "animation.centurion_action_x.emerge",
 				"sniff": "animation.centurion_action_x.sniff",
 				"sniff_controller": "controller.animation.warden.sniff",
@@ -26,9 +32,6 @@
 				"shiver": "animation.centurion_action_x.shiver",
 				"shiver_controller": "controller.animation.warden.shiver",
 				"base_pose": "animation.humanoid.base_pose.v1.0",
-				"turn": "animation.tiger_1.turn",
-				"look": "animation.tiger_1.look",
-				"look_at_target": "animation.common.look_at_target",
 				"move": "animation.centurion_action_x.move",
 				"melee_attack": "animation.centurion_action_x.attack",
 				"melee_attack_controller": "controller.animation.warden.melee_attacking",
@@ -91,15 +94,16 @@
 					},
 					"hurt_controller",
 					"sonic_boom_controller"
+					//"shoot_controller"
 				]
 			},
 			"render_controllers": [
-				"controller.render.warden",
-				"controller.render.warden_bioluminescent_layer",
-				"controller.render.warden_spots_1",
-				"controller.render.warden_spots_2",
-				"controller.render.warden_tendrils",
-				"controller.render.warden_heart"
+				"controller.render.centurion_action_x",
+				"controller.render.centurion_action_x_bioluminescent_layer",
+				"controller.render.centurion_action_x_spots_1",
+				"controller.render.centurion_action_x_spots_2",
+				"controller.render.centurion_action_x_tendrils",
+				"controller.render.centurion_action_x_heart"
 			],
 			"sound_effects": {
 				"emerge": "mob.warden.emerge",
