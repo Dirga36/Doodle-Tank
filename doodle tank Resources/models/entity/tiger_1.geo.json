@@ -753,7 +753,7 @@
 					]
 				},
 				{
-					"name": "head",
+					"name": "turret",
 					"parent": "body",
 					"pivot": [-0.8008, 44.9467, 3.24875],
 					"cubes": [
@@ -821,7 +821,7 @@
 				},
 				{
 					"name": "turret_antenna",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [-8.602, 65.74116, 16.22939],
 					"cubes": [
 						{
@@ -840,7 +840,7 @@
 				},
 				{
 					"name": "gun_barrel",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [-1.41464, 45.42159, -26.43487],
 					"cubes": [
 						{

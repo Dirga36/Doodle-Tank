@@ -1,4 +1,6 @@
 [
+    "textures/items/amortol",
+    "textures/blocks/doodle_block",
     "textures/entity/tiger_1",
     "textures/items/spawn_eggs/spawn_egg_tiger_1",
     "textures/entity/centurion_action_x/enturion_action_x",

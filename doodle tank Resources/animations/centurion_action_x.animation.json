@@ -161,7 +161,7 @@
 		"animation.centurion_action_x.turn": {
 			"loop": true,
 			"bones": {
-				"head": {
+				"turret": {
 					"rotation": [
 						0,
 						"query.target_y_rotation",
@@ -269,7 +269,7 @@
 						}
 					}
 				},
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -771,7 +771,7 @@
 						}
 					}
 				},
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -2570,7 +2570,7 @@
 						]
 					}
 				},
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3343,7 +3343,7 @@
 						}
 					}
 				},
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3539,7 +3539,7 @@
 		"animation.centurion_action_x.sniff": {
 			"animation_length": 3.32,
 			"bones": {
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3659,7 +3659,7 @@
 						"variable.modified_bob_sin * 1.43"
 					]
 				},
-				"head": {
+				"turret": {
 					"rotation": [
 						"variable.modified_bob_sin * 3.43",
 						0,
@@ -3671,7 +3671,7 @@
 		"animation.centurion_action_x.hurt": {
 			"animation_length": 0.25,
 			"bones": {
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3704,7 +3704,7 @@
 		"animation.centurion_action_x.sonic_boom": {
 			"animation_length": 3,
 			"bones": {
-				"head": {
+				"turret": {
 					"rotation": {
 						"0.0": {
 							"post": [

@@ -1556,13 +1556,13 @@
 					}
 				},
 				{
-					"name": "head",
+					"name": "turret",
 					"parent": "body",
 					"pivot": [0, 42, -11]
 				},
 				{
 					"name": "turret_center",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [0, 0, -2],
 					"cubes": [
 						{
@@ -1896,7 +1896,7 @@
 				},
 				{
 					"name": "turret_plane",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [8.83333, 43.949, -0.57411],
 					"poly_mesh": {
 						"normalized_uvs": true,
@@ -2140,7 +2140,7 @@
 				},
 				{
 					"name": "turret_lamp",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [-1, 6.5, 17.75922],
 					"cubes": [
 						{
@@ -2171,13 +2171,13 @@
 				},
 				{
 					"name": "gun_barrel",
-					"parent": "head",
-					"pivot": [0, 42, -29.75],
+					"parent": "turret",
+					"pivot": [0, 39.5, -26.75],
 					"cubes": [
 						{
-							"origin": [-1.5, 40.5, -38],
-							"size": [3, 3, 18],
-							"pivot": [0, 42, -32.5],
+							"origin": [-1.5, 38, -38],
+							"size": [3, 3, 15],
+							"pivot": [0, 39.5, -32.5],
 							"rotation": [0, 0, 45],
 							"uv": {
 								"north": {"uv": [205, 127], "uv_size": [3, 3]},
@@ -2189,9 +2189,9 @@
 							}
 						},
 						{
-							"origin": [-2, 40, -51],
+							"origin": [-2, 37.5, -51],
 							"size": [4, 4, 13],
-							"pivot": [0, 42, -51.5],
+							"pivot": [0, 39.5, -51.5],
 							"rotation": [0, 0, 45],
 							"uv": {
 								"north": {"uv": [34, 209], "uv_size": [4, 4]},
@@ -2207,12 +2207,12 @@
 				{
 					"name": "gun_suspension_barrel",
 					"parent": "gun_barrel",
-					"pivot": [-0.25971, 40.85509, -173.02061],
+					"pivot": [-0.25971, 38.35509, -173.02061],
 					"cubes": [
 						{
-							"origin": [-1.5, 40.5, -97],
+							"origin": [-1.5, 38, -97],
 							"size": [3, 3, 46],
-							"pivot": [0, 42, -70.5],
+							"pivot": [0, 39.5, -70.5],
 							"rotation": [0, 0, 45],
 							"uv": {
 								"north": {"uv": [30, 292], "uv_size": [3, 3]},
@@ -2227,7 +2227,7 @@
 				},
 				{
 					"name": "antenna",
-					"parent": "head",
+					"parent": "turret",
 					"pivot": [18.25, 55.074, 16.88922],
 					"cubes": [
 						{

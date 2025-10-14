@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dt:amortol"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "X",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:bread"
+            },
+            "X": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "dt:amortol"
+        }
+    }
+}

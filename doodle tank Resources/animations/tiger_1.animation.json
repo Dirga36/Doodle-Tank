@@ -133,7 +133,7 @@
 		"animation.tiger_1.turn": {
 			"loop": true,
 			"bones": {
-				"head": {
+				"turret": {
 					"rotation": [
 						0,
 						"query.target_y_rotation",

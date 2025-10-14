@@ -40,7 +40,7 @@
 					"attack": {
 						"pitch": 1.0,
 						"sound": "mob.centurion_action_x.attack",
-						"volume": 10.0
+						"volume": 20.0
 					},
 					"death": {
 						"pitch": [
