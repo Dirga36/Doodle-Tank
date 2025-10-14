@@ -17,15 +17,12 @@
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",
-				"turn": "animation.tiger_1.turn",
-				"look": "animation.tiger_1.look",
-				"look_at_target": "animation.common.look_at_target",
-				"shoot": "animation.tiger_1.shoot",
-				"shoot_controller": "controller.animation.tiger_1.shoot"
+				"look_at_target": "animation.common.look_at_target"
 			},
 			"scripts": {
 				"animate": [
-					"shoot_controller"
+					"move",
+					"look_at_target"
 				]
 			},
 			"render_controllers": [

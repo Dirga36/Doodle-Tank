@@ -1,44 +1,6 @@
 {
 	"format_version": "1.21.0",
 	"animations": {
-		"animation.centurion_action_x.turn": {
-			"loop": true,
-			"bones": {
-				"turret": {
-					"rotation": [
-						0,
-						"query.target_y_rotation",
-						0
-					]
-				},
-				"root": {
-					"rotation": [
-						"query.vertical_speed * -3",
-						0,
-						0
-					]
-				},
-				"gun_barrel": {
-					"rotation": [
-						"query.target_x_rotation",
-						0,
-						0
-					]
-				}
-			}
-		},
-		"animation.centurion_action_x.look": {
-			"loop": true,
-			"bones": {
-				"gun_barrel": {
-					"rotation": [
-						"query.target_x_rotation",
-						0,
-						0
-					]
-				}
-			}
-		},
 		"animation.centurion_action_x.move": {
 			"loop": true,
 			"animation_length": 1.25,
@@ -155,7 +117,7 @@
 						0
 					]
 				},
-				"root": {
+				"body": {
 					"position": {
 						"0.0": [
 							0,
@@ -519,7 +481,7 @@
 						}
 					}
 				},
-				"turret": {
+				"head": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -2318,7 +2280,7 @@
 						]
 					}
 				},
-				"turret": {
+				"head": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3091,7 +3053,7 @@
 						}
 					}
 				},
-				"turret": {
+				"head": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3339,7 +3301,7 @@
 						}
 					}
 				},
-				"turret": {
+				"head": {
 					"rotation": {
 						"0.0": {
 							"post": [
@@ -3440,7 +3402,7 @@
 						"variable.modified_bob_sin * 1.43"
 					]
 				},
-				"turret": {
+				"head": {
 					"rotation": [
 						"variable.modified_bob_sin * 3.43",
 						0,

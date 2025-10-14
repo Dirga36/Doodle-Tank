@@ -22,27 +22,25 @@
 				"texture": "spawn_egg_centurion_action_x"
 			},
 			"animations": {
-				"turn": "animation.centurion_action_x.turn",
-				"look": "animation.centurion_action_x.look",
 				"look_at_target": "animation.common.look_at_target",
 				"emerge": "animation.centurion_action_x.emerge",
 				"sniff": "animation.centurion_action_x.sniff",
-				"sniff_controller": "controller.animation.warden.sniff",
+				"sniff_controller": "controller.animation.centurion_action_x.sniff",
 				"dig": "animation.centurion_action_x.dig",
 				"roar": "animation.centurion_action_x.roar",
-				"roar_controller": "controller.animation.warden.roar",
+				"roar_controller": "controller.animation.centurion_action_x.roar",
 				"shiver": "animation.centurion_action_x.shiver",
-				"shiver_controller": "controller.animation.warden.shiver",
+				"shiver_controller": "controller.animation.centurion_action_x.shiver",
 				"base_pose": "animation.humanoid.base_pose.v1.0",
 				"move": "animation.centurion_action_x.move",
 				"melee_attack": "animation.centurion_action_x.attack",
-				"melee_attack_controller": "controller.animation.warden.melee_attacking",
+				"melee_attack_controller": "controller.animation.centurion_action_x.melee_attacking",
 				"bob": "animation.centurion_action_x.bob",
 				"swimming": "animation.humanoid.swimming.v1.0",
 				"hurt": "animation.centurion_action_x.hurt",
 				"hurt_controller": "controller.animation.warden.hurt",
 				"sonic_boom": "animation.centurion_action_x.sonic_boom",
-				"sonic_boom_controller": "controller.animation.warden.sonic_boom"
+				"sonic_boom_controller": "controller.animation.centurion_action_x.sonic_boom"
 			},
 			"scripts": {
 				"pre_animation": [

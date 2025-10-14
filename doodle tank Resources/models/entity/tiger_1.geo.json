@@ -568,12 +568,7 @@
 					]
 				},
 				{
-					"name": "root",
-					"pivot": [0, 0, 0]
-				},
-				{
 					"name": "body",
-					"parent": "root",
 					"pivot": [0, 0, 0]
 				},
 				{
@@ -758,7 +753,7 @@
 					]
 				},
 				{
-					"name": "turret",
+					"name": "head",
 					"parent": "body",
 					"pivot": [-0.8008, 44.9467, 3.24875],
 					"cubes": [
@@ -826,7 +821,7 @@
 				},
 				{
 					"name": "turret_antenna",
-					"parent": "turret",
+					"parent": "head",
 					"pivot": [-8.602, 65.74116, 16.22939],
 					"cubes": [
 						{
@@ -845,7 +840,7 @@
 				},
 				{
 					"name": "gun_barrel",
-					"parent": "turret",
+					"parent": "head",
 					"pivot": [-1.41464, 45.42159, -26.43487],
 					"cubes": [
 						{
