@@ -137,7 +137,22 @@
       },
       "minecraft:jump.static": {},
       "minecraft:behavior.hurt_by_target": {
-        "priority": 2
+        "priority": 2,
+        "alert_same_type": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": "tank"
+                }
+              ]
+            }
+          }
+        ]
       },
       "minecraft:physics": {},
       "minecraft:pushable": {

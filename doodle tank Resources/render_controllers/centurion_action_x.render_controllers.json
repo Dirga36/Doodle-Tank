@@ -5,7 +5,7 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "default"
+          "*": "Material.default"
         }
       ],
       "textures": [
@@ -16,11 +16,11 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "bioluminescent_layer"
+          "*": "centurion_action_x_bioluminescent_layer"
         }
       ],
       "textures": [
-        "Texture.bioluminescent_layer"
+        "Texture.centurion_action_x_bioluminescent_layer"
       ],
       "ignore_lighting": true,
       "color": {
@@ -34,7 +34,7 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "bioluminescent_layer"
+          "*": "centurion_action_x_bioluminescent_layer"
         }
       ],
       "textures": [
@@ -52,7 +52,7 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "bioluminescent_layer"
+          "*": "centurion_action_x_bioluminescent_layer"
         }
       ],
       "textures": [
@@ -70,7 +70,7 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "bioluminescent_layer"
+          "*": "centurion_action_x_bioluminescent_layer"
         }
       ],
       "textures": [
@@ -88,7 +88,7 @@
       "geometry": "Geometry.default",
       "materials": [
         {
-          "*": "bioluminescent_layer"
+          "*": "centurion_action_x_bioluminescent_layer"
         }
       ],
       "textures": [

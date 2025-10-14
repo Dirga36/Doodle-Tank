@@ -19,8 +19,7 @@
 				"heart": "textures/entity/centurion_action_x/heart"
 			},
 			"spawn_egg": {
-				"base_color": "#cfa7c4",
-				"overlay_color": "#8f706f"
+				"texture": "spawn_egg_centurion_action_x"
 			},
 			"animations": {
 				"turn": "animation.centurion_action_x.turn",
