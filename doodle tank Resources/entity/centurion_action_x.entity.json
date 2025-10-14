@@ -8,7 +8,12 @@
 				"bioluminescent_layer": "centurion_action_x_bioluminescent_layer"
 			},
 			"geometry": {
-				"default": "geometry.centurion_action_x"
+				"default": "geometry.centurion_action_x",
+				"bioluminescent_layer": "textures/entity/centurion_action_x/bioluminescent_layer",
+				"spots_1": "textures/entity/centurion_action_x/spots_1",
+				"spots_2": "textures/entity/centurion_action_x/spots_2",
+				"tendrils": "textures/entity/centurion_action_x/tendrils",
+				"heart": "textures/entity/centurion_action_x/heart"
 			},
 			"textures": {
 				"default": "textures/entity/centurion_action_x/centurion_action_x"
@@ -22,7 +27,6 @@
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot",
 				//"shoot_controller": "controller.animation.centurion_action_x.shoot",
-
 				"emerge": "animation.centurion_action_x.emerge",
 				"sniff": "animation.centurion_action_x.sniff",
 				"sniff_controller": "controller.animation.warden.sniff",
@@ -111,7 +115,8 @@
 				"dig": "mob.warden.dig",
 				"roar": "mob.warden.roar",
 				"clicking": "mob.warden.clicking"
-			}
+			},
+			"enable_attachables": true
 		}
 	}
 }
