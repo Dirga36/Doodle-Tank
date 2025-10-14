@@ -32,8 +32,7 @@
             "max_distance": 80.0,
             "min_distance": null,
             "sounds": [
-                "sounds/mob/centurion_action_x/attack_impact_1",
-                "sounds/mob/centurion_action_x/attack_impact_2"
+                "sounds/mob/centurion_action_x/attack_impact_1"
             ]
         },
         "mob.centurion_action_x.clicking": {

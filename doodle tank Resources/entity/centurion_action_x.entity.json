@@ -22,6 +22,9 @@
 				"texture": "spawn_egg_centurion_action_x"
 			},
 			"animations": {
+				"move": "animation.abrams.move",
+				"turn": "animation.abrams.turn",
+				"look": "animation.abrams.look",
 				"look_at_target": "animation.common.look_at_target",
 				"emerge": "animation.centurion_action_x.emerge",
 				"sniff": "animation.centurion_action_x.sniff",
@@ -32,7 +35,6 @@
 				"shiver": "animation.centurion_action_x.shiver",
 				"shiver_controller": "controller.animation.centurion_action_x.shiver",
 				"base_pose": "animation.humanoid.base_pose.v1.0",
-				"move": "animation.centurion_action_x.move",
 				"melee_attack": "animation.centurion_action_x.attack",
 				"melee_attack_controller": "controller.animation.centurion_action_x.melee_attacking",
 				"bob": "animation.centurion_action_x.bob",
@@ -71,6 +73,9 @@
 					"variable.heart_alpha = 0.8 * (1.0 - query.heartbeat_phase);"
 				],
 				"animate": [
+					"turn",
+					"look",
+					"look_at_target",
 					"base_pose",
 					{
 						"move": "!(query.is_emerging || query.is_digging)"
