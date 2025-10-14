@@ -64,6 +64,13 @@
 						0
 					]
 				},
+				"right_passive_gear_4": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
 				"right_passive_gear_5": {
 					"rotation": [
 						"query.modified_distance_moved * 20",
@@ -189,7 +196,7 @@
 				}
 			}
 		},
-		"animation.centurion_action_x.shoot": {
+		"animation.centurion_action_x.attack": {
 			"animation_length": 1,
 			"bones": {
 				"suspension_barrel": {
@@ -3442,7 +3449,6 @@
 				}
 			}
 		},
-		
 		"animation.centurion_action_x.hurt": {
 			"animation_length": 0.25,
 			"bones": {

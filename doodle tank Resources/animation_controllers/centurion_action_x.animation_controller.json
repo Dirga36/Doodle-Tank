@@ -1,27 +1,102 @@
 {
-	"format_version": "1.10.0",
-	"animation_controllers": {
-		"controller.animation.centurion_action_x.shoot": {
-			"initial_state": "default",
-			"states": {
-				"default": {
-					"transitions": [
+	"format_version" : "1.21.0",
+	"animation_controllers" : {
+		"controller.animation.centurion_action_x.shiver" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
 						{
-							"shooting": "variable.attack_time > 0;"
+							"shiver" : "variable.tendril_animation > 0"
 						}
 					]
 				},
-				"shooting": {
-					"animations": [
-						"shoot"
-					],
-					"transitions": [
+				"shiver" : {
+					"animations" : [ "shiver" ],
+					"transitions" : [
 						{
-							"default": "variable.attack_time <= 0;"
+							"default" : "variable.tendril_animation <= 0"
 						}
-					],
-					"on_entry": [
-						"variable.attack_time = 0.1;"
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.sniff" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"sniff" : "query.is_sniffing"
+						}
+					]
+				},
+				"sniff" : {
+					"animations" : [ "sniff" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_sniffing"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.roar" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"roar" : "query.is_roaring"
+						}
+					]
+				},
+				"roar" : {
+					"animations" : [ "roar" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_roaring"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.melee_attacking" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{ 
+							"attack" : "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"attack" : {
+					"animations" : [ "melee_attack" ],
+					"transitions" : [
+						{ 
+							"default" : "variable.attack_time <= 0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.centurion_action_x.sonic_boom" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+							"sonic_attack" : "query.is_sonic_boom"
+						}
+					]
+				},
+				"sonic_attack" : {
+					"animations" : [ "sonic_boom" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_sonic_boom"
+						}
 					]
 				}
 			}

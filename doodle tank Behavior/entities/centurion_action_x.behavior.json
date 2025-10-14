@@ -106,7 +106,7 @@
 			"minecraft:conditional_bandwidth_optimization": {},
 			// attack style
 			"minecraft:attack": {
-				"  damage": 30
+				"damage": 30
 			},
 			"minecraft:behavior.melee_attack": {
 				"priority": 4,
