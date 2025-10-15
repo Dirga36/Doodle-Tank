@@ -25,9 +25,9 @@
 			},
 			"scripts": {
 				"animate": [
-                    "turn",
-                    "look",
-                    "look_at_target",
+					"turn",
+					"look",
+					"look_at_target",
 					"shoot_controller"
 				]
 			},

@@ -31,8 +31,8 @@
 				"on_death": 100
 			},
 			"minecraft:health": {
-				"value": 200,
-				"max": 200
+				"value": 400,
+				"max": 400
 			},
 			"minecraft:custom_hit_test": {
 				"hitboxes": [
