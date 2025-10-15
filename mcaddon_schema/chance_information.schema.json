@@ -1,0 +1,4 @@
+chance_information:1.14.0:{
+    int "numerator"<0-*>
+    int "denominator"<1-*>
+}

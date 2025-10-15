@@ -8,29 +8,6 @@
       "is_summonable": true
     },
     "component_groups": {
-      "minecraft:player_created": {
-        "minecraft:behavior.hurt_by_target": {
-          "priority": 2,
-          "entity_types": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "player"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "creeper"
-                }
-              ]
-            }
-          }
-        }
-      },
       "minecraft:village_created": {
         "minecraft:behavior.defend_village_target": {
           "priority": 1,
@@ -148,6 +125,12 @@
                   "subject": "other",
                   "operator": "!=",
                   "value": "tank"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": "player"
                 }
               ]
             }
@@ -162,20 +145,21 @@
       "minecraft:conditional_bandwidth_optimization": {},
       // attack style
       "minecraft:behavior.ranged_attack": {
-        "priority": 1,
-        "attack_radius": 64,
-        "ranged_fov": 360,
-        "speed_multiplier": 1.25,
+        "priority": 3,
         "attack_interval_max": 3.6,
-        "attack_interval_min": 0.9
+        "attack_interval_min": 0.9,
+        "attack_radius": 64,
+        "attack_radius_min": 8,
+        "speed_multiplier": 1,
+        "target_in_sight_time": 0.1
       },
       "minecraft:shooter": {
-        "def": "minecraft:fireball",
+        "def": "dt:high_explosive_shell",
         "power": 1
       },
       // special components
       "minecraft:behavior.nearest_attackable_target": {
-        "priority": 3,
+        "priority": 2,
         "must_see": true,
         "entity_types": [
           {
@@ -185,46 +169,6 @@
                   "test": "is_family",
                   "subject": "other",
                   "value": "monster"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "creeper"
-                }
-              ]
-            },
-            "max_dist": 64
-          },
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "hoglin"
-                },
-                {
-                  "test": "is_difficulty",
-                  "operator": "!=",
-                  "value": "peaceful"
-                }
-              ]
-            },
-            "max_dist": 64
-          },
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "zoglin"
-                },
-                {
-                  "test": "is_difficulty",
-                  "operator": "!=",
-                  "value": "peaceful"
                 }
               ]
             },
@@ -233,27 +177,8 @@
         ]
       },
       "minecraft:behavior.target_when_pushed": {
-        "priority": 1,
-        "percent_chance": 5,
-        "entity_types": [
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "monster"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "creeper"
-                }
-              ]
-            }
-          }
-        ]
+        "priority": 2,
+        "percent_chance": 5
       },
       "minecraft:knockback_resistance": {
         "value": 1
@@ -342,7 +267,7 @@
         ]
       },
       "minecraft:behavior.move_through_village": {
-        "priority": 3,
+        "priority": 1,
         "speed_multiplier": 0.6,
         "only_at_night": true
       },
@@ -352,13 +277,6 @@
       }
     },
     "events": {
-      "minecraft:from_player": {
-        "add": {
-          "component_groups": [
-            "minecraft:player_created"
-          ]
-        }
-      },
       "minecraft:from_village": {
         "add": {
           "component_groups": [
