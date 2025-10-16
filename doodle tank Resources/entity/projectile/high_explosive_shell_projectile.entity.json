@@ -14,10 +14,6 @@
 			},
 			"geometry": {
 				"default": "geometry.high_explosive_shell_projectile"
-			},
-			"animations": {
-			},
-			"scripts": {
 			}
 		}
 	}

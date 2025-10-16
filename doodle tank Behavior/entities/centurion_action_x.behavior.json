@@ -9,171 +9,6 @@
     },
     "component_groups": {},
     "components": {
-      "minecraft:type_family": {
-        "family": [
-          "tank"
-        ]
-      },
-      "minecraft:fire_immune": {},
-      "minecraft:nameable": {},
-      "minecraft:conditional_bandwidth_optimization": {},
-      "minecraft:knockback_resistance": {
-        "value": 1
-      },
-      "minecraft:persistent": {},
-      "minecraft:physics": {},
-      "minecraft:pushable": {
-        "is_pushable": true,
-        "is_pushable_by_piston": true
-      },
-      "minecraft:shooter": {
-        "def": "dt:high_explosive_shell",
-        "power": 10,
-        "sound": "mob.guardian.attack_loop"
-      },
-      "minecraft:jump.static": {
-        "jump_power": 0.5
-      },
-      "minecraft:movement.basic": {
-        "max_turn": 180
-      },
-      "minecraft:navigation.walk": {
-        "can_break_doors": true,
-        "avoid_water": true,
-        "avoid_damage_blocks": true,
-        "avoid_portals": true,
-        "is_amphibious": true
-      },
-      "minecraft:combat_regeneration": {
-        "apply_to_self": true,
-        "regeneration_duration": 6
-      },
-      "minecraft:damage_sensor": {
-        "triggers": {
-          "cause": "fall",
-          "deals_damage": false
-        }
-      },
-      "minecraft:behavior.random_stroll": {
-        "priority": 6,
-        "xz_dist": 32
-      },
-      "minecraft:behavior.look_at_player": {
-        "priority": 7,
-        "look_distance": 6,
-        "probability": 0.08,
-        "target_distance": 10,
-        "angle_of_view_vertical": 200
-      },
-      "minecraft:behavior.random_look_around": {
-        "priority": 8,
-        "look_distance": 32,
-        "max_angle_of_view_horizontal": 360
-      },
-      "minecraft:behavior.defend_village_target": {
-        "priority": 1,
-        "entity_types": {
-          "filters": {
-            "any_of": [
-              {
-                "test": "is_family",
-                "subject": "other",
-                "value": "mob"
-              },
-              {
-                "test": "is_family",
-                "subject": "other",
-                "value": "player"
-              }
-            ]
-          }
-        }
-      },
-      "minecraft:dweller": {
-        "dwelling_type": "village",
-        "dweller_role": "defender",
-        "update_interval_base": 60,
-        "update_interval_variant": 40,
-        "can_find_poi": false,
-        "can_migrate": true,
-        "first_founding_reward": 0
-      },
-      "minecraft:behavior.nearest_attackable_target": {
-        "priority": 2,
-        "must_see": true,
-        "entity_types": [
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "monster"
-                }
-              ]
-            },
-            "max_dist": 64,
-            "walk_speed_multiplier": 2
-          }
-        ]
-      },
-      "minecraft:behavior.hurt_by_target": {
-        "priority": 2,
-        "alert_same_type": true,
-        "entity_types": [
-          {
-            "filters": {
-              "any_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "tank"
-                },
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "operator": "!=",
-                  "value": "player"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "minecraft:behavior.ranged_attack": {
-        "priority": 3,
-        "attack_interval_max": 3.6,
-        "attack_interval_min": 0.9,
-        "attack_radius": 64,
-        "attack_radius_min": 8,
-        "target_in_sight_time": 0.1,
-        "x_max_rotation": 360,
-        "y_max_head_rotation": 200
-      },
-      "minecraft:behavior.break_door": {
-        "priority": 8
-      },
-      "minecraft:break_blocks": {
-        "breakable_blocks": [
-          "bush",
-          "firefly_bush"
-        ]
-      },
-      "minecraft:behavior.move_through_village": {
-        "priority": 1,
-        "speed_multiplier": 0.6
-      },
-      "minecraft:behavior.move_towards_dwelling_restriction": {
-        "priority": 4,
-        "speed_multiplier": 1
-      },
-      // static
-      "minecraft:is_stackable": {},
-      "minecraft:loot": {
-        "table": "loot_tables/entities/centurion_action_x.json"
-      },
-      // skill
       "minecraft:experience_reward": {
         "on_death": 100
       },
@@ -204,6 +39,11 @@
       "minecraft:follow_range": {
         "value": 64,
         "max": 64
+      },
+      "minecraft:game_event_movement_tracking": {
+        "emit_flap": false,
+        "emit_move": true,
+        "emit_swim": true
       }
     },
     "events": {}
