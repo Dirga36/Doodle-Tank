@@ -1,7 +1,7 @@
 {
   "format_version": "1.21.0",
   "render_controllers": {
-    "controller.render.high_explosive_shell": {
+    "controller.render.high_explosive_shell_projectile": {
       "geometry": "Geometry.default",
       "materials": [
         {

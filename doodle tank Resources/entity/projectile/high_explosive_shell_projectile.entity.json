@@ -2,7 +2,7 @@
 	"format_version": "1.21.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "dt:high_explosive_shell",
+			"identifier": "dt:high_explosive_shell_projectile",
 			"render_controllers": [
 				"controller.render.item_default"
 			],
@@ -10,10 +10,10 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/projectile/high_explosive_shell"
+				"default": "textures/entity/projectile/high_explosive_shell_projectile"
 			},
 			"geometry": {
-				"default": "geometry.high_explosive_shell"
+				"default": "geometry.high_explosive_shell_projectile"
 			},
 			"animations": {
 			},
