@@ -1,0 +1,243 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dt:tiger_1",
+      "spawn_category": "creature",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "component_groups": {
+      "attributes": {
+        "minecraft:type_family": {
+          "family": [
+            "tank"
+          ]
+        },
+        "attributes": {
+          "minecraft:color": {
+            "value": 1
+          },
+          "minecraft:color2": {
+            "value": 5
+          },
+          "minecraft:skin_id": {
+            "value": 1
+          },
+          "minecraft:friction_modifier": {
+            "value": 2
+          }
+        },
+        "minecraft:fire_immune": {}
+      },
+      "general_components": {
+        "minecraft:nameable": {},
+        "minecraft:conditional_bandwidth_optimization": {},
+        "minecraft:knockback_resistance": {
+          "value": 1
+        },
+        "minecraft:persistent": {},
+        "minecraft:physics": {},
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        // ATTACK
+        "minecraft:shooter": {
+          "def": "dt:high_explosive_shell",
+          "power": 1
+        }
+      },
+      "movement_components": {
+        "minecraft:movement.basic": {
+          "max_turn": 30
+        },
+        "minecraft:jump.static": {},
+        "minecraft:navigation.walk": {
+          "can_walk": true
+        }
+      },
+      "combat_and_health_components": {
+        "minecraft:combat_regeneration": {
+          "apply_to_self": true
+        }
+      },
+      "sensor_components": {
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        }
+      },
+      "triggers": {},
+      "ai_omponents_behaviors": {
+        "minecraft:behavior.random_stroll": {
+          "priority": 6,
+          "xz_dist": 32
+        },
+        "minecraft:behavior.look_at_player": {
+          "priority": 7,
+          "look_distance": 6,
+          "probability": 0.02
+        },
+        "minecraft:behavior.random_look_around": {
+          "priority": 8,
+          "look_distance": 32
+        },
+        // OBJECTIVE
+        "minecraft:behavior.defend_village_target": {
+          "priority": 1,
+          "must_reach": true,
+          "attack_chance": 0.05,
+          "entity_types": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "mob"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            }
+          }
+        },
+        "minecraft:dweller": {
+          "dwelling_type": "village",
+          "dweller_role": "defender",
+          "update_interval_base": 60,
+          "update_interval_variant": 40,
+          "can_find_poi": false,
+          "can_migrate": true,
+          "first_founding_reward": 0
+        },
+        // TRAGET
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "must_see": true,
+          "entity_types": [
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  }
+                ]
+              },
+              "max_dist": 64
+            }
+          ]
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 2,
+          "alert_same_type": true,
+          "entity_types": [
+            {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "tank"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "player"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 3,
+          "attack_interval_max": 3.6,
+          "attack_interval_min": 0.9,
+          "attack_radius": 64,
+          "attack_radius_min": 8,
+          "speed_multiplier": 1,
+          "target_in_sight_time": 0.1
+        }
+      },
+      "movement_behaviors": {
+        "minecraft:behavior.move_through_village": {
+          "priority": 1,
+          "speed_multiplier": 0.6,
+          "only_at_night": true
+        },
+        "minecraft:behavior.move_towards_dwelling_restriction": {
+          "priority": 4,
+          "speed_multiplier": 1
+        }
+      },
+      "mob_specific_behaviors": {},
+      "skill_tiger_1": {
+        "minecraft:health": {
+          "value": 600,
+          "max": 600
+        },
+        "minecraft:experience_reward": {
+          "on_death": 150
+        },
+        "minecraft:follow_range": {
+          "value": 64,
+          "max": 64
+        },
+        "minecraft:collision_box": {
+          "height": 5,
+          "width": 2
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 5,
+              "height": 2,
+              "pivot": [
+                0,
+                2.8,
+                -0.1
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_stackable": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/centurion_action_x.json"
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "attributes",
+            "general_components",
+            "movement_components",
+            "combat_and_health_components",
+            "sensor_components",
+            "triggers",
+            "ai_omponents_behaviors",
+            "movement_behaviors",
+            "mob_specific_behaviors",
+            "skill_tiger_1"
+          ]
+        }
+      }
+    }
+  }
+}
