@@ -2,13 +2,13 @@
   "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "dt:tiger_1",
+      "identifier": "dt:centurion_action_x",
       "spawn_category": "creature",
       "is_spawnable": true,
       "is_summonable": true
     },
     "component_groups": {
-      "dt:basic_behavior"{
+      "dt:basic_behavior": {
         "minecraft:game_event_movement_tracking": {
           "emit_flap": false,
           "emit_move": true,
@@ -42,11 +42,11 @@
           "inside_range": 4.0,
           "outside_range": 5.0,
           "must_see": true,
-          "on_inside_range": { //When target is within 4 blocks range, trigger "dt:melee_swap" event
+          "on_inside_range": {
             "event": "dt:melee_swap",
             "target": "self"
           },
-          "on_outside_range": { //When target is beyond 5 blocks range, trigger "dt:ranged_swap" event
+          "on_outside_range": {
             "event": "dt:ranged_swap",
             "target": "self"
           }
@@ -60,7 +60,7 @@
           "priority": 3
         },
         "minecraft:variant": {
-          "value": 0
+          "value": 1
         }
       },
       "dt:ranged_components": {
@@ -75,28 +75,11 @@
           "attack_radius": 64
         },
         "minecraft:variant": {
-          "value": 1
+          "value": 2
         }
       }
     },
     "components": {
-      "minecraft:behavior.nearest_attackable_target": {
-        "reselect_targets": true,
-        "entity_types": [
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "monster"
-                }
-              ]
-            }
-          }
-        ],
-        "priority": 1
-      },
       "minecraft:experience_reward": {
         "on_death": 150
       },
@@ -127,6 +110,25 @@
       "minecraft:follow_range": {
         "value": 128,
         "max": 128
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": true,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]
+            },
+            "max_dist": 64,
+            "walk_speed_multiplier": 2
+          }
+        ]
       }
     },
     "events": {
@@ -134,11 +136,11 @@
         "add": {
           "component_groups": [
             "dt:basic_behavior",
-            "switcher_range"
+            "dt:switcher_range"
           ]
         }
       },
-      "dt:melee_swap": { //When triggered, adds component group for ranged and removes melee component group
+      "dt:melee_swap": {
         "remove": {
           "component_groups": [
             "dt:ranged_components"
@@ -150,7 +152,7 @@
           ]
         }
       },
-      "dt:ranged_swap": { //When triggered, adds component group for melee and removes ranged component group
+      "dt:ranged_swap": {
         "remove": {
           "component_groups": [
             "dt:melee_components"
