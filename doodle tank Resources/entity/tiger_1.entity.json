@@ -12,7 +12,7 @@
 				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode"
 			},
 			"geometry": {
-				"default": "geaometry.tiger_1"
+				"default": "geometry.tiger_1"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_tiger_1"
@@ -23,7 +23,9 @@
 				"look": "animation.tiger_1.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.tiger_1.shoot",
-				"shoot_controller": "controller.animation.tiger_1.shoot"
+				"shoot_controller": "controller.animation.tiger_1.shoot",
+				"melee_attack": "animation.tiger_1.melee_attack",
+				"melee_attack_controller": "controller.animation.tiger_1.melee_attack"
 			},
 			"scripts": {
 				"animate": [
@@ -31,11 +33,12 @@
 					"turn",
 					"look",
 					"look_at_target",
-					"shoot_controller"
+					"shoot_controller",
+					"melee_attack_controller"
 				]
 			},
 			"render_controllers": [
-				"controller.render.attack_state"
+				"controller.render.tiger_1_attack_state"
 			]
 		}
 	}

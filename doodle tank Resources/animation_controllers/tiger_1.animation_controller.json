@@ -25,6 +25,31 @@
 					]
 				}
 			}
+		},
+		"controller.animation.tiger_1.melee_attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"shooting": "variable.attack_time > 0;"
+						}
+					]
+				},
+				"shooting": {
+					"animations": [
+						"melee_attack"
+					],
+					"transitions": [
+						{
+							"default": "variable.attack_time <= 0;"
+						}
+					],
+					"on_entry": [
+						"variable.attack_time = 0.1;"
+					]
+				}
+			}
 		}
 	}
 }

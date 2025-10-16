@@ -12,7 +12,7 @@
 				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode"
 			},
 			"geometry": {
-				"default": "geaometry.centurion_action_x"
+				"default": "geometry.centurion_action_x"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_centurion_action_x"
@@ -23,7 +23,9 @@
 				"look": "animation.centurion_action_x.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot",
-				"shoot_controller": "controller.animation.centurion_action_x.shoot"
+				"shoot_controller": "controller.animation.centurion_action_x.shoot",
+				"melee_attack": "animation.centurion_action_x.melee_attack",
+				"melee_attack_controller": "controller.animation.centurion_action_x.melee_attack"
 			},
 			"scripts": {
 				"animate": [
@@ -31,11 +33,12 @@
 					"turn",
 					"look",
 					"look_at_target",
-					"shoot_controller"
+					"shoot_controller",
+					"melee_attack_controller"
 				]
 			},
 			"render_controllers": [
-				"controller.render.attack_state"
+				"controller.render.centurion_action_x_attack_state"
 			]
 		}
 	}
