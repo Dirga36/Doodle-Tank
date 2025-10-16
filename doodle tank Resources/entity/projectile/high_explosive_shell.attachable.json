@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "dt:high_explosive_shell",
+			"render_controllers": [
+				"controller.render.item_default"
+			],
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/attachable/high_explosive_shell"
+			},
+			"geometry": {
+				"default": "geometry.high_explosive_shell"
+			},
+			"animations": {
+				"face_player": "animation.actor.billboard"
+			},
+			"scripts": {
+				"scale": "2.0",
+				"animate": [
+					"face_player"
+				]
+			}
+		}
+	}
+}

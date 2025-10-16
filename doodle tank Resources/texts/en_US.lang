@@ -15,3 +15,5 @@ entity.dt:armor_piercing_shell.name=Armor Piercing Shell
 
 tile.dt:doodle_block.name=Doodle Block
 item.dt:amortol=Amortol
+
+item.dt:high_explosive_shell=High explosive shell
