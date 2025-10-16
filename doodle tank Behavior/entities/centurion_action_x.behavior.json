@@ -60,7 +60,7 @@
           "priority": 3
         },
         "minecraft:variant": {
-          "value": 1
+          "value": 0
         }
       },
       "dt:ranged_components": {
@@ -75,7 +75,7 @@
           "attack_radius": 64
         },
         "minecraft:variant": {
-          "value": 2
+          "value": 1
         }
       }
     },

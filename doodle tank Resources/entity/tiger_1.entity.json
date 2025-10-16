@@ -7,7 +7,7 @@
 				"default": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/tiger_1/tiger_1",
+				"default": "textures/entity/tiger_1/default",
 				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
 				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode"
 			},
@@ -38,6 +38,7 @@
 				]
 			},
 			"render_controllers": [
+				"controller.render.tiger_1_default",
 				"controller.render.tiger_1_attack_state"
 			]
 		}

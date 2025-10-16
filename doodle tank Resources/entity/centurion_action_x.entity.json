@@ -7,7 +7,7 @@
 				"default": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/centurion_action_x/centurion_action_x",
+				"default": "textures/entity/centurion_action_x/default",
 				"melee_attack_mode": "textures/entity/centurion_action_x/melee_attack_mode",
 				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode"
 			},
@@ -38,6 +38,7 @@
 				]
 			},
 			"render_controllers": [
+				"controller.render.centurion_action_x_default",
 				"controller.render.centurion_action_x_attack_state"
 			]
 		}
