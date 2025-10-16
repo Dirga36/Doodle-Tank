@@ -1,8 +1,5 @@
 {
 	"texture_data": {
-		"high_explosion_shell": {
-			"textures": "textures/items/high_explosion_shell.png"
-		},
 		"amortol": {
 			"textures": "textures/items/amortol.png"
 		},
