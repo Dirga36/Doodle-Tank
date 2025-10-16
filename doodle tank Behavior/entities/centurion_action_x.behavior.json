@@ -7,7 +7,49 @@
       "is_spawnable": true,
       "is_summonable": true
     },
-    "component_groups": {},
+    "component_groups": {
+      "dt:melee_components": {
+        "minecraft:attack": {
+          "damage": 6
+        },
+        "minecraft:behavior.melee_attack": {
+          "priority": 3
+        },
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      "dt:ranged_components": {
+        "minecraft:shooter": {
+          "def": "minecraft:fireball"
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 3,
+          "ranged_fov": 90.0,
+          "attack_interval_min": 1.0,
+          "attack_interval_max": 3.0,
+          "attack_radius": 64
+        },
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      "dt:switcher_range": {
+        "minecraft:target_nearby_sensor": {
+          "inside_range": 4.0,
+          "outside_range": 5.0,
+          "must_see": true,
+          "on_inside_range": { //When target is within 4 blocks range, trigger "dt:melee_swap" event
+            "event": "dt:melee_swap",
+            "target": "self"
+          },
+          "on_outside_range": { //When target is beyond 5 blocks range, trigger "dt:ranged_swap" event
+            "event": "dt:ranged_swap",
+            "target": "self"
+          }
+        }
+      }
+    },
     "components": {
       "minecraft:experience_reward": {
         "on_death": 100
@@ -46,6 +88,31 @@
         "emit_swim": true
       }
     },
-    "events": {}
+    "events": {
+      "dt:melee_swap": { //When triggered, adds component group for ranged and removes melee component group
+        "remove": {
+          "component_groups": [
+            "dt:ranged_components"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "dt:melee_components"
+          ]
+        }
+      },
+      "dt:ranged_swap": { //When triggered, adds component group for melee and removes ranged component group
+        "remove": {
+          "component_groups": [
+            "dt:melee_components"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "dt:ranged_components"
+          ]
+        }
+      }
+    }
   }
 }

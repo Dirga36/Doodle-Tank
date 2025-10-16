@@ -1,7 +1,15 @@
 {
   "format_version": "1.21.0",
   "render_controllers": {
-    "controller.render.tiger_1": {
+    "controller.render.attack_state": {
+      "arrays": {
+        "textures": {
+          "Array.attack_modes": [
+            "Texture.melee_attack_mode",
+            "Texture.ranged_attack_mode"
+          ]
+        }
+      },
       "geometry": "Geometry.default",
       "materials": [
         {
@@ -9,7 +17,8 @@
         }
       ],
       "textures": [
-        "Texture.default"
+        "Texture.default",
+        "Array.attack_modes[q.variant]"
       ]
     }
   }

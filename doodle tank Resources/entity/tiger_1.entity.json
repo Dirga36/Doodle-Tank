@@ -4,13 +4,15 @@
 		"description": {
 			"identifier": "dt:tiger_1",
 			"materials": {
-				"default": "entity_alphatest"
-			},
-			"geometry": {
-				"default": "geometry.tiger_1"
+				"default": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/tiger_1"
+				"default": "textures/entity/tiger_1/tiger_1",
+				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
+				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode"
+			},
+			"geometry": {
+				"default": "geaometry.tiger_1"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_tiger_1"
@@ -33,7 +35,7 @@
 				]
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.attack_state"
 			]
 		}
 	}

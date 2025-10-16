@@ -4,13 +4,15 @@
 		"description": {
 			"identifier": "dt:centurion_action_x",
 			"materials": {
-				"default": "entity_alphatest"
-			},
-			"geometry": {
-				"default": "geometry.centurion_action_x"
+				"default": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/centurion_action_x"
+				"default": "textures/entity/centurion_action_x/centurion_action_x",
+				"melee_attack_mode": "textures/entity/centurion_action_x/melee_attack_mode",
+				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode"
+			},
+			"geometry": {
+				"default": "geaometry.centurion_action_x"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_centurion_action_x"
@@ -33,7 +35,7 @@
 				]
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.attack_state"
 			]
 		}
 	}
