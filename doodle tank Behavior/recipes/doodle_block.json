@@ -17,7 +17,7 @@
 				"item": "minecraft:paper"
 			},
 			"X": {
-				"item": "minecraft:ink"
+				"item": "minecraft:redstone"
 			}
 		},
 		"unlock": {

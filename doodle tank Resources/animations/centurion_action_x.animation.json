@@ -196,7 +196,7 @@
 				}
 			}
 		},
-		"animation.tiger_1.shoot": {
+		"animation.centurion_action_x.shoot": {
 			"animation_length": 1,
 			"bones": {
 				"suspension_barrel": {
