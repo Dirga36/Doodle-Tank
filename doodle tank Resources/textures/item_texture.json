@@ -1,7 +1,8 @@
 {
-	"resource_pack_name": "dt",
-	"texture_name": "atlas.items",
 	"texture_data": {
+		"high_explosion_shell": {
+			"textures": "textures/items/high_explosion_shell.png"
+		},
 		"amortol": {
 			"textures": "textures/items/amortol.png"
 		},
@@ -11,5 +12,7 @@
 		"spawn_egg_centurion_action_x": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_centurion_action_x"
 		}
-	}
+	},
+	"resource_pack_name": "dt",
+	"texture_name": "atlas.items"
 }

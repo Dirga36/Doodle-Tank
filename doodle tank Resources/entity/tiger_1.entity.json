@@ -25,6 +25,7 @@
 			},
 			"scripts": {
 				"animate": [
+					"move",
 					"turn",
 					"look",
 					"look_at_target",

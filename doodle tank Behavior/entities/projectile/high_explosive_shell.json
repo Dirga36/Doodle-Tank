@@ -1,23 +1,26 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.21.0",
     "minecraft:entity": {
         "description": {
             "identifier": "dt:high_explosive_shell",
             "is_spawnable": false,
-            "is_summonable": true,
-            "is_experimental": false,
-            "runtime_identifier": "minecraft:fireball"
+            "is_summonable": true
+        },
+        "component_groups": {
+            "exploding": {
+                "minecraft:explode": {
+                    "power": 3,
+                    "fuse_length": 0.0,
+                    "max_resistance": 2,
+                    "breaks_blocks": true,
+                    "causes_fire": true,
+                    "destroy_affected_by_griefing": false,
+                    "fire_affected_by_griefing": false,
+                    "fuse_lit": true
+                }
+            }
         },
         "components": {
-            "minecraft:type_family": {
-                "family": [
-                    "shell"
-                ]
-            },
-            "minecraft:collision_box": {
-                "width": 0.2,
-                "height": 0.2
-            },
             "minecraft:projectile": {
                 "on_hit": {
                     "impact_damage": {
@@ -46,6 +49,15 @@
                     6.0
                 ]
             },
+            "minecraft:type_family": {
+                "family": [
+                    "shell"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.2,
+                "height": 0.2
+            },
             "minecraft:physics": {
                 "has_collision": false,
                 "has_gravity": false
@@ -73,20 +85,6 @@
                         }
                     }
                 ]
-            }
-        },
-        "component_groups": {
-            "exploding": {
-                "minecraft:explode": {
-                    "power": 3,
-                    "fuse_length": 0.0,
-                    "max_resistance": 2,
-                    "breaks_blocks": true,
-                    "causes_fire": true,
-                    "destroy_affected_by_griefing": false,
-                    "fire_affected_by_griefing": false,
-                    "fuse_lit": true
-                }
             }
         }
     }
