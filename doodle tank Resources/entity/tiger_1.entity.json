@@ -5,12 +5,17 @@
 			"identifier": "dt:tiger_1",
 			"materials": {
 				"default": "entity_alphatest",
-				"attack_mode_layer": "villager_v2_masked"
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
 				"default": "textures/entity/tiger_1/default",
 				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
-				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode"
+				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
+				"100%_health": "textures/entity/tiger_1/100%_health",
+				"75%_health": "textures/entity/tiger_1/75%_health",
+				"25%_health": "textures/entity/tiger_1/25%_health",
+				"0%_health": "textures/entity/tiger_1/0%_health"
 			},
 			"geometry": {
 				"default": "geometry.tiger_1"
@@ -42,7 +47,8 @@
 			},
 			"render_controllers": [
 				"controller.render.default",
-				"controller.render.attack_mode"
+				"controller.render.attack_mode",
+				"controller.render.health_parameter"
 			]
 		}
 	}

@@ -7,8 +7,8 @@
 				"texture_width": 512,
 				"texture_height": 512,
 				"visible_bounds_width": 31,
-				"visible_bounds_height": 14,
-				"visible_bounds_offset": [0, 2, 0]
+				"visible_bounds_height": 17,
+				"visible_bounds_offset": [0, 3.5, 0]
 			},
 			"bones": [
 				{
@@ -1167,18 +1167,18 @@
 				},
 				{
 					"name": "floating_info",
-					"pivot": [0, 82, 0],
+					"pivot": [0, 83.5, 2.5],
 					"cubes": [
 						{
-							"origin": [0, 80, -55],
-							"size": [0, 7, 115],
+							"origin": [-0.5, 80, -56],
+							"size": [1, 7, 116],
 							"uv": {
-								"north": {"uv": [0, 0], "uv_size": [0, 37]},
-								"east": {"uv": [0, 0], "uv_size": [78, 37]},
-								"south": {"uv": [0, 0], "uv_size": [0, 37]},
-								"west": {"uv": [0, 0], "uv_size": [78, 37]},
-								"up": {"uv": [0, 78], "uv_size": [0, -78]},
-								"down": {"uv": [0, 78], "uv_size": [0, -78]}
+								"north": {"uv": [0, 381], "uv_size": [1, 7]},
+								"east": {"uv": [0, 355], "uv_size": [115, 7]},
+								"south": {"uv": [0, 381], "uv_size": [1, 7]},
+								"west": {"uv": [0, 355], "uv_size": [115, 7]},
+								"up": {"uv": [122, 470], "uv_size": [-1, -115]},
+								"down": {"uv": [122, 470], "uv_size": [-1, -115]}
 							}
 						}
 					]

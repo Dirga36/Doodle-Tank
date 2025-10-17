@@ -4,17 +4,37 @@
 		"name": "pack.name",
 		"description": "pack.description",
 		"uuid": "cedf5b47-25b9-41f8-9e62-4d2afc146fe8",
-		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
 	},
 	"metadata": {
-		"authors": ["Dirga"],
+		"authors": [
+			"Dirga"
+		],
 		"generated_with": {
-			"blockbench_entity_wizard": ["1.7.0"],
-			"bridge": ["2.7.51"],
-			"dash": ["0.11.7"],
-			"blockbench_block_wizard": ["1.5.1"],
-			"blockbench_item_wizard": ["1.2.3"]
+			"blockbench_entity_wizard": [
+				"1.7.0"
+			],
+			"bridge": [
+				"2.7.51"
+			],
+			"dash": [
+				"0.11.7"
+			],
+			"blockbench_block_wizard": [
+				"1.5.1"
+			],
+			"blockbench_item_wizard": [
+				"1.2.3"
+			]
 		}
 	},
 	"modules": [
@@ -22,17 +42,49 @@
 			"type": "data",
 			"uuid": "71279a13-4ed5-4aa6-a5e4-dce11a21d7e9",
 			"description": "modules.description",
-			"version": [1, 0, 0]
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "Script resources",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "6fa9e0c5-7077-4f68-96ab-4488d01d7ae4",
+			"version": [
+				0,
+				0,
+				1
+			],
+			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "ef828d5e-7303-4798-9e92-05b15e8e35c2",
-			"version": [1, 0, 0]
+			"version": [
+				1,
+				0,
+				0
+			]
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.13.0"
+			"version": [
+				2,
+				2,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": [
+				2,
+				0,
+				0
+			]
 		}
 	]
 }

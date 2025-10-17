@@ -5,7 +5,8 @@
 			"identifier": "dt:centurion_action_x",
 			"materials": {
 				"default": "entity_alphatest",
-				"attack_mode_layer": "villager_v2_masked"
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
 				"default": "textures/entity/centurion_action_x/default",

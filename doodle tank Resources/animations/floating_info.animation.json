@@ -6,7 +6,7 @@
 			"animation_length": 3.5833,
 			"bones": {
 				"floating_info": {
-					"rotation": [0, "query.camera_rotation(0)", 0]
+					"rotation": [0, "-90+query.camera_rotation(1)", 0]
 				}
 			}
 		}

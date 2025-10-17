@@ -5,7 +5,17 @@
       "identifier": "dt:tiger_1",
       "spawn_category": "creature",
       "is_spawnable": true,
-      "is_summonable": true
+      "is_summonable": true,
+      "properties": {
+        "health_index": {
+          "type": "int",
+          "default": 0,
+          "range": [
+            0,
+            3
+          ]
+        }
+      }
     },
     "component_groups": {
       "dt:basic_behavior": {
