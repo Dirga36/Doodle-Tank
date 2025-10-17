@@ -50,6 +50,14 @@
                 "sounds/mob/centurion_action_x/step_3",
                 "sounds/mob/centurion_action_x/step_4"
             ]
+        },
+        "mob.tiger_1.idle": {
+            "category": "hostile",
+            "max_distance": 64.0,
+            "min_distance": null,
+            "sounds": [
+                "sounds/mob/tiger_1/idle_1"
+            ]
         }
     }
 }
