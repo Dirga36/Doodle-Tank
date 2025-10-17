@@ -1,0 +1,62 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "dt:tiger_1": {
+        "events": {
+          "ambient": "mob.irongolem.crack",
+          "death": "mob.irongolem.death",
+          "hurt": "mob.irongolem.hit",
+          "step": {
+            "pitch": 1,
+            "sound": "mob.irongolem.walk",
+            "volume": 1
+          }
+        },
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "volume": 1.2
+      },
+      "dt:centurion_action_x": {
+        "events": {
+          "ambient": "mob.centurion_action_x.idle",
+          "attack": {
+            "pitch": 1.0,
+            "sound": "mob.centurion_action_x.attack",
+            "volume": 20.0
+          },
+          "death": {
+            "pitch": [
+              0.80,
+              1.0
+            ],
+            "sound": "mob.centurion_action_x.death",
+            "volume": 1.0
+          },
+          "hurt": {
+            "pitch": [
+              0.80,
+              1.0
+            ],
+            "sound": "mob.centurion_action_x.hurt",
+            "volume": 1.0
+          },
+          "step": {
+            "pitch": 1.0,
+            "sound": "mob.centurion_action_x.step",
+            "volume": 10.0
+          }
+        },
+        "pitch": [
+          0.80,
+          1.20
+        ],
+        "variants": {
+          "key": null
+        },
+        "volume": 1.1
+      }
+    }
+  }
+}

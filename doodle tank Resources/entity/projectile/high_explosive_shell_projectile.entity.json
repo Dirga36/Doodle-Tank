@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "dt:high_explosive_shell_projectile",
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.high_explosive_shell_projectile"
 			],
 			"materials": {
 				"default": "entity_alphatest"
