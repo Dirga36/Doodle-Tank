@@ -20,13 +20,14 @@
 			},
 			"animations": {
 				"move": "animation.centurion_action_x.move",
-				"turn": "animation.centurion_action_x.turn",
-				"look": "animation.centurion_action_x.look",
+				"turn": "animation.tank_turret_rotation.turn",
+				"look": "animation.tank_turret_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot",
-				"shoot_controller": "controller.animation.centurion_action_x.shoot",
+				"shoot_controller": "controller.animation.attacks.shoot",
 				"melee_attack": "animation.centurion_action_x.melee_attack",
-				"melee_attack_controller": "controller.animation.centurion_action_x.melee_attack"
+				"melee_attack_controller": "controller.animation.attacks.melee_attack",
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
@@ -35,12 +36,13 @@
 					"look",
 					"look_at_target",
 					"shoot_controller",
-					"melee_attack_controller"
+					"melee_attack_controller",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
-				"controller.render.centurion_action_x",
-				"controller.render.centurion_action_x_attack_mode"
+				"controller.render.default",
+				"controller.render.attack_mode"
 			]
 		}
 	}
