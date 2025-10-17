@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "dt:armor_piercing_shell_projectile",
 			"render_controllers": [
-				"controller.render.armor_piercing_shell_projectile"
+				"controller.render.default"
 			],
 			"materials": {
 				"default": "entity_alphatest"

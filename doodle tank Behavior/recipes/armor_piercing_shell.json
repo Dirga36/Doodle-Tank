@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "dt:armor_piercing"
+            "identifier": "dt:armor_piercing_shell"
         },
         "tags": [
             "crafting_table"
@@ -24,7 +24,7 @@
             "context": "None"
         },
         "result": {
-            "item": "dt:armor_piercing"
+            "item": "dt:armor_piercing_shell"
         }
     }
 }
