@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dt:armor_piercing_shell_projectile",
+			"render_controllers": [
+				"controller.render.armor_piercing_shell_projectile"
+			],
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/projectile/armor_piercing_shell_projectile"
+			},
+			"geometry": {
+				"default": "geometry.armor_piercing_shell_projectile"
+			}
+		}
+	}
+}

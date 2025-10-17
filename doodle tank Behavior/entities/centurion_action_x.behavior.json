@@ -9,6 +9,10 @@
     },
     "component_groups": {
       "dt:basic_behavior": {
+        "minecraft:knockback_resistance": {
+          "max": 1,
+          "value": 1
+        },
         "minecraft:game_event_movement_tracking": {
           "emit_flap": false,
           "emit_move": true,
@@ -111,25 +115,25 @@
         "value": 64,
         "max": 64
       },
-        "minecraft:behavior.nearest_attackable_target": {
-          "priority": 2,
-          "must_see": true,
-          "entity_types": [
-            {
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "other",
-                    "value": "monster"
-                  }
-                ]
-              },
-              "max_dist": 64,
-              "walk_speed_multiplier": 2
-            }
-          ]
-        }
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "must_see": true,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]
+            },
+            "max_dist": 64,
+            "walk_speed_multiplier": 2
+          }
+        ]
+      }
     },
     "events": {
       "minecraft:entity_spawned": {

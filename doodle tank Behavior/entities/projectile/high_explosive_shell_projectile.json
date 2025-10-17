@@ -1,90 +1,76 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.40",
     "minecraft:entity": {
         "description": {
-            "identifier": "dt:high_explosive_shell_projectile",
-            "is_spawnable": false,
-            "is_summonable": true
+            "identifier": "dt:high_explosive_shell_projectile"
         },
         "component_groups": {
-            "exploding": {
+            "minecraft:exploding": {
                 "minecraft:explode": {
-                    "power": 3,
-                    "fuse_length": 0.0,
-                    "max_resistance": 2,
-                    "breaks_blocks": true,
+                    "fuse_length": 0,
+                    "fuse_lit": true,
+                    "power": 1,
                     "causes_fire": true,
-                    "destroy_affected_by_griefing": false,
-                    "fire_affected_by_griefing": false,
-                    "fuse_lit": true
+                    "fire_affected_by_griefing": true,
+                    "destroy_affected_by_griefing": true
                 }
             }
         },
         "components": {
+            "minecraft:collision_box": {
+                "width": 1.0,
+                "height": 1.0
+            },
             "minecraft:projectile": {
                 "on_hit": {
                     "impact_damage": {
-                        "damage": 33,
-                        "knockback": true,
-                        "semi_random_diff_damage": false,
-                        "destroy_on_hit": true
+                        "damage": 6,
+                        "knockback": false,
+                        "semi_random_diff_damage": false
                     },
                     "definition_event": {
-                        "affect_shooter": true,
+                        "affect_projectile": true,
                         "event_trigger": {
-                            "event": "on:hit",
+                            "event": "minecraft:explode",
                             "target": "self"
                         }
                     }
                 },
-                "hit_sound": "random.explode",
-                "power": 5.0,
-                "gravity": 0.01,
-                "inertia": 1,
+                "power": 1.6,
+                "gravity": 0.00,
+                "liquid_inertia": 1,
+                "uncertainty_base": 0,
+                "uncertainty_multiplier": 0,
                 "anchor": 2,
-                "angle_offset": 0,
                 "offset": [
-                    0.0,
-                    0.0,
-                    6.0
-                ]
+                    0,
+                    -1.5,
+                    0
+                ],
+                "reflect_on_hurt": true,
+                "catch_fire": true
             },
-            "minecraft:type_family": {
-                "family": [
-                    "shell"
-                ]
-            },
-            "minecraft:collision_box": {
-                "width": 0.2,
-                "height": 0.1
-            },
-            "minecraft:physics": {
-                "has_collision": false,
-                "has_gravity": false
-            },
+            "minecraft:physics": {},
+            "minecraft:dimension_bound": {},
             "minecraft:pushable": {
                 "is_pushable": true,
                 "is_pushable_by_piston": true
             },
             "minecraft:conditional_bandwidth_optimization": {
                 "default_values": {
-                    "max_optimized_distance": 100,
+                    "max_optimized_distance": 80.0,
                     "max_dropped_ticks": 7,
                     "use_motion_prediction_hints": true
                 }
             }
         },
         "events": {
-            "on:hit": {
-                "sequence": [
-                    {
-                        "add": {
-                            "component_groups": [
-                                "exploding"
-                            ]
-                        }
-                    }
-                ]
+            "minecraft:explode": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:exploding"
+                    ]
+                }
             }
         }
     }

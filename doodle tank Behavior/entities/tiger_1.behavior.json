@@ -9,6 +9,10 @@
     },
     "component_groups": {
       "dt:basic_behavior": {
+        "minecraft:knockback_resistance": {
+          "max": 1,
+          "value": 1
+        },
         "minecraft:game_event_movement_tracking": {
           "emit_flap": false,
           "emit_move": true,

@@ -2,6 +2,8 @@
     "textures/items/amortol",
     "textures/items/high_explosive_shell",
     "textures/entity/projectile/high_explosive_shell_projectile",
+    "textures/items/armor_piercing_shell",
+    "textures/entity/projectile/armor_piercing_shell_projectile",
     "textures/blocks/doodle_block",
     "textures/entity/tiger_1",
     "textures/items/spawn_eggs/spawn_egg_tiger_1",

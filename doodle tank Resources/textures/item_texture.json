@@ -3,6 +3,9 @@
 		"high_explosive_shell": {
 			"textures": "textures/items/high_explosive_shell.png"
 		},
+		"armor_piercing_shell": {
+			"textures": "textures/items/armor_piercing_shell.png"
+		},
 		"amortol": {
 			"textures": "textures/items/amortol.png"
 		},
