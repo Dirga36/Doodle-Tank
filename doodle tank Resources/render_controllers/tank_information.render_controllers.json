@@ -25,10 +25,10 @@
       "arrays": {
         "textures": {
           "Array.health_conditions": [
-            "Texture.100%_health",
-            "Texture.75%_health",
-            "Texture.25%_health",
-            "Texture.0%_health"
+            "Texture.100_percent_health",
+            "Texture.75_percent_health",
+            "Texture.25_percent_health",
+            "Texture.0_percent_health"
           ]
         }
       },
@@ -40,7 +40,7 @@
       ],
       "textures": [
         "Texture.default",
-        "Array.health_conditions[variable.health_index]"
+        "Array.health_conditions[variable.dt:health_index]"
       ]
     }
   }

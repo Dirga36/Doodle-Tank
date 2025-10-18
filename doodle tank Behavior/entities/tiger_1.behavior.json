@@ -7,7 +7,7 @@
       "is_spawnable": true,
       "is_summonable": true,
       "properties": {
-        "health_index": {
+        "dt:health_index": {
           "type": "int",
           "default": 0,
           "range": [

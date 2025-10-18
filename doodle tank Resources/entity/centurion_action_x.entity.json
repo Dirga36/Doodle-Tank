@@ -11,7 +11,11 @@
 			"textures": {
 				"default": "textures/entity/centurion_action_x/default",
 				"melee_attack_mode": "textures/entity/centurion_action_x/melee_attack_mode",
-				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode"
+				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode",
+				"100_percent_health": "textures/entity/centurion_action_x/100_percent_health",
+				"75_percent_health": "textures/entity/centurion_action_x/75_percent_health",
+				"25_percent_health": "textures/entity/centurion_action_x/25_percent_health",
+				"0_percent_health": "textures/entity/centurion_action_x/0_percent_health"
 			},
 			"geometry": {
 				"default": "geometry.centurion_action_x"
@@ -43,7 +47,8 @@
 			},
 			"render_controllers": [
 				"controller.render.default",
-				"controller.render.attack_mode"
+				"controller.render.attack_mode",
+				"controller.render.health_parameter"
 			]
 		}
 	}

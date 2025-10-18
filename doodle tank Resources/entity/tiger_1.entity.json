@@ -12,10 +12,10 @@
 				"default": "textures/entity/tiger_1/default",
 				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
 				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
-				"100%_health": "textures/entity/tiger_1/100%_health",
-				"75%_health": "textures/entity/tiger_1/75%_health",
-				"25%_health": "textures/entity/tiger_1/25%_health",
-				"0%_health": "textures/entity/tiger_1/0%_health"
+				"100_percent_health": "textures/entity/tiger_1/100_percent_health",
+				"75_percent_health": "textures/entity/tiger_1/75_percent_health",
+				"25_percent_health": "textures/entity/tiger_1/25_percent_health",
+				"0_percent_health": "textures/entity/tiger_1/0_percent_health"
 			},
 			"geometry": {
 				"default": "geometry.tiger_1"
