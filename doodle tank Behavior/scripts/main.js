@@ -1,4 +1,4 @@
-import { world, system } from "@minecraft/server";
+/*import { world, system } from "@minecraft/server";
 
 system.runInterval(() => {
   for (const entity of world.getAllEntities()) {
@@ -22,3 +22,4 @@ system.runInterval(() => {
     entity.setProperty("dt:health_index", index);
   }
 }, 10); // Every 0.5s (20 ticks = 1s)
+*/
