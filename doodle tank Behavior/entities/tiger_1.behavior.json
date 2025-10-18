@@ -112,8 +112,8 @@
         "value": 0.2
       },
       "minecraft:follow_range": {
-        "value": 128,
-        "max": 128
+        "value": 100,
+        "max": 100
       },
       "minecraft:behavior.nearest_attackable_target": {
         "priority": 2,
@@ -129,8 +129,8 @@
                 }
               ]
             },
-            "max_dist": 64,
-            "walk_speed_multiplier": 2
+            "max_dist": 100,
+            "walk_speed_multiplier": 2.5
           }
         ]
       }
