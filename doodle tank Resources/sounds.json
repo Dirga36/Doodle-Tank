@@ -3,9 +3,13 @@
     "entities": {
       "dt:tiger_1": {
         "events": {
-          "ambient": "mob.tiger_1.idle",
+          "ambient": "mob.irongolem.crack",
           "death": "mob.irongolem.death",
-          "hurt": "mob.irongolem.hit",
+          "hurt": {
+            "pitch": 1,
+            "sound": "mob.tiger_1.hurt",
+            "volume": 20
+          },
           "step": {
             "pitch": 1,
             "sound": "mob.irongolem.walk",
