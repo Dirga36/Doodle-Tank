@@ -40,7 +40,7 @@
       ],
       "textures": [
         "Texture.default",
-        "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]"
+        "Array.health_conditions[math.clamp(math.floor((query.health / query.max_health) * 4.0), 0, 3)]"
       ]
     }
   }
