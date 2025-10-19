@@ -69,7 +69,7 @@
 		"animation.centurion_action_x.shoot": {
 			"animation_length": 1,
 			"bones": {
-				"suspension_barrel": {
+				"gun_suspension_barrel": {
 					"position": {
 						"0.0": {
 							"post": [0, 0, 0],
@@ -90,20 +90,6 @@
 		"animation.centurion_action_x.melee_attack": {
 			"animation_length": 0.5,
 			"bones": {
-				"tracks": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.0833": [4, 0, 0],
-						"0.2083": [-8, 0, 0],
-						"0.5": [0, 0, 0]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0833": [0, 0, 5],
-						"0.2083": [0, 0, -8],
-						"0.5": [0, 0, 0]
-					}
-				},
 				"body": {
 					"rotation": {
 						"0.0": [0, 0, 0],
