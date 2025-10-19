@@ -25,8 +25,8 @@
 			},
 			"animations": {
 				"move": "animation.centurion_action_x.move",
-				"turn": "animation.tank_turret_rotation.turn",
-				"look": "animation.tank_turret_rotation.look",
+				"turn": "animation.tank_rotation.turn",
+				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot",
 				"shoot_controller": "controller.animation.attacks.shoot",

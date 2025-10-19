@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.tiger_1.move": {
 			"loop": true,
-			"animation_length": 1.25,
+			"animation_length": 1,
 			"bones": {
 				"right_passive_gear_1": {
 					"rotation": [
@@ -27,6 +27,41 @@
 					]
 				},
 				"right_passive_gear_4": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"right_passive_gear_5": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"right_additional_passive_gear_1": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"right_additional_passive_gear_2": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"right_additional_passive_gear_3": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"right_additional_passive_gear_4": {
 					"rotation": [
 						"query.modified_distance_moved * 20",
 						0,
@@ -69,6 +104,41 @@
 					]
 				},
 				"left_passive_gear_4": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"left_passive_gear_5": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"left_additional_passive_gear_1": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"left_additional_passive_gear_2": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"left_additional_passive_gear_3": {
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
+				},
+				"left_additional_passive_gear_4": {
 					"rotation": [
 						"query.modified_distance_moved * 20",
 						0,

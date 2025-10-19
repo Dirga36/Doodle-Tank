@@ -1,7 +1,7 @@
 {
   "format_version": "1.21.0",
   "animations": {
-    "animation.tank_turret_rotation.turn": {
+    "animation.tank_rotation.turn": {
       "loop": true,
       "bones": {
         "turret": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    "animation.tank_turret_rotation.look": {
+    "animation.tank_rotation.look": {
       "loop": true,
       "bones": {
         "gun_barrel": {
