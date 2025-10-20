@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "dt:amortol"
+            "identifier": "dt:tiger_1"
         },
         "tags": [
             "crafting_table"
@@ -24,7 +24,7 @@
             "context": "None"
         },
         "result": {
-            "item": "dt:amortol"
+            "item": "dt:tiger_1"
         }
     }
 }

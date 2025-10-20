@@ -1,14 +1,14 @@
 [
-    "textures/items/amortol",
-    "textures/items/tank_components/tank_engine",
-    "textures/items/tank_components/tank_gun",
+    "textures/items/components/engine",
+    "textures/items/components/gun",
+    "textures/items/components/armor",
     "textures/items/shells/high_explosive_shell",
-    "textures/entity/projectile/high_explosive_shell_projectile",
     "textures/items/shells/armor_piercing_shell",
-    "textures/entity/projectile/armor_piercing_shell_projectile",
     "textures/blocks/doodle_block",
     "textures/entity/tiger_1",
     "textures/items/spawn_eggs/spawn_egg_tiger_1",
     "textures/entity/centurion_action_x/enturion_action_x",
-    "textures/items/spawn_eggs/spawn_egg_centurion_action_x"
+    "textures/items/spawn_eggs/spawn_egg_centurion_action_x",
+    "textures/items/tank_deployers/deploy_centurion_action_x",
+    "textures/items/tank_deployers/deploy_centurion_action_x"
 ]

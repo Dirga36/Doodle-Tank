@@ -2,7 +2,7 @@
     "format_version": "1.21.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "dt:tank_gun"
+            "identifier": "dt:engine"
         },
         "tags": [
             "crafting_table"
@@ -24,7 +24,7 @@
             "context": "None"
         },
         "result": {
-            "item": "dt:tank_gun"
+            "item": "dt:engine"
         }
     }
 }

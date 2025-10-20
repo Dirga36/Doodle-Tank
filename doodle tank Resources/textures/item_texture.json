@@ -1,19 +1,25 @@
 {
 	"texture_data": {
-		"tank_engine": {
-			"textures": "textures/items/tank_components/tank_engine.png"
+		"deploy_centurion_action_x": {
+			"textures": "textures/items/tank_deployers/deploy_centurion_action_x.png"
 		},
-		"tank_gun": {
-			"textures": "textures/items/tank_components/tank_gun.png"
+		"deploy_tiger_1": {
+			"textures": "textures/items/tank_deployers/deploy_tiger_1.png"
+		},
+		"armor": {
+			"textures": "textures/items/components/armor.png"
+		},
+		"engine": {
+			"textures": "textures/items/components/engine.png"
+		},
+		"gun": {
+			"textures": "textures/items/components/gun.png"
 		},
 		"high_explosive_shell": {
 			"textures": "textures/items/high_explosive_shell.png"
 		},
 		"armor_piercing_shell": {
 			"textures": "textures/items/armor_piercing_shell.png"
-		},
-		"amortol": {
-			"textures": "textures/items/amortol.png"
 		},
 		"spawn_egg_tiger_1": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1"
