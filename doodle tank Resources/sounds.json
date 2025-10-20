@@ -6,6 +6,7 @@
           "ambient": "mob.irongolem.crack",
           "death": "mob.irongolem.death",
           "hurt": "mob.irongolem.hit",
+          "shoot": "mob.blaze.shoot",
           "step": {
             "pitch": 1,
             "sound": "mob.irongolem.walk",
@@ -23,6 +24,7 @@
           "ambient": "mob.warden.idle",
           "death": "mob.centurion_action_x.death", // imported
           "hurt": "mob.warden.hurt",
+          "shoot": "mob.blaze.shoot",
           "step": {
             "pitch": 1,
             "sound": "mob.warden.step",
