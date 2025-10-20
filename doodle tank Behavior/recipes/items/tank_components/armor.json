@@ -8,16 +8,12 @@
             "crafting_table"
         ],
         "pattern": [
-            "#",
-            "X",
-            "#"
+            " #",
+            "# "
         ],
         "key": {
             "#": {
-                "item": "minecraft:bread"
-            },
-            "X": {
-                "item": "minecraft:sugar"
+                "item": "minecraft:block_of_iron"
             }
         },
         "unlock": {

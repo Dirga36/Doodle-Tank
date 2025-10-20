@@ -8,16 +8,22 @@
             "crafting_table"
         ],
         "pattern": [
-            "#",
-            "X",
-            "#"
+            " Z ",
+            " X#",
+            " Y "
         ],
         "key": {
             "#": {
-                "item": "minecraft:bread"
+                "item": "dt:gun"
             },
             "X": {
-                "item": "minecraft:sugar"
+                "item": "dt:armor_piercing_shell"
+            },
+            "Y": {
+                "item": "dt:engine"
+            },
+            "Z": {
+                "item": "dt:armor"
             }
         },
         "unlock": {

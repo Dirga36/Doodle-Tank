@@ -8,16 +8,16 @@
             "crafting_table"
         ],
         "pattern": [
-            "#",
-            "X",
-            "#"
+            " # ",
+            "#X#",
+            " # "
         ],
         "key": {
             "#": {
-                "item": "minecraft:bread"
+                "item": "minecraft:iron_ingot"
             },
             "X": {
-                "item": "minecraft:sugar"
+                "item": "minecraft:blast_furnace"
             }
         },
         "unlock": {
