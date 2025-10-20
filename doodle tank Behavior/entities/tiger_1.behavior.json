@@ -9,6 +9,7 @@
     },
     "component_groups": {
       "dt:basic_behavior": {
+        "minecraft:fire_immune": {},
         "minecraft:knockback_resistance": {
           "max": 1,
           "value": 1
@@ -74,8 +75,9 @@
         "minecraft:behavior.ranged_attack": {
           "priority": 3,
           "ranged_fov": 90.0,
-          "attack_interval_min": 1.0,
-          "attack_interval_max": 3.0,
+          "charge_charged_trigger": 1,
+          "charge_shoot_trigger": 2,
+          "burst_shots": 3,
           "attack_radius": 64
         },
         "minecraft:variant": {

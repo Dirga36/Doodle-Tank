@@ -5,11 +5,7 @@
         "events": {
           "ambient": "mob.irongolem.crack",
           "death": "mob.irongolem.death",
-          "hurt": {
-            "pitch": 1,
-            "sound": "mob.tiger_1.hurt",
-            "volume": 20
-          },
+          "hurt": "mob.irongolem.hit",
           "step": {
             "pitch": 1,
             "sound": "mob.irongolem.walk",
@@ -24,42 +20,20 @@
       },
       "dt:centurion_action_x": {
         "events": {
-          "ambient": "mob.centurion_action_x.idle",
-          "attack": {
-            "pitch": 1.0,
-            "sound": "mob.centurion_action_x.attack",
-            "volume": 20.0
-          },
-          "death": {
-            "pitch": [
-              0.80,
-              1.0
-            ],
-            "sound": "mob.centurion_action_x.death",
-            "volume": 1.0
-          },
-          "hurt": {
-            "pitch": [
-              0.80,
-              1.0
-            ],
-            "sound": "mob.centurion_action_x.hurt",
-            "volume": 1.0
-          },
+          "ambient": "mob.warden.idle",
+          "death": "mob.centurion_action_x.death", // imported
+          "hurt": "mob.warden.hurt",
           "step": {
-            "pitch": 1.0,
-            "sound": "mob.centurion_action_x.step",
-            "volume": 10.0
+            "pitch": 1,
+            "sound": "mob.warden.step",
+            "volume": 10
           }
         },
         "pitch": [
-          0.80,
-          1.20
+          0.8,
+          1.2
         ],
-        "variants": {
-          "key": null
-        },
-        "volume": 1.1
+        "volume": 1.2
       }
     }
   }

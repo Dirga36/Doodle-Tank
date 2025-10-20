@@ -7,7 +7,7 @@
 				"default": {
 					"transitions": [
 						{
-							"shooting": "variable.attack_time > 0;"
+							"shooting": "query.is_charged;"
 						}
 					]
 				},
@@ -17,11 +17,8 @@
 					],
 					"transitions": [
 						{
-							"default": "variable.attack_time <= 0;"
+							"default": "query.any_animation_finished;"
 						}
-					],
-					"on_entry": [
-						"variable.attack_time = 0.1;"
 					]
 				}
 			}

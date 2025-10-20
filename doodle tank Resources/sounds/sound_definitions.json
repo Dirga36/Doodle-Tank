@@ -9,55 +9,6 @@
                 "sounds/mob/centurion_action_x/death_1",
                 "sounds/mob/centurion_action_x/death_2"
             ]
-        },
-        "mob.centurion_action_x.hurt": {
-            "category": "hostile",
-            "max_distance": null,
-            "min_distance": null,
-            "sounds": [
-                "sounds/mob/centurion_action_x/hurt_1",
-                "sounds/mob/centurion_action_x/hurt_2",
-                "sounds/mob/centurion_action_x/hurt_3",
-                "sounds/mob/centurion_action_x/hurt_4"
-            ]
-        },
-        "mob.centurion_action_x.idle": {
-            "category": "hostile",
-            "max_distance": 64.0,
-            "min_distance": null,
-            "sounds": [
-                "sounds/mob/centurion_action_x/idle_1",
-                "sounds/mob/centurion_action_x/idle_2",
-                "sounds/mob/centurion_action_x/idle_3",
-                "sounds/mob/centurion_action_x/idle_4",
-                "sounds/mob/centurion_action_x/idle_5",
-                "sounds/mob/centurion_action_x/idle_6",
-                "sounds/mob/centurion_action_x/idle_7",
-                "sounds/mob/centurion_action_x/idle_8",
-                "sounds/mob/centurion_action_x/idle_9",
-                "sounds/mob/centurion_action_x/idle_10",
-                "sounds/mob/centurion_action_x/idle_11",
-                "sounds/mob/centurion_action_x/idle_12"
-            ]
-        },
-        "mob.centurion_action_x.step": {
-            "category": "hostile",
-            "max_distance": 160.0,
-            "min_distance": null,
-            "sounds": [
-                "sounds/mob/centurion_action_x/step_1",
-                "sounds/mob/centurion_action_x/step_2",
-                "sounds/mob/centurion_action_x/step_3",
-                "sounds/mob/centurion_action_x/step_4"
-            ]
-        },
-        "mob.tiger_1.hurt": {
-            "category": "hostile",
-            "max_distance": 64.0,
-            "min_distance": null,
-            "sounds": [
-                "sounds/mob/tiger_1/hurt_1"
-            ]
         }
     }
 }
