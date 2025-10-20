@@ -42,12 +42,6 @@
 					"component_groups": [
 						"minecraft:exploding"
 					]
-				},
-				"queue_command": {
-					"command": [
-						"particle af:explosion_dust ~ ~-1 ~",
-						"playsound tank.hit @p[r=5]"
-					]
 				}
 			}
 		},

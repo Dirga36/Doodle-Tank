@@ -7,9 +7,11 @@
           "death": "mob.irongolem.death",
           "hurt": "mob.irongolem.hit",
           "shoot": "mob.blaze.shoot",
+          "attack": "mob.irongolem.throw",
+          "fall.big": "random.anvil_land",
           "step": {
             "pitch": 1,
-            "sound": "mob.irongolem.walk",
+            "sound": "tile.piston.out",
             "volume": 10
           }
         },
@@ -25,9 +27,11 @@
           "death": "mob.centurion_action_x.death", // imported
           "hurt": "mob.warden.hurt",
           "shoot": "mob.blaze.shoot",
+          "attack": "mob.warden.attack",
+          "fall.big": "random.anvil_land",
           "step": {
             "pitch": 1,
-            "sound": "mob.warden.step",
+            "sound": "tile.piston.out",
             "volume": 10
           }
         },
