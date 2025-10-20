@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"tank_engine": {
+			"textures": "textures/items/tank_components/tank_engine.png"
+		},
+		"tank_gun": {
+			"textures": "textures/items/tank_components/tank_gun.png"
+		},
 		"high_explosive_shell": {
 			"textures": "textures/items/high_explosive_shell.png"
 		},

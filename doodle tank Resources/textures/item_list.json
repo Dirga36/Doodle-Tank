@@ -1,8 +1,10 @@
 [
     "textures/items/amortol",
-    "textures/items/high_explosive_shell",
+    "textures/items/tank_components/tank_engine",
+    "textures/items/tank_components/tank_gun",
+    "textures/items/shells/high_explosive_shell",
     "textures/entity/projectile/high_explosive_shell_projectile",
-    "textures/items/armor_piercing_shell",
+    "textures/items/shells/armor_piercing_shell",
     "textures/entity/projectile/armor_piercing_shell_projectile",
     "textures/blocks/doodle_block",
     "textures/entity/tiger_1",
