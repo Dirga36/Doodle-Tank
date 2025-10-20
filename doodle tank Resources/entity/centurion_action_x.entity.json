@@ -29,9 +29,7 @@
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
 				"shoot": "animation.centurion_action_x.shoot",
-				"shoot_controller": "controller.animation.attacks.shoot",
 				"melee_attack": "animation.centurion_action_x.melee_attack",
-				"melee_attack_controller": "controller.animation.attacks.melee_attack",
 				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
@@ -40,8 +38,6 @@
 					"turn",
 					"look",
 					"look_at_target",
-					"shoot_controller",
-					"melee_attack_controller",
 					"floating_info"
 				]
 			},
