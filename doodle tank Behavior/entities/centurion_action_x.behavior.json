@@ -70,7 +70,7 @@
       },
       "dt:ranged_components": {
         "minecraft:shooter": {
-          "def": "minecraft:fireball"
+          "def": "minecraft:wither_skull_dangerous"
         },
         "minecraft:behavior.ranged_attack": {
           "priority": 3,

@@ -1,0 +1,1 @@
+Installation: [github.com/Dirga36/Doodle-Tank/wiki/Instalation]([github.com/Dirga36/Doodle-Tank/wiki/Instalation])
