@@ -8,12 +8,12 @@
             "crafting_table"
         ],
         "pattern": [
-            "#",
-            "#"
+            "###",
+            "###"
         ],
         "key": {
             "#": {
-                "item": "minecraft:block_of_iron"
+                "item": "minecraft:iron_ingot"
             }
         },
         "unlock": {
