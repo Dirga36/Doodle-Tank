@@ -24,7 +24,7 @@
       "dt:centurion_action_x": {
         "events": {
           "ambient": "mob.warden.idle",
-          "death": "mob.centurion_action_x.death", // imported
+          "death": "mob.warden.death",
           "hurt": "mob.warden.hurt",
           "shoot": "mob.blaze.shoot",
           "attack": "mob.warden.attack",
