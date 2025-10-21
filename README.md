@@ -1,1 +1,1 @@
-Installation: [github.com/Dirga36/Doodle-Tank/wiki/Instalation]([github.com/Dirga36/Doodle-Tank/wiki/Instalation])
+Installation: [https://github.com/Dirga36/Doodle-Tank/wiki/Instalation](https://github.com/Dirga36/Doodle-Tank/wiki/Instalation)

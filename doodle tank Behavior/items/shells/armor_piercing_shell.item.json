@@ -13,7 +13,7 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:icon": "armor_piercing_shell",
 			"minecraft:projectile": {
-				"projectile_entity": "minecraft:wither_skull_dangerous"
+				"projectile_entity": "minecraft:arrow"
 			},
 			"minecraft:throwable": {
 				"do_swing_animation": true,

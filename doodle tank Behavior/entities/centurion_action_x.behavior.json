@@ -70,14 +70,14 @@
       },
       "dt:ranged_components": {
         "minecraft:shooter": {
-          "def": "minecraft:wither_skull_dangerous"
+          "def": "minecraft:fireball"
         },
         "minecraft:behavior.ranged_attack": {
           "priority": 3,
           "ranged_fov": 90.0,
           "attack_interval_min": 1.0,
           "attack_interval_max": 3.0,
-          "attack_radius": 64
+          "attack_radius": 75
         },
         "minecraft:variant": {
           "value": 1

@@ -45,16 +45,7 @@
 				"controller.render.default",
 				"controller.render.attack_mode",
 				"controller.render.health_parameter"
-			],
-			"locators": {
-				"lead": {
-					"gun_tip": [
-						-0.00258,
-						35.79892,
-						-25.6501
-					]
-				}
-			}
+			]
 		}
 	}
 }

@@ -7,19 +7,19 @@
 			"textures": "textures/items/tank_deployers/deploy_tiger_1.png"
 		},
 		"armor": {
-			"textures": "textures/items/components/armor.png"
+			"textures": "textures/items/tank_components/armor.png"
 		},
 		"engine": {
-			"textures": "textures/items/components/engine.png"
+			"textures": "textures/items/tank_components/engine.png"
 		},
 		"gun": {
-			"textures": "textures/items/components/gun.png"
+			"textures": "textures/items/tank_components/gun.png"
 		},
 		"high_explosive_shell": {
-			"textures": "textures/items/high_explosive_shell.png"
+			"textures": "textures/items/shells/high_explosive_shell.png"
 		},
 		"armor_piercing_shell": {
-			"textures": "textures/items/armor_piercing_shell.png"
+			"textures": "textures/items/shells/armor_piercing_shell.png"
 		},
 		"spawn_egg_tiger_1": {
 			"textures": "textures/items/spawn_eggs/spawn_egg_tiger_1"
