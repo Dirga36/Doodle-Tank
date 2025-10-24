@@ -12,4 +12,4 @@ Battle tank entity with Minecraft's basic behaviours, Theese tanks will destroys
 - Tank's [health paramater](https://github.com/Dirga36/Doodle-Tank/wiki/Miscellaneous#1-health-parameter), shows current HP of the tank
 - You can sit on the tank
 
-Installation: [https://github.com/Dirga36/Doodle-Tank/wiki/Instalation](https://github.com/Dirga36/Doodle-Tank/wiki/Instalation)
+Installation: [see this page.](https://github.com/Dirga36/Doodle-Tank/wiki/Instalation)
