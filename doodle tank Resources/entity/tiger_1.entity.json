@@ -10,12 +10,12 @@
 			},
 			"textures": {
 				"default": "textures/entity/tiger_1/default",
-				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
-				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
-				"full": "textures/entity/tiger_1/100_percent_health",
-				"high": "textures/entity/tiger_1/75_percent_health",
-				"low": "textures/entity/tiger_1/25_percent_health",
-				"empty": "textures/entity/tiger_1/0_percent_health"
+				"melee_mode": "textures/entity/tiger_1/melee",
+				"ranged_mode": "textures/entity/tiger_1/ranged",
+				"full": "textures/entity/tiger_1/full",
+				"high": "textures/entity/tiger_1/high",
+				"low": "textures/entity/tiger_1/low",
+				"empty": "textures/entity/tiger_1/empty"
 			},
 			"geometry": {
 				"default": "geometry.tiger_1"
