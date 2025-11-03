@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.tiger_1.move": {
 			"loop": true,
-			"animation_length": 1,
+			"animation_length": 1.25,
 			"bones": {
 				"right_passive_gear_1": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
@@ -27,12 +27,6 @@
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_additional_passive_gear_4": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
-				},
-				"right_gear_front": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
-				},
-				"right_gear_back": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_passive_gear_1": {
@@ -59,13 +53,7 @@
 				"left_additional_passive_gear_4": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
-				"left_gear_front": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
-				},
-				"left_gear_back": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
-				},
-				"body": {
+				"tank": {
 					"position": {
 						"0.0": [0, 0, 0],
 						"0.1667": [0, 0.5, 0],
@@ -75,6 +63,18 @@
 						"1.0833": [0, 0.5, 0],
 						"1.25": [0, 0, 0]
 					}
+				},
+				"left_front_gear": {
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+				},
+				"left_back_gear": {
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+				},
+				"right_front_gear": {
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+				},
+				"right_back_gear": {
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				}
 			}
 		},
@@ -102,7 +102,7 @@
 		"animation.tiger_1.melee_attack": {
 			"animation_length": 0.5,
 			"bones": {
-				"body": {
+				"tank": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"0.0833": [0, 30, 0],
