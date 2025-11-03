@@ -5,8 +5,7 @@
 			"identifier": "dt:tiger_1",
 			"materials": {
 				"default": "entity_alphatest",
-				"attack_mode_layer": "villager_v2_masked",
-				"health_parameter_layer": "villager_v2_masked"
+				"view_layer": "villager_v2_masked"
 			},
 			"textures": {
 				"default": "textures/entity/tiger_1/default",
@@ -43,8 +42,7 @@
 			},
 			"render_controllers": [
 				"controller.render.default",
-				"controller.render.attack_mode",
-				"controller.render.health_parameter"
+				"controller.render.view"
 			]
 		}
 	}
