@@ -17,7 +17,11 @@
 				"empty": "textures/entity/tiger_1/empty"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1"
+				"default": "geometry.tiger_1",
+				"full": "geometry.tiger_1",
+				"high": "geometry.tiger_1_high",
+				"low": "geometry.tiger_1_low",
+				"empty": "geometry.tiger_1_empty"
 			},
 			"spawn_egg": {
 				"texture": "spawn_egg_tiger_1"
