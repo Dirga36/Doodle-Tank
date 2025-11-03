@@ -1,29 +1,21 @@
 {
   "format_version": "1.8.0",
   "render_controllers": {
-    "controller.render.attack_mode": {
+    "controller.render.view": {
       "arrays": {
         "textures": {
+          "Array.health_conditions": [
+            "Texture.full",
+            "Texture.high",
+            "Texture.low",
+            "Texture.empty"
+          ],
           "Array.attack_modes": [
             "Texture.melee_mode",
             "Texture.ranged_mode"
           ]
-        }
-      },
-      "geometry": "Geometry.default",
-      "materials": [
-        {
-          "*": "Material.attack_mode_layer"
-        }
-      ],
-      "textures": [
-        "Texture.default",
-        "Array.attack_modes[query.variant]"
-      ]
-    },
-    "controller.render.health_parameter": {
-      "arrays": {
-        "textures": {
+        },
+        "geometries": {
           "Array.health_conditions": [
             "Texture.full",
             "Texture.high",
@@ -32,16 +24,19 @@
           ]
         }
       },
-      "geometry": "Geometry.default",
+      "geometry": "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]",
       "materials": [
         {
-          "*": "Material.health_parameter_layer"
+          "*": "Material.view_layer"
         }
       ],
       "textures": [
-        "Texture.default",
-        "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]"
-      ]
+        "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]",
+        "Array.attack_modes[query.variant]"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "ignore_lighting": true
     }
   }
 }
