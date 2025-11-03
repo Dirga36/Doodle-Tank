@@ -17,10 +17,10 @@
         },
         "geometries": {
           "Array.health_conditions": [
-            "Texture.full",
-            "Texture.high",
-            "Texture.low",
-            "Texture.empty"
+            "Geometry.full",
+            "Geometry.high",
+            "Geometry.low",
+            "Geometry.empty"
           ]
         }
       },
@@ -31,6 +31,7 @@
         }
       ],
       "textures": [
+        "Texture.default",
         "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]",
         "Array.attack_modes[query.variant]"
       ],
