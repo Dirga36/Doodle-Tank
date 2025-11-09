@@ -9,9 +9,6 @@
 				},
 				"body": {
 					"rotation": ["query.vertical_speed * -3", 0, 0]
-				},
-				"gun_barrel": {
-					"rotation": ["query.target_x_rotation", 0, 0]
 				}
 			}
 		},
@@ -19,7 +16,11 @@
 			"loop": true,
 			"bones": {
 				"gun_barrel": {
-					"rotation": ["query.target_x_rotation", 0, 0]
+					"rotation": [
+						"clamp(query.target_x_rotation, -10, 20)",
+						0,
+						0
+					]
 				}
 			}
 		}

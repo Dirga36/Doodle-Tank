@@ -10,7 +10,7 @@
 	"metadata": {
 		"authors": ["Dirga"],
 		"generated_with": {
-			"blockbench_entity_wizard": ["1.7.0"],
+			"blockbench_entity_wizard": ["1.7.0", "1.8.2"],
 			"bridge": ["2.7.51"],
 			"dash": ["0.11.7"],
 			"blockbench_block_wizard": ["1.5.1"],

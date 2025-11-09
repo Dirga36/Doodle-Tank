@@ -17,3 +17,5 @@ item.dt:tank_engine=Tank engine
 item.dt:armor=Armor
 item.dt:deploy_tiger_1=Deploy Tiger 1
 item.dt:deploy_centurion_action_x=Deploy Centurion Action X
+entity.dt:strv_103.name=strv_103
+item.spawn_egg.entity.dt:strv_103.name=Spawn strv_103

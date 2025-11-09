@@ -1,0 +1,30 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dt:strv_103",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/strv_103"
+			},
+			"geometry": {
+				"default": "geometry.strv_103"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.strv_103.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"base_color": "#2a8e6d",
+				"overlay_color": "#1f7029"
+			}
+		}
+	}
+}
