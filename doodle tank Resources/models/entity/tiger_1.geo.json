@@ -5886,7 +5886,7 @@
 				{
 					"name": "turret",
 					"parent": "tank",
-					"pivot": [-2.97218, 29.66748, 0.32966],
+					"pivot": [0.0418, 35.5891, 0.5046],
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [
@@ -6374,7 +6374,7 @@
 				{
 					"name": "gun_barrel",
 					"parent": "turret",
-					"pivot": [0.12285, 35.90393, -19.8207],
+					"pivot": [0.02285, 35.90393, -19.8207],
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [
