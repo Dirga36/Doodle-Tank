@@ -4,47 +4,26 @@
 		"description": {
 			"identifier": "dt:strv_103",
 			"materials": {
-				"default": "entity_alphatest",
-				"view_layer": "villager_v2_masked"
+				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/strv_103/default",
-				"melee_mode": "textures/entity/strv_103/melee",
-				"ranged_mode": "textures/entity/strv_103/ranged",
-				"full": "textures/entity/strv_103/full",
-				"high": "textures/entity/strv_103/high",
-				"low": "textures/entity/strv_103/low",
-				"empty": "textures/entity/strv_103/empty"
+				"default": "textures/entity/strv_103/default"
 			},
 			"geometry": {
-				"default": "geometry.strv_103",
-				"full": "geometry.strv_103",
-				"high": "geometry.strv_103_high",
-				"low": "geometry.strv_103_low",
-				"empty": "geometry.strv_103_empty"
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_strv_103"
+				"default": "geometry.strv_103"
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
-				"turn": "animation.tank_rotation.turn",
-				"shoot": "animation.strv_103.shoot",
-				"melee_attack": "animation.strv_103.melee_attack",
-				"floating_info": "animation.floating_info.floating_info"
+				"turn": "animation.tank_rotation.turn"
 			},
 			"scripts": {
 				"animate": [
 					"move",
-					"turn",
-					"look",
-					"look_at_target",
-					"floating_info"
+					"turn"
 				]
 			},
 			"render_controllers": [
-				"controller.render.default",
-				"controller.render.view"
+				"controller.render.default"
 			]
 		}
 	}
