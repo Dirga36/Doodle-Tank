@@ -1,0 +1,51 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dt:centurion_action_x",
+			"materials": {
+				"default": "entity_alphatest",
+				"view_layer": "villager_v2_masked"
+			},
+			"textures": {
+				"default": "textures/entity/centurion_action_x/default",
+				"melee_mode": "textures/entity/centurion_action_x/melee",
+				"ranged_mode": "textures/entity/centurion_action_x/ranged",
+				"full": "textures/entity/centurion_action_x/full",
+				"high": "textures/entity/centurion_action_x/high",
+				"low": "textures/entity/centurion_action_x/low",
+				"empty": "textures/entity/centurion_action_x/empty"
+			},
+			"geometry": {
+				"default": "geometry.centurion_action_x",
+				"full": "geometry.centurion_action_x",
+				"high": "geometry.centurion_action_x_high",
+				"low": "geometry.centurion_action_x_low",
+				"empty": "geometry.centurion_action_x_empty"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg_centurion_action_x"
+			},
+			"animations": {
+				"move": "animation.centurion_action_x.move",
+				"turn": "animation.tank_rotation.turn",
+				"shoot": "animation.centurion_action_x.shoot",
+				"melee_attack": "animation.centurion_action_x.melee_attack",
+				"floating_info": "animation.floating_info.floating_info"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"turn",
+					"look",
+					"look_at_target",
+					"floating_info"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.view"
+			]
+		}
+	}
+}
