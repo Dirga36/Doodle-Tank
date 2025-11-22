@@ -88,68 +88,6 @@
 						0
 					]
 				}
-			},
-			"animation.strv_103.shoot": {
-				"animation_length": 1,
-				"bones": {
-					"suspension_barrel": {
-						"position": {
-							"0.0": {
-								"post": [
-									0,
-									0,
-									0
-								],
-								"lerp_mode": "catmullrom"
-							},
-							"0.0833": {
-								"post": [
-									0,
-									0,
-									7
-								],
-								"lerp_mode": "catmullrom"
-							},
-							"1.0": {
-								"post": [
-									0,
-									0,
-									0
-								],
-								"lerp_mode": "catmullrom"
-							}
-						}
-					}
-				}
-			},
-			"animation.strv_103.melee_attack": {
-				"animation_length": 0.5,
-				"bones": {
-					"tank": {
-						"rotation": {
-							"0.0": [
-								0,
-								0,
-								0
-							],
-							"0.0833": [
-								0,
-								30,
-								0
-							],
-							"0.2083": [
-								0,
-								-30,
-								0
-							],
-							"0.5": [
-								0,
-								0,
-								0
-							]
-						}
-					}
-				}
 			}
 		}
 	}

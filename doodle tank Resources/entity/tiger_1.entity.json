@@ -4,49 +4,30 @@
 		"description": {
 			"identifier": "dt:tiger_1",
 			"materials": {
-				"default": "entity_alphatest",
-				"view_layer": "villager_v2_masked"
+				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/tiger_1/default",
-				"melee_mode": "textures/entity/tiger_1/melee",
-				"ranged_mode": "textures/entity/tiger_1/ranged",
-				"full": "textures/entity/tiger_1/full",
-				"high": "textures/entity/tiger_1/high",
-				"low": "textures/entity/tiger_1/low",
-				"empty": "textures/entity/tiger_1/empty"
+				"default": "textures/entity/tiger_1/default"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1",
-				"full": "geometry.tiger_1",
-				"high": "geometry.tiger_1_high",
-				"low": "geometry.tiger_1_low",
-				"empty": "geometry.tiger_1_empty"
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg_tiger_1"
+				"default": "geometry.tiger_1"
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
-				"look_at_target": "animation.common.look_at_target",
-				"shoot": "animation.tiger_1.shoot",
-				"melee_attack": "animation.tiger_1.melee_attack",
-				"floating_info": "animation.floating_info.floating_info"
+				"look_at_target": "animation.common.look_at_target"
 			},
 			"scripts": {
 				"animate": [
 					"move",
 					"turn",
 					"look",
-					"look_at_target",
-					"floating_info"
+					"look_at_target"
 				]
 			},
 			"render_controllers": [
-				"controller.render.default",
-				"controller.render.view"
+				"controller.render.default"
 			]
 		}
 	}
