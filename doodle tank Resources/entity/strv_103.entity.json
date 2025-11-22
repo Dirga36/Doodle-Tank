@@ -1,30 +1,51 @@
 {
-	"format_version": "1.19.0",
+	"format_version": "1.21.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "dt:strv_103",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "entity_alphatest",
+				"view_layer": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/strv_103"
+				"default": "textures/entity/strv_103/default",
+				"melee_mode": "textures/entity/strv_103/melee",
+				"ranged_mode": "textures/entity/strv_103/ranged",
+				"full": "textures/entity/strv_103/full",
+				"high": "textures/entity/strv_103/high",
+				"low": "textures/entity/strv_103/low",
+				"empty": "textures/entity/strv_103/empty"
 			},
 			"geometry": {
-				"default": "geometry.strv_103"
-			},
-			"render_controllers": ["controller.render.default"],
-			"animations": {
-				"drive": "animation.strv_103.drive"
-			},
-			"scripts": {
-				"initialize": ["variable.steering = 0;"],
-				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
-				"animate": ["drive"]
+				"default": "geometry.strv_103",
+				"full": "geometry.strv_103",
+				"high": "geometry.strv_103_high",
+				"low": "geometry.strv_103_low",
+				"empty": "geometry.strv_103_empty"
 			},
 			"spawn_egg": {
-				"base_color": "#2a8e6d",
-				"overlay_color": "#1f7029"
-			}
+				"texture": "spawn_egg_strv_103"
+			},
+			"animations": {
+				"move": "animation.strv_103.move",
+				"turn": "animation.tank_rotation.turn",
+				"shoot": "animation.strv_103.shoot",
+				"melee_attack": "animation.strv_103.melee_attack",
+				"floating_info": "animation.floating_info.floating_info"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"turn",
+					"look",
+					"look_at_target",
+					"floating_info"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.view"
+			]
 		}
 	}
 }

@@ -10,6 +10,10 @@ entity.dt:centurion_action_x.name=Centurion Action X
 item.spawn_egg.entity.dt:centurion_action_x.name=Deploy Centurion Action X
 action.hint.exit.dt:centurion_action_x=Hold on tight..
 
+entity.dt:strv_103.name=STRV 103
+item.spawn_egg.entity.dt:strv_103.name=Deploy STRV 103
+action.hint.exit.dt:strv_103=Hold on tight..
+
 item.dt:high_explosive_shell=High explosive shell
 item.dt:armor_piercing_shell=Armor Piercing Shell
 item.dt:tank_gun=Tank gun
@@ -17,5 +21,3 @@ item.dt:tank_engine=Tank engine
 item.dt:armor=Armor
 item.dt:deploy_tiger_1=Deploy Tiger 1
 item.dt:deploy_centurion_action_x=Deploy Centurion Action X
-entity.dt:strv_103.name=strv_103
-item.spawn_egg.entity.dt:strv_103.name=Spawn strv_103
