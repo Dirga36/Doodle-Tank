@@ -3,15 +3,12 @@ pack.description=Add doodle looking into Minecraft
 modules.description=doodle_tank
 
 entity.dt:tiger_1.name=Tiger 1
-item.spawn_egg.entity.dt:tiger_1.name=Deploy Tiger 1
 action.hint.exit.dt:tiger_1=Hold on tight..
 
 entity.dt:centurion_action_x.name=Centurion Action X
-item.spawn_egg.entity.dt:centurion_action_x.name=Deploy Centurion Action X
 action.hint.exit.dt:centurion_action_x=Hold on tight..
 
 entity.dt:strv_103.name=STRV 103
-item.spawn_egg.entity.dt:strv_103.name=Deploy STRV 103
 action.hint.exit.dt:strv_103=Hold on tight..
 
 item.dt:high_explosive_shell=High explosive shell
