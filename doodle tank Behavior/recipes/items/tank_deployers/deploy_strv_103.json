@@ -1,0 +1,36 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dt:deploy_strv_103"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "Z",
+            "X#",
+            "Y"
+        ],
+        "key": {
+            "#": {
+                "item": "dt:gun"
+            },
+            "X": {
+                "item": "dt:high_explosive_shell"
+            },
+            "Y": {
+                "item": "dt:engine"
+            },
+            "Z": {
+                "item": "dt:armor"
+            }
+        },
+        "unlock": {
+            "context": "None"
+        },
+        "result": {
+            "item": "dt:deploy_strv_103"
+        }
+    }
+}
