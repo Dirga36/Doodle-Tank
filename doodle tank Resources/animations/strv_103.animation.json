@@ -89,6 +89,18 @@
 					]
 				}
 			}
+		},
+		"animation.strv_103.turn": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"query.vertical_speed * -3",
+						0,
+						0
+					]
+				}
+			}
 		}
 	}
 }

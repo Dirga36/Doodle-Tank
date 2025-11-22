@@ -4,20 +4,28 @@
 		"animation.tank_rotation.turn": {
 			"loop": true,
 			"bones": {
-				"turret": {
-					"rotation": [0, "query.target_y_rotation", 0]
-				},
 				"body": {
-					"rotation": ["query.vertical_speed * -3", 0, 0]
+					"rotation": [
+						"query.vertical_speed * -3",
+						0,
+						0
+					]
 				}
 			}
 		},
 		"animation.tank_rotation.look": {
 			"loop": true,
 			"bones": {
+				"turret": {
+					"rotation": [
+						0,
+						"query.target_y_rotation",
+						0
+					]
+				},
 				"gun_barrel": {
 					"rotation": [
-						"clamp(query.target_x_rotation, -10, 20)",
+						"query.target_x_rotation",
 						0,
 						0
 					]

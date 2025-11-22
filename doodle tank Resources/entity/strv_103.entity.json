@@ -14,7 +14,7 @@
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
-				"turn": "animation.tank_rotation.turn"
+				"turn": "animation.strv_103.turn"
 			},
 			"scripts": {
 				"animate": [
