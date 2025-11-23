@@ -7,7 +7,7 @@
 			"textures": "textures/items/tank_deployers/deploy_tiger_1.png"
 		},
 		"deploy_stv_103": {
-			"textures": "textures/items/tank_deployers/deploy_tiger_1.png"
+			"textures": "textures/items/tank_deployers/deploy_strv_103.png"
 		},
 		"armor": {
 			"textures": "textures/items/tank_components/armor.png"
