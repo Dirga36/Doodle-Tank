@@ -13,8 +13,11 @@ action.hint.exit.dt:strv_103=Hold on tight..
 
 item.dt:high_explosive_shell=High explosive shell
 item.dt:armor_piercing_shell=Armor Piercing Shell
+
 item.dt:tank_gun=Tank gun
 item.dt:tank_engine=Tank engine
 item.dt:armor=Armor
+
 item.dt:deploy_tiger_1=Deploy Tiger 1
 item.dt:deploy_centurion_action_x=Deploy Centurion Action X
+item.dt:deploy_strv_103=Deploy STRV 103

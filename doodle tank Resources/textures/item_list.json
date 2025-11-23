@@ -7,30 +7,12 @@
     "textures/items/shells/armor_piercing_shell",
 
     "textures/entity/tiger_1/default",
-    "textures/entity/tiger_1/100_health",
-    "textures/entity/tiger_1/75",
-    "textures/entity/tiger_1/25_health",
-    "textures/entity/tiger_1/0_health",
-    "textures/entity/tiger_1/melee_mode",
-    "textures/entity/tiger_1/ranged_mode",
 
     "textures/entity/centurion_action_x/default",
-    "textures/entity/centurion_action_x/100_health",
-    "textures/entity/centurion_action_x/75",
-    "textures/entity/centurion_action_x/25_health",
-    "textures/entity/centurion_action_x/0_health",
-    "textures/entity/centurion_action_x/melee_mode",
-    "textures/entity/centurion_action_x/ranged_mode",
 
     "textures/entity/strv_103/default",
-    "textures/entity/strv_103/100_health",
-    "textures/entity/strv_103/75",
-    "textures/entity/strv_103/25_health",
-    "textures/entity/strv_103/0_health",
-    "textures/entity/strv_103/melee_mode",
-    "textures/entity/strv_103/ranged_mode",
 
-    "textures/items/tank_deployers/deploy_centurion_action_x",
+    "textures/items/tank_deployers/deploy_tiger_1",
     "textures/items/tank_deployers/deploy_centurion_action_x",
     "textures/items/tank_deployers/deploy_strv_103"
 ]
