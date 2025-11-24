@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "body",
+					"name": "tank",
 					"pivot": [-4.08534, 12.302, -0.09346]
 				},
 				{
 					"name": "hull_front",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [0, 15.37154, -35.30751],
 					"rotation": [-55, 0, 0],
 					"poly_mesh": {
@@ -110,7 +110,7 @@
 				},
 				{
 					"name": "hull_center",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [-3.55321, 20.93865, -5.19413],
 					"poly_mesh": {
 						"normalized_uvs": true,
@@ -278,7 +278,7 @@
 				},
 				{
 					"name": "hull_back",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [0, 16.16656, 51.67333]
 				},
 				{
@@ -790,7 +790,7 @@
 				},
 				{
 					"name": "turret",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [5.88781, 24.51245, -1.20807]
 				},
 				{
@@ -2034,7 +2034,7 @@
 				},
 				{
 					"name": "other_components",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [0, 0.39427, 7.35621]
 				},
 				{
@@ -2824,7 +2824,7 @@
 				},
 				{
 					"name": "spaced_armors",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [-30.932, 9.59027, -7.13959]
 				},
 				{
@@ -3709,7 +3709,7 @@
 				},
 				{
 					"name": "tracks",
-					"parent": "body",
+					"parent": "tank",
 					"pivot": [0, -0.85973, -10.8345]
 				},
 				{
