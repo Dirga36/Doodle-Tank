@@ -154,19 +154,19 @@
       "minecraft:custom_hit_test": {
         "hitboxes": [
           {
-            "width": 3.5,
-            "height": 0.5,
+            "width": 3.7,
+            "height": 1.6,
             "pivot": [
               0,
-              1.75,
-              -0.5
+              1.5,
+              0
             ]
           }
         ]
       },
       "minecraft:collision_box": {
-        "height": 3.5,
-        "width": 0.5
+        "height": 3.7,
+        "width": 1.6
       },
       "minecraft:movement": {
         "value": 0.2
