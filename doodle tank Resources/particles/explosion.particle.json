@@ -5,12 +5,12 @@
       "identifier": "dt:explosion",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/particles/flame_atlas"
+        "texture": "textures/particles/basic_flame_particle"
       }
     },
     "components": {
       "minecraft:emitter_rate_instant": {
-        "num_particles": 100
+        "num_particles": 120
       },
       "minecraft:emitter_lifetime_once": {
         "active_time": 1
