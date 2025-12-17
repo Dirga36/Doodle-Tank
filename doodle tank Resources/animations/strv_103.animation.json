@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.strv_103.move": {
 			"loop": true,
-			"animation_length": 0.75,
+			"animation_length": 2.5,
 			"bones": {
 				"left_gear_1": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
