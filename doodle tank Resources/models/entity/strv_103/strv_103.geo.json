@@ -13529,10 +13529,7 @@
 				},
 				{
 					"name": "shell",
-					"pivot": [0, 28.2, -69.6875],
-					"locators": {
-						"explosion": [0, 28.2, -70.25]
-					},
+					"pivot": [0, 28.2, -69.125],
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [
@@ -13611,6 +13608,13 @@
 								[7, 7, 15]
 							]
 						]
+					}
+				},
+				{
+					"name": "explosion",
+					"pivot": [0, 28.2, -70.25],
+					"locators": {
+						"explosion": [0, 28.2, -70.25]
 					}
 				}
 			]
