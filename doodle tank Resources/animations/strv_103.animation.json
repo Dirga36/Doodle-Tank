@@ -59,7 +59,7 @@
 			}
 		},
 		"animation.strv_103.shoot": {
-			"animation_length": 1,
+			"animation_length": 1.5,
 			"bones": {
 				"hull": {
 					"rotation": {
@@ -71,8 +71,29 @@
 				"shell": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"1.0": [0, 0, -1000]
+						"0.25": [0, 0, -1000]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.2083": [1, 1, 1],
+						"0.25": [0, 0, 0]
 					}
+				},
+				"explosion": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, -1000]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0417": {
+					"effect": "smoke_blast",
+					"locator": "gun_tip"
+				},
+				"0.25": {
+					"effect": "explosion",
+					"locator": "explosion"
 				}
 			}
 		}
