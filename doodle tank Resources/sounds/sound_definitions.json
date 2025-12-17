@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "cannon.cannon-shot": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/cannon/cannon-shot",
+          "stream": false
+        }
+      ]
+    }
+  }
+}
