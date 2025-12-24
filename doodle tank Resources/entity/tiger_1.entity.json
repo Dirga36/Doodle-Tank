@@ -18,9 +18,7 @@
 				"empty": "textures/entity/tiger_1/0_percent_health"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1",
-				"attack_mode_layer": "villager_v2_masked",
-				"health_parameter_layer": "villager_v2_masked"
+				"default": "geometry.tiger_1"
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",

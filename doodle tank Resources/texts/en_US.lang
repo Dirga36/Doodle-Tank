@@ -3,19 +3,19 @@ pack.description=Add doodle looking into Minecraft
 modules.description=doodle_tank
 
 entity.dt:tiger_1.name=Tiger 1
-action.hint.exit.dt:tiger_1=Hold on tight..
+action.hint.exit.dt:tiger_1=Auf gehts!
 
 entity.dt:centurion_action_x.name=Centurion Action X
-action.hint.exit.dt:centurion_action_x=Hold on tight..
+action.hint.exit.dt:centurion_action_x=Time to roll out!
 
 entity.dt:strv_103.name=Strv 103
-action.hint.exit.dt:strv_103=Hold on tight..
+action.hint.exit.dt:strv_103=Starta motor!
 
 item.dt:high_explosive_shell=High explosive shell
 item.dt:armor_piercing_shell=Armor Piercing Shell
 
-item.dt:tank_gun=Tank gun
-item.dt:tank_engine=Tank engine
+item.dt:gun=Tank gun
+item.dt:engine=Tank engine
 item.dt:armor=Armor
 
 item.dt:deploy_tiger_1=Deploy Tiger 1

@@ -9,8 +9,7 @@
         ],
         "pattern": [
             "Z",
-            "X#",
-            "Y"
+            "X#"
         ],
         "key": {
             "#": {
@@ -21,9 +20,6 @@
             },
             "Y": {
                 "item": "dt:engine"
-            },
-            "Z": {
-                "item": "dt:armor"
             }
         },
         "unlock": {
