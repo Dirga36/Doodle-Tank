@@ -4,26 +4,39 @@
 		"description": {
 			"identifier": "dt:strv_103",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "entity_alphatest",
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/strv_103/default"
+				"default": "textures/entity/strv_103/default",
+				"melee_attack_mode": "textures/entity/strv_103/melee_attack_mode",
+				"ranged_attack_mode": "textures/entity/strv_103/ranged_attack_mode",
+				"full": "textures/entity/strv_103/100_percent_health",
+				"high": "textures/entity/strv_103/75_percent_health",
+				"low": "textures/entity/strv_103/25_percent_health",
+				"empty": "textures/entity/strv_103/0_percent_health"
 			},
 			"geometry": {
 				"default": "geometry.strv_103"
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
-				"turn": "animation.strv_103.turn"
+				"turn": "animation.tank_rotation.turn",
+				"shoot": "animation.strv_103.shoot",
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
 					"move",
-					"turn"
+					"turn",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.default",
+				"controller.render.attack_mode",
+				"controller.render.health_parameter"
 			]
 		}
 	}

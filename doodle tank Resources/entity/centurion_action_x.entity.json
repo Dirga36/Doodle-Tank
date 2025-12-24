@@ -4,10 +4,18 @@
 		"description": {
 			"identifier": "dt:centurion_action_x",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "entity_alphatest",
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/centurion_action_x/default"
+				"default": "textures/entity/centurion_action_x/default",
+				"melee_attack_mode": "textures/entity/centurion_action_x/melee_attack_mode",
+				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode",
+				"full": "textures/entity/centurion_action_x/100_percent_health",
+				"high": "textures/entity/centurion_action_x/75_percent_health",
+				"low": "textures/entity/centurion_action_x/25_percent_health",
+				"empty": "textures/entity/centurion_action_x/0_percent_health"
 			},
 			"geometry": {
 				"default": "geometry.centurion_action_x"
@@ -16,18 +24,23 @@
 				"move": "animation.centurion_action_x.move",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
-				"look_at_target": "animation.common.look_at_target"
+				"look_at_target": "animation.common.look_at_target",
+				"shoot": "animation.centurion_action_x.shoot",
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
 					"move",
 					"turn",
 					"look",
-					"look_at_target"
+					"look_at_target",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.default",
+				"controller.render.attack_mode",
+				"controller.render.health_parameter"
 			]
 		}
 	}

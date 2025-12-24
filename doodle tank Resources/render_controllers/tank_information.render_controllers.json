@@ -1,0 +1,47 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.attack_mode": {
+      "arrays": {
+        "textures": {
+          "Array.attack_modes": [
+            "Texture.melee_attack_mode",
+            "Texture.ranged_attack_mode"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.attack_mode_layer"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Array.attack_modes[query.variant]"
+      ]
+    },
+    "controller.render.health_parameter": {
+      "arrays": {
+        "textures": {
+          "Array.health_conditions": [
+            "Texture.full",
+            "Texture.high",
+            "Texture.low",
+            "Texture.empty"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.health_parameter_layer"
+        }
+      ],
+      "textures": [
+        "Texture.default",
+        "Array.health_conditions[math.clamp(math.floor((1.0 - (query.health / query.max_health)) * 4.0), 0, 3)]"
+      ]
+    }
+  }
+}
