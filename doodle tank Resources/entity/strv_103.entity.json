@@ -14,23 +14,17 @@
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
-				"turn": "animation.strv_103.turn",
-				"shoot": "animation.strv_103.shoot"
+				"turn": "animation.strv_103.turn"
 			},
 			"scripts": {
 				"animate": [
 					"move",
-					"turn",
-					"shoot"
+					"turn"
 				]
 			},
 			"render_controllers": [
 				"controller.render.default"
-			],
-			"particle_effects": {
-				"smoke_blast": "dt:smoke_blast",
-				"explosion": "dt:explosion"
-			}
+			]
 		}
 	}
 }

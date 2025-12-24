@@ -9,6 +9,9 @@
     },
     "component_groups": {
       "dt:basic_behavior": {
+        "minecraft:loot": {
+          "table": "loot_tables/entities/tank_loot.json"
+        },
         "minecraft:fire_immune": {},
         "minecraft:knockback_resistance": {
           "max": 1,

@@ -3,7 +3,6 @@
 	"animations": {
 		"animation.strv_103.move": {
 			"loop": true,
-			"animation_length": 2.1875,
 			"bones": {
 				"left_gear_1": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
@@ -40,13 +39,6 @@
 				},
 				"right_gear_6": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
-				},
-				"hull": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.375": [0, 0.5, 0],
-						"0.75": [0, 0, 0]
-					}
 				}
 			}
 		},
@@ -55,51 +47,6 @@
 			"bones": {
 				"tank": {
 					"rotation": ["query.vertical_speed * -3", 0, 0]
-				}
-			}
-		},
-		"animation.strv_103.shoot": {
-			"animation_length": 2.1667,
-			"bones": {
-				"hull": {
-					"rotation": {
-						"0.0417": [0, 0, 0],
-						"0.125": [-2.5, 0, 0],
-						"0.4167": [0, 0, 0]
-					}
-				},
-				"shell": {
-					"position": {
-						"0.0417": [0, 0, 0],
-						"0.2917": [0, 0, -1000]
-					},
-					"scale": {
-						"0.0417": [1, 1, 1],
-						"0.25": [1, 1, 1],
-						"0.2917": [0, 0, 0]
-					}
-				},
-				"explosion": {
-					"position": {
-						"0.0417": [0, 0, 0],
-						"0.2917": [0, 0, -1000]
-					}
-				}
-			},
-			"sound_effects": {
-				"0.0": {
-					"effect": "cannon_shot.mp3",
-					"locator": "gun_tip"
-				}
-			},
-			"particle_effects": {
-				"0.0833": {
-					"effect": "dt:smoke_blast",
-					"locator": "gun_tip"
-				},
-				"0.2917": {
-					"effect": "dt:explosion",
-					"locator": "explosion"
 				}
 			}
 		}
