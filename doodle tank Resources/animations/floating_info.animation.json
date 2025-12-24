@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.0",
+	"animations": {
+		"animation.floating_info.floating_info": {
+			"loop": true,
+			"bones": {
+				"floating_info": {
+					"rotation": [
+						0,
+						"90-query.camera_rotation(1)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

@@ -4,13 +4,23 @@
 		"description": {
 			"identifier": "dt:tiger_1",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "entity_alphatest",
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
-				"default": "textures/entity/tiger_1/default"
+				"default": "textures/entity/tiger_1/default",
+				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
+				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
+				"full": "textures/entity/tiger_1/100_percent_health",
+				"high": "textures/entity/tiger_1/75_percent_health",
+				"low": "textures/entity/tiger_1/25_percent_health",
+				"empty": "textures/entity/tiger_1/0_percent_health"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1"
+				"default": "geometry.tiger_1",
+				"attack_mode_layer": "villager_v2_masked",
+				"health_parameter_layer": "villager_v2_masked"
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",
@@ -19,7 +29,8 @@
 				"counter_clokwise_rotation": "animation.tiger_1.counter_clokwise_rotation",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
-				"look_at_target": "animation.common.look_at_target"
+				"look_at_target": "animation.common.look_at_target",
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
@@ -29,11 +40,14 @@
 					"counter_clokwise_rotation",
 					"turn",
 					"look",
-					"look_at_target"
+					"look_at_target",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.default",
+				"controller.render.attack_mode",
+				"controller.render.health_parameter"
 			]
 		}
 	}
