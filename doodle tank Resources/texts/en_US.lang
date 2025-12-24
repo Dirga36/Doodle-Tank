@@ -8,7 +8,7 @@ action.hint.exit.dt:tiger_1=Hold on tight..
 entity.dt:centurion_action_x.name=Centurion Action X
 action.hint.exit.dt:centurion_action_x=Hold on tight..
 
-entity.dt:strv_103.name=STRV 103
+entity.dt:strv_103.name=Strv 103
 action.hint.exit.dt:strv_103=Hold on tight..
 
 item.dt:high_explosive_shell=High explosive shell
@@ -20,4 +20,4 @@ item.dt:armor=Armor
 
 item.dt:deploy_tiger_1=Deploy Tiger 1
 item.dt:deploy_centurion_action_x=Deploy Centurion Action X
-item.dt:deploy_strv_103=Deploy STRV 103
+item.dt:deploy_strv_103=Deploy Strv 103

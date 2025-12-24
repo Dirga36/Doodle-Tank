@@ -4,7 +4,7 @@ Battle tank entity with Minecraft's basic behaviours, Theese tanks will destroys
 
 ### What this mod adds?
 
-- 2 [tanks](https://github.com/Dirga36/Doodle-Tank/wiki/Entity-list#entity-list), each has different statistics
+- 3 [tanks](https://github.com/Dirga36/Doodle-Tank/wiki/Entity-list#entity-list), each has different statistics
 
 - New [items](https://github.com/Dirga36/Doodle-Tank/wiki/Item-List#item-list), craftable items for building the tank
 
