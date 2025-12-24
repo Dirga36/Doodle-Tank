@@ -17,7 +17,7 @@
                 "item": "dt:gun"
             },
             "X": {
-                "item": "dt:high_explosive_shell"
+                "item": "dt:armor_piercing_shell"
             },
             "Y": {
                 "item": "dt:engine"
