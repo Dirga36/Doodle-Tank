@@ -8,8 +8,7 @@
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_2": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0],
-					"position": [1, 0, 0]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_3": {
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]

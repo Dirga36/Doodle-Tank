@@ -22,9 +22,6 @@
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",
-				"shoot": "animation.tiger_1.shoot",
-				"clokwise_rotation": "animation.tiger_1.clokwise_rotation",
-				"counter_clokwise_rotation": "animation.tiger_1.counter_clokwise_rotation",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
@@ -33,9 +30,6 @@
 			"scripts": {
 				"animate": [
 					"move",
-					"shoot",
-					"clokwise_rotation",
-					"counter_clokwise_rotation",
 					"turn",
 					"look",
 					"look_at_target",

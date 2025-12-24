@@ -5,507 +5,64 @@
 			"loop": true,
 			"bones": {
 				"left_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"chasis": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0833": [0, 0.25, 0],
-						"0.1667": [0, 0, 0],
-						"0.2917": [0, 0, 0],
-						"0.375": [0, 0.25, 0],
-						"0.4583": [0, 0, 0],
-						"0.5417": [0, 0, 0],
-						"0.625": [0, 0.25, 0],
-						"0.7083": [0, 0, 0],
-						"0.8333": [0, 0, 0],
-						"0.9167": [0, 0.25, 0],
-						"1.0": [0, 0, 0]
-					}
-				}
-			},
-			"particle_effects": {
-				"0.0": {
-					"effect": "trail",
-					"locator": "left_trail"
-				},
-				"0.0417": {
-					"effect": "trail",
-					"locator": "right_trail"
-				}
-			}
-		},
-		"animation.tiger_1.shoot": {
-			"animation_length": 2.1667,
-			"bones": {
-				"shell": {
-					"position": {
-						"0.0417": [0, 0, 0],
-						"0.2917": [0, 0, -1500]
-					},
-					"scale": {
-						"0.0417": [10, 10, 10],
-						"0.2917": [10, 10, 10],
-						"0.3333": [0, 0, 0]
-					}
-				},
-				"explosion": {
-					"position": {
-						"0.0417": [0, 0, 0],
-						"0.2917": [0, 0, -1500]
-					}
-				},
-				"chasis": {
-					"rotation": {
-						"0.0417": [0, 0, 0],
-						"0.125": [-2.5, 0, 0],
-						"0.4167": [0, 0, 0]
-					}
-				},
-				"suspension_barrel": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0417": [0, 0, 5],
-						"0.75": [0, 0, 0]
-					}
-				}
-			},
-			"sound_effects": {
-				"0.0": {
-					"effect": "cannon_shot.mp3",
-					"locator": "gun_tip"
-				}
-			},
-			"particle_effects": {
-				"0.0833": {
-					"effect": "dt:smoke_blast",
-					"locator": "gun_tip"
-				},
-				"0.125": {
-					"effect": "muzzle_flash",
-					"locator": "gun_tip",
-					"bind_to_actor": false
-				},
-				"0.2917": {
-					"effect": "dt:explosion",
-					"locator": "explosion"
-				}
-			}
-		},
-		"animation.tiger_1.clokwise_rotation": {
-			"loop": true,
-			"animation_length": 1,
-			"bones": {
-				"left_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"left_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"tank": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 360, 0]
-					}
-				}
-			},
-			"particle_effects": {
-				"0.0": {
-					"effect": "trail",
-					"locator": "left_trail"
-				},
-				"0.0417": {
-					"effect": "trail",
-					"locator": "right_trail"
-				}
-			}
-		},
-		"animation.tiger_1.counter_clokwise_rotation": {
-			"loop": true,
-			"animation_length": 1,
-			"bones": {
-				"left_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"left_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [-180, 0, 0]
-					}
-				},
-				"right_gear_1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_2": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_3": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_4": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_5": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_6": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_7": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_8": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_9": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"right_gear_10": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [180, 0, 0]
-					}
-				},
-				"chasis": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0833": [0, 0.25, 0],
-						"0.1667": [0, 0, 0],
-						"0.2917": [0, 0, 0],
-						"0.375": [0, 0.25, 0],
-						"0.4583": [0, 0, 0],
-						"0.5417": [0, 0, 0],
-						"0.625": [0, 0.25, 0],
-						"0.7083": [0, 0, 0],
-						"0.8333": [0, 0, 0],
-						"0.9167": [0, 0.25, 0],
-						"1.0": [0, 0, 0]
-					}
-				},
-				"tank": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, -360, 0]
-					}
-				}
-			},
-			"particle_effects": {
-				"0.0": {
-					"effect": "trail",
-					"locator": "left_trail"
-				},
-				"0.0417": {
-					"effect": "trail",
-					"locator": "right_trail"
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				}
 			}
 		}

@@ -88,7 +88,7 @@
       },
       "dt:carry_entity": {
         "minecraft:rideable": {
-          "seat_count": 2,
+          "seat_count": 3,
           "family_types": [
             "player",
             "villager"
@@ -110,11 +110,23 @@
               "min_rider_count": 1,
               "max_rider_count": 2,
               "position": [
-                0,
-                1.6,
+                -1,
+                1.5,
                 -2.4
               ],
-              "rotate_rider_by": 180,
+              "rotate_rider_by": 90,
+              "third_person_camera_radius": 8.0,
+              "camera_relax_distance_smoothing": 6.0
+            },
+            {
+              "min_rider_count": 2,
+              "max_rider_count": 3,
+              "position": [
+                1,
+                1.5,
+                -2.4
+              ],
+              "rotate_rider_by": -90,
               "third_person_camera_radius": 8.0,
               "camera_relax_distance_smoothing": 6.0
             }

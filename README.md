@@ -9,7 +9,11 @@ Battle tank entity with Minecraft's basic behaviours, Theese tanks will destroys
 - New [items](https://github.com/Dirga36/Doodle-Tank/wiki/Item-List#item-list), craftable items for building the tank
 
 ### Features
+
+- Tanks will defend you and villagers from monsters
+
 - Tank's [health paramater](https://github.com/Dirga36/Doodle-Tank/wiki/Miscellaneous#1-health-parameter), shows current HP of the tank
+
 - You can sit on the tank
 
 Installation: [see this page.](https://github.com/Dirga36/Doodle-Tank/wiki/Instalation)
