@@ -17,12 +17,15 @@
 				"low": "textures/entity/strv_103/25_percent_health",
 				"empty": "textures/entity/strv_103/0_percent_health"
 			},
+			"particle_effects": {
+				"smoke_blast": "dt:smoke_blast"
+			},
 			"geometry": {
 				"default": "geometry.strv_103"
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
-				"shoot": "animation.centurion_action_x.shoot",
+				"shoot": "animation.strv_103.shoot",
 				"shooting": "controller.animation.tank.shooting",
 				"turn": "animation.strv_103.turn",
 				"floating_info": "animation.floating_info.floating_info"

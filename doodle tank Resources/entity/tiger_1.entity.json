@@ -17,6 +17,9 @@
 				"low": "textures/entity/tiger_1/25_percent_health",
 				"empty": "textures/entity/tiger_1/0_percent_health"
 			},
+			"particle_effects": {
+				"smoke_blast": "dt:smoke_blast"
+			},
 			"geometry": {
 				"default": "geometry.tiger_1"
 			},

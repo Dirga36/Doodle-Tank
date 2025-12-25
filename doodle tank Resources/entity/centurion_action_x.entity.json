@@ -17,6 +17,9 @@
 				"low": "textures/entity/centurion_action_x/25_percent_health",
 				"empty": "textures/entity/centurion_action_x/0_percent_health"
 			},
+			"particle_effects": {
+				"smoke_blast": "dt:smoke_blast"
+			},
 			"geometry": {
 				"default": "geometry.centurion_action_x"
 			},

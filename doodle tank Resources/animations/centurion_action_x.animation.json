@@ -53,6 +53,30 @@
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				}
 			}
+		},
+		"animation.centurion_action_x.shoot": {
+			"animation_length": 2.25,
+			"bones": {
+				"suspension_barrel": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 10],
+						"0.75": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "cannon_shot.mp3",
+					"locator": "gun_tip"
+				}
+			},
+			"particle_effects": {
+				"0.0417": {
+					"effect": "smoke_blast",
+					"locator": "gun_tip"
+				}
+			}
 		}
 	}
 }

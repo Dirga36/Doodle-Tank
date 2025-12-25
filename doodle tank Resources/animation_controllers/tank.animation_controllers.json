@@ -6,11 +6,11 @@
         "default": {
           "transitions": [
             {
-              "swaying": "query.facing_target_to_range_attack"
+              "shooting": "query.facing_target_to_range_attack"
             }
           ]
         },
-        "swaying": {
+        "shooting": {
           "animations": [
             "shoot"
           ],
