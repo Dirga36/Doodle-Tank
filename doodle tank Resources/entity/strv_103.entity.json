@@ -22,13 +22,15 @@
 			},
 			"animations": {
 				"move": "animation.strv_103.move",
+				"shoot": "animation.centurion_action_x.shoot",
+				"shooting": "controller.animation.tank.shooting",
 				"turn": "animation.strv_103.turn",
-				"shoot": "animation.strv_103.shoot",
 				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
 					"move",
+					"shooting",
 					"turn",
 					"floating_info"
 				]

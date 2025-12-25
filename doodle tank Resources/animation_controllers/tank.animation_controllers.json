@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.tank.shooting": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "swaying": "query.facing_target_to_range_attack"
+            }
+          ]
+        },
+        "swaying": {
+          "animations": [
+            "shoot"
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_on_ground"
+            }
+          ],
+          "blend_transition": 0.5
+        }
+      }
+    }
+  }
+}

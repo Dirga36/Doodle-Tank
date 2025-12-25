@@ -22,15 +22,17 @@
 			},
 			"animations": {
 				"move": "animation.centurion_action_x.move",
+				"shoot": "animation.centurion_action_x.shoot",
+				"shooting": "controller.animation.tank.shooting",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
-				"shoot": "animation.centurion_action_x.shoot",
 				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
 					"move",
+					"shooting",
 					"turn",
 					"look",
 					"look_at_target",

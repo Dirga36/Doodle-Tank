@@ -65,6 +65,18 @@
 					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				}
 			}
+		},
+		"animation.tiger_1.shoot": {
+			"animation_length": 1,
+			"bones": {
+				"suspension_barrel": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 10],
+						"0.75": [0, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }

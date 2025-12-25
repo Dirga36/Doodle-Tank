@@ -22,6 +22,8 @@
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",
+				"shoot": "animation.tiger_1.shoot",
+				"shooting": "controller.animation.tank.shooting",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
@@ -30,6 +32,7 @@
 			"scripts": {
 				"animate": [
 					"move",
+					"shooting",
 					"turn",
 					"look",
 					"look_at_target",
