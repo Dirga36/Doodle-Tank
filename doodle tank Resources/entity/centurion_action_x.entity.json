@@ -26,7 +26,9 @@
 			"animations": {
 				"move": "animation.centurion_action_x.move",
 				"shoot": "animation.centurion_action_x.shoot",
+				"punch": "animation.centurion_action_x.punch",
 				"shooting": "controller.animation.tank.shooting",
+				"punching": "controller.animation.tank.punching",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
@@ -35,6 +37,7 @@
 			"scripts": {
 				"animate": [
 					"move",
+					"punching",
 					"shooting",
 					"turn",
 					"look",

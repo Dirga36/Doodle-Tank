@@ -64,6 +64,17 @@
         "minecraft:attack": {
           "damage": 6
         },
+        "minecraft:behavior.delayed_attack": {
+          "priority": 3,
+          "attack_once": false,
+          "track_target": false,
+          "require_complete_path": false,
+          "random_stop_interval": 0,
+          "reach_multiplier": 1.5,
+          "speed_multiplier": 1,
+          "attack_duration": 0.75,
+          "hit_delay_pct": 0.5
+        },
         "minecraft:behavior.melee_attack": {
           "priority": 10
         },
@@ -80,7 +91,8 @@
           "ranged_fov": 90.0,
           "attack_interval_max": 4.0,
           "attack_interval_min": 0.8,
-          "attack_radius": 100
+          "attack_radius": 100,
+          "swing": true
         },
         "minecraft:variant": {
           "value": 1

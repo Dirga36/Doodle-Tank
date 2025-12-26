@@ -54,6 +54,19 @@
 				}
 			}
 		},
+		"animation.centurion_action_x.punch": {
+			"animation_length": 0.5,
+			"bones": {
+				"tank": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 5, 0],
+						"0.125": [0, -22.5, 0],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		},
 		"animation.centurion_action_x.shoot": {
 			"animation_length": 2.25,
 			"bones": {

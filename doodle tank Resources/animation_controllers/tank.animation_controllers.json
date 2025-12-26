@@ -6,7 +6,7 @@
         "default": {
           "transitions": [
             {
-              "shooting": "query.facing_target_to_range_attack"
+              "shooting": "variable.attack_time > 0"
             }
           ]
         },
@@ -16,10 +16,32 @@
           ],
           "transitions": [
             {
-              "default": "!query.is_on_ground"
+              "default": "variable.attack_time == 0"
             }
           ],
-          "blend_transition": 0.5
+          "blend_transition": 0.1
+        }
+      }
+    },
+    "controller.animation.tank.punching": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "punching": "query.is_delayed_attacking"
+            }
+          ]
+        },
+        "punching": {
+          "animations": [
+            "punch"
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_delayed_attacking"
+            }
+          ],
+          "blend_transition": 0.1
         }
       }
     }
