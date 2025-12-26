@@ -89,9 +89,9 @@
         "minecraft:behavior.ranged_attack": {
           "priority": 3,
           "ranged_fov": 90.0,
-          "attack_interval_max": 4.0,
-          "attack_interval_min": 0.8,
-          "attack_radius": 100
+          "attack_radius": 100,
+          "charge_shoot_trigger": 2,
+          "charge_charged_trigger": 1
         },
         "minecraft:variant": {
           "value": 1
