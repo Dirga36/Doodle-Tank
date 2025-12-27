@@ -10,7 +10,7 @@
 			},
 			"textures": {
 				"default": "textures/entity/centurion_action_x/default",
-				"melee_attack_mode": "textures/entity/centurion_action_x/melee_attack_mode",
+				"stay_away_mode": "textures/entity/centurion_action_x/stay_away_mode",
 				"ranged_attack_mode": "textures/entity/centurion_action_x/ranged_attack_mode",
 				"full": "textures/entity/centurion_action_x/100_percent_health",
 				"high": "textures/entity/centurion_action_x/75_percent_health",

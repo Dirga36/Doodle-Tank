@@ -10,7 +10,7 @@
 			},
 			"textures": {
 				"default": "textures/entity/tiger_1/default",
-				"melee_attack_mode": "textures/entity/tiger_1/melee_attack_mode",
+				"stay_away_mode": "textures/entity/tiger_1/stay_away_mode",
 				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
 				"full": "textures/entity/tiger_1/100_percent_health",
 				"high": "textures/entity/tiger_1/75_percent_health",

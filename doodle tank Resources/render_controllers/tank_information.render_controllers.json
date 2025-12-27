@@ -5,7 +5,7 @@
       "arrays": {
         "textures": {
           "Array.attack_modes": [
-            "Texture.melee_attack_mode",
+            "Texture.stay_away_mode",
             "Texture.ranged_attack_mode"
           ]
         }

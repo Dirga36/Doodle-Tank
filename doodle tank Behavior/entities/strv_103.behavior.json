@@ -51,7 +51,7 @@
           "outside_range": 5.0,
           "must_see": true,
           "on_inside_range": {
-            "event": "dt:melee_swap",
+            "event": "dt:stay_away_swap",
             "target": "self"
           },
           "on_outside_range": {
@@ -60,23 +60,23 @@
           }
         }
       },
-      "dt:melee_components": {
-        "minecraft:attack": {
-          "damage": 6
-        },
-        "minecraft:behavior.delayed_attack": {
-          "priority": 3,
-          "attack_once": false,
-          "track_target": false,
-          "require_complete_path": false,
-          "random_stop_interval": 0,
-          "reach_multiplier": 1.5,
-          "speed_multiplier": 1,
-          "attack_duration": 0.75,
-          "hit_delay_pct": 0.5
-        },
-        "minecraft:behavior.melee_attack": {
-          "priority": 10
+      "dt:stay_away_components": {
+        "minecraft:behavior.avoid_mob_type": {
+          "ignore_visibility": true,
+          "probability_per_strength": 0.14,
+          "sprint_speed_multiplier": 2,
+          "walk_speed_multiplier": 2,
+          "entity_types": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]
+            }
+          }
         },
         "minecraft:variant": {
           "value": 0
@@ -90,8 +90,9 @@
           "priority": 3,
           "ranged_fov": 90.0,
           "attack_radius": 100,
-          "charge_shoot_trigger": 2,
-          "charge_charged_trigger": 1
+          "attack_interval_max": 5,
+          "attack_interval_min": 4,
+          "swing": true
         },
         "minecraft:variant": {
           "value": 1
@@ -206,7 +207,7 @@
           ]
         }
       },
-      "dt:melee_swap": {
+      "dt:stay_away_swap": {
         "remove": {
           "component_groups": [
             "dt:ranged_components"
@@ -214,14 +215,14 @@
         },
         "add": {
           "component_groups": [
-            "dt:melee_components"
+            "dt:stay_away_components"
           ]
         }
       },
       "dt:ranged_swap": {
         "remove": {
           "component_groups": [
-            "dt:melee_components"
+            "dt:stay_away_components"
           ]
         },
         "add": {

@@ -10,7 +10,7 @@
 			},
 			"textures": {
 				"default": "textures/entity/strv_103/default",
-				"melee_attack_mode": "textures/entity/strv_103/melee_attack_mode",
+				"stay_away_mode": "textures/entity/strv_103/stay_away_mode",
 				"ranged_attack_mode": "textures/entity/strv_103/ranged_attack_mode",
 				"full": "textures/entity/strv_103/100_percent_health",
 				"high": "textures/entity/strv_103/75_percent_health",
