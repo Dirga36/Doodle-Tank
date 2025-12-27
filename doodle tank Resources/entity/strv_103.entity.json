@@ -5,13 +5,10 @@
 			"identifier": "dt:strv_103",
 			"materials": {
 				"default": "entity_alphatest",
-				"attack_mode_layer": "villager_v2_masked",
 				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
 				"default": "textures/entity/strv_103/default",
-				"stay_away_mode": "textures/entity/strv_103/stay_away_mode",
-				"ranged_attack_mode": "textures/entity/strv_103/ranged_attack_mode",
 				"full": "textures/entity/strv_103/100_percent_health",
 				"high": "textures/entity/strv_103/75_percent_health",
 				"low": "textures/entity/strv_103/25_percent_health",
@@ -28,18 +25,18 @@
 				"shoot": "animation.strv_103.shoot",
 				"shooting": "controller.animation.tank.shooting",
 				"turn": "animation.strv_103.turn",
-				"floating_info": "animation.actor.billboard"
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
 					"move",
 					"shooting",
-					"turn"
+					"turn",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
 				"controller.render.default",
-				"controller.render.attack_mode",
 				"controller.render.health_parameter"
 			]
 		}

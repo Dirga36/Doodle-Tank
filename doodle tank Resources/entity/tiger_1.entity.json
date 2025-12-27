@@ -5,13 +5,10 @@
 			"identifier": "dt:tiger_1",
 			"materials": {
 				"default": "entity_alphatest",
-				"attack_mode_layer": "villager_v2_masked",
 				"health_parameter_layer": "villager_v2_masked"
 			},
 			"textures": {
 				"default": "textures/entity/tiger_1/default",
-				"stay_away_mode": "textures/entity/tiger_1/stay_away_mode",
-				"ranged_attack_mode": "textures/entity/tiger_1/ranged_attack_mode",
 				"full": "textures/entity/tiger_1/100_percent_health",
 				"high": "textures/entity/tiger_1/75_percent_health",
 				"low": "textures/entity/tiger_1/25_percent_health",
@@ -30,7 +27,7 @@
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
-				"floating_info": "animation.actor.billboard"
+				"floating_info": "animation.floating_info.floating_info"
 			},
 			"scripts": {
 				"animate": [
@@ -38,12 +35,12 @@
 					"shooting",
 					"turn",
 					"look",
-					"look_at_target"
+					"look_at_target",
+					"floating_info"
 				]
 			},
 			"render_controllers": [
 				"controller.render.default",
-				"controller.render.attack_mode",
 				"controller.render.health_parameter"
 			]
 		}

@@ -45,44 +45,7 @@
           "priority": 8
         }
       },
-      "dt:switcher_range": {
-        "minecraft:target_nearby_sensor": {
-          "inside_range": 7.0,
-          "outside_range": 20.0,
-          "must_see": true,
-          "on_inside_range": {
-            "event": "dt:stay_away_swap",
-            "target": "self"
-          },
-          "on_outside_range": {
-            "event": "dt:ranged_swap",
-            "target": "self"
-          }
-        }
-      },
-      "dt:stay_away_components": {
-        "minecraft:behavior.avoid_mob_type": {
-          "ignore_visibility": true,
-          "max_flee": 25,
-          "sprint_speed_multiplier": 10,
-          "walk_speed_multiplier": 10,
-          "entity_types": {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "is_family",
-                  "subject": "other",
-                  "value": "monster"
-                }
-              ]
-            }
-          }
-        },
-        "minecraft:variant": {
-          "value": 0
-        }
-      },
-      "dt:ranged_components": {
+      "dt:ranged_attack_components": {
         "minecraft:shooter": {
           "def": "minecraft:fireball"
         },
@@ -93,9 +56,6 @@
           "attack_interval_max": 6,
           "attack_interval_min": 5,
           "swing": true
-        },
-        "minecraft:variant": {
-          "value": 1
         }
       },
       "dt:carry_entity": {
@@ -203,32 +163,8 @@
         "add": {
           "component_groups": [
             "dt:basic_behavior",
-            "dt:switcher_range",
+            "dt:ranged_attack_components",
             "dt:carry_entity"
-          ]
-        }
-      },
-      "dt:stay_away_swap": {
-        "remove": {
-          "component_groups": [
-            "dt:ranged_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "dt:stay_away_components"
-          ]
-        }
-      },
-      "dt:ranged_swap": {
-        "remove": {
-          "component_groups": [
-            "dt:stay_away_components"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "dt:ranged_components"
           ]
         }
       }
