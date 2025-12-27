@@ -26,19 +26,15 @@
 			"animations": {
 				"move": "animation.strv_103.move",
 				"shoot": "animation.strv_103.shoot",
-				"punch": "animation.strv_103.punch",
 				"shooting": "controller.animation.tank.shooting",
-				"punching": "controller.animation.tank.punching",
 				"turn": "animation.strv_103.turn",
-				"floating_info": "animation.floating_info.floating_info"
+				"floating_info": "animation.actor.billboard"
 			},
 			"scripts": {
 				"animate": [
 					"move",
-					"punching",
 					"shooting",
-					"turn",
-					"floating_info"
+					"turn"
 				]
 			},
 			"render_controllers": [

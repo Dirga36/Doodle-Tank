@@ -5,11 +5,7 @@
 			"loop": true,
 			"bones": {
 				"floating_info": {
-					"rotation": [
-						0,
-						"90-query.camera_rotation(1)",
-						0
-					]
+					"rotation": [0, "90 - query.camera_rotation(1)", 0]
 				}
 			}
 		}
