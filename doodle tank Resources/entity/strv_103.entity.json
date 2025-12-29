@@ -15,7 +15,8 @@
 				"empty": "textures/entity/strv_103/0_percent_health"
 			},
 			"particle_effects": {
-				"smoke_blast": "dt:smoke_blast"
+				"smoke_blast": "dt:smoke_blast",
+				"muzzle_flash": "dt:muzzle_flash"
 			},
 			"geometry": {
 				"default": "geometry.strv_103"

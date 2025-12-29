@@ -18,7 +18,8 @@
 				"smoke_blast": "dt:smoke_blast"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1"
+				"default": "geometry.tiger_1",
+				"muzzle_flash": "dt:muzzle_flash"
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",

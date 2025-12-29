@@ -5768,7 +5768,7 @@
 					"parent": "turret",
 					"pivot": [0, 31.58027, -14.8055],
 					"locators": {
-						"gun_tip": [0, 32.41627, -15.8505]
+						"gun_tip": [0, 32.41627, -97.8505]
 					},
 					"poly_mesh": {
 						"normalized_uvs": true,

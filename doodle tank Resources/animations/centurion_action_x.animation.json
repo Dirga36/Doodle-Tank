@@ -65,14 +65,12 @@
 					}
 				}
 			},
-			"sound_effects": {
-				"0.0": {
-					"effect": "cannon_shot.mp3",
-					"locator": "gun_tip"
-				}
-			},
 			"particle_effects": {
 				"0.0417": {
+					"effect": "muzzle_flash",
+					"locator": "gun_tip"
+				},
+				"0.0833": {
 					"effect": "smoke_blast",
 					"locator": "gun_tip"
 				}
