@@ -79,10 +79,14 @@
 			},
 			"particle_effects": {
 				"0.0417": {
-					"effect": "muzzle_flash",
+					"effect": "muzzle_flash_front",
 					"locator": "gun_tip"
 				},
 				"0.0833": {
+					"effect": "muzzle_flash_side",
+					"locator": "gun_tip"
+				},
+				"0.125": {
 					"effect": "smoke_blast",
 					"locator": "gun_tip"
 				}

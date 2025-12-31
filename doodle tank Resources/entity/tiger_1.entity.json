@@ -15,7 +15,9 @@
 				"empty": "textures/entity/tiger_1/0_percent_health"
 			},
 			"particle_effects": {
-				"smoke_blast": "dt:smoke_blast"
+				"smoke_blast": "dt:smoke_blast",
+				"muzzle_flash_side": "dt:muzzle_flash_side",
+				"muzzle_flash_front": "dt:muzzle_flash_front"
 			},
 			"geometry": {
 				"default": "geometry.tiger_1",

@@ -16,7 +16,8 @@
 			},
 			"particle_effects": {
 				"smoke_blast": "dt:smoke_blast",
-				"muzzle_flash": "dt:muzzle_flash"
+				"muzzle_flash_side": "dt:muzzle_flash_side",
+				"muzzle_flash_front": "dt:muzzle_flash_front"
 			},
 			"geometry": {
 				"default": "geometry.strv_103"
