@@ -6655,7 +6655,7 @@
 					"parent": "other_components",
 					"pivot": [0, -0.25, -18],
 					"locators": {
-						"exhaust_smoke": [-28.75, 20, 56]
+						"exhaust_smoke": [-28.75, 20, 55]
 					},
 					"poly_mesh": {
 						"normalized_uvs": true,

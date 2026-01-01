@@ -143,30 +143,22 @@
 			},
 			"particle_effects": {
 				"0.0417": {
-					"effect": "dt:muzzle_flash_front",
-					"locator": "gun_tip"
-				},
-				"0.0833": {
-					"effect": "dt:muzzle_flash_side",
-					"locator": "gun_tip"
-				},
-				"0.125": {
 					"effect": "dt:smoke_blast",
 					"locator": "gun_tip"
 				}
-			},
-			"animation.centurion_action_x.engine_smoke_effect": {
-				"loop": true,
-				"animation_length": 0.0417,
-				"particle_effects": {
-					"0.0": {
-						"effect": "dt:engine_smoke",
-						"locator": "exhaust_smoke_1"
-					},
-					"0.0417": {
-						"effect": "dt:engine_smoke",
-						"locator": "exhaust_smoke_2"
-					}
+			}
+		},
+		"animation.centurion_action_x.engine_smoke_effect": {
+			"loop": true,
+			"animation_length": 0.0417,
+			"particle_effects": {
+				"0.0": {
+					"effect": "dt:engine_smoke",
+					"locator": "exhaust_smoke_1"
+				},
+				"0.0417": {
+					"effect": "dt:engine_smoke",
+					"locator": "exhaust_smoke_2"
 				}
 			}
 		}

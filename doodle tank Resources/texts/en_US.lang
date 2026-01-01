@@ -21,3 +21,7 @@ item.dt:armor=Armor
 item.dt:deploy_tiger_1=Deploy Tiger 1
 item.dt:deploy_centurion_action_x=Deploy Centurion Action X
 item.dt:deploy_strv_103=Deploy Strv 103
+
+item.dt:tiger_1_spawn_egg.name=Tiger 1 Spawn Egg
+item.dt:centurion_action_x_spawn_egg.name=Centurion Action X Spawn Egg
+item.dt:strv_103_spawn_egg.name=Strv 103 Spawn Egg

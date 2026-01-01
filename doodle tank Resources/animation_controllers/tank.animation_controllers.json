@@ -24,12 +24,12 @@
       }
     },
     "controller.animation.tank.smoking": {
+      "initial_state": "default",
       "states": {
         "default": {
           "transitions": [
             {
-              "smoking": "query.health / query.max_health > 0.25"
-
+              "smoking": "query.health / query.max_health <= 0.25"
             }
           ]
         },
@@ -39,7 +39,7 @@
           ],
           "transitions": [
             {
-              "default": "query.health / query.max_health < 0.25"
+              "default": "query.health / query.max_health > 0.25"
             }
           ],
           "blend_transition": 0.1

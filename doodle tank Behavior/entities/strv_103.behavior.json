@@ -71,9 +71,9 @@
               "min_rider_count": 0,
               "max_rider_count": 4,
               "position": [
-                0,
-                1.55,
-                -3.2
+                -0.74,
+                1.75,
+                -1
               ],
               "third_person_camera_radius": 8.0,
               "camera_relax_distance_smoothing": 6.0

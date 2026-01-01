@@ -16,13 +16,10 @@
 			},
 			"particle_effects": {
 				"smoke_blast": "dt:smoke_blast",
-				"muzzle_flash_side": "dt:muzzle_flash_side",
-				"muzzle_flash_front": "dt:muzzle_flash_front",
 				"engine_smoke": "dt:engine_smoke"
 			},
 			"geometry": {
-				"default": "geometry.tiger_1",
-				"muzzle_flash": "dt:muzzle_flash"
+				"default": "geometry.tiger_1"
 			},
 			"animations": {
 				"move": "animation.tiger_1.move",

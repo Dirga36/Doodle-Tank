@@ -115,14 +115,6 @@
 			},
 			"particle_effects": {
 				"0.0417": {
-					"effect": "dt:muzzle_flash_front",
-					"locator": "gun_tip"
-				},
-				"0.0833": {
-					"effect": "dt:muzzle_flash_side",
-					"locator": "gun_tip"
-				},
-				"0.125": {
 					"effect": "dt:smoke_blast",
 					"locator": "gun_tip"
 				}
@@ -130,7 +122,7 @@
 		},
 		"animation.strv_103.engine_smoke_effect": {
 			"loop": true,
-			"animation_length": 0.0417,
+			"animation_length": 1,
 			"particle_effects": {
 				"0.0": {
 					"effect": "dt:engine_smoke",
