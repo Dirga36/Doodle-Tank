@@ -115,7 +115,7 @@
 			},
 			"particle_effects": {
 				"0.0417": {
-					"effect": "dt:smoke_blast",
+					"effect": "smoke_blast",
 					"locator": "gun_tip"
 				}
 			}
@@ -125,7 +125,7 @@
 			"animation_length": 1,
 			"particle_effects": {
 				"0.0": {
-					"effect": "dt:engine_smoke",
+					"effect": "engine_smoke",
 					"locator": "exhaust_smoke"
 				}
 			}
