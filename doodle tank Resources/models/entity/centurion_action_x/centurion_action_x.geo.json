@@ -6348,6 +6348,9 @@
 					"name": "left_exhaust",
 					"parent": "exhaust",
 					"pivot": [22.572, 24.13987, 43.66041],
+					"locators": {
+						"exhaust_smoke_1": [0, 0, 0]
+					},
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [
@@ -6592,6 +6595,9 @@
 					"name": "right_exhaust",
 					"parent": "exhaust",
 					"pivot": [-22.572, 24.13987, 43.66041],
+					"locators": {
+						"exhaust_smoke_2": [0, 0, 0]
+					},
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [

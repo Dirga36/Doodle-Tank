@@ -23,10 +23,7 @@
 				{
 					"name": "right_track",
 					"parent": "tracks",
-					"pivot": [-27.22405, 9.1359, -3.80079],
-					"locators": {
-						"right_trail": [20, 1, 32]
-					}
+					"pivot": [-27.22405, 9.1359, -3.80079]
 				},
 				{
 					"name": "right_track_steels",
@@ -2766,10 +2763,7 @@
 				{
 					"name": "left_track",
 					"parent": "tracks",
-					"pivot": [27.22405, 9.1359, -3.80079],
-					"locators": {
-						"left_trail": [-20, 1, 32]
-					}
+					"pivot": [27.22405, 9.1359, -3.80079]
 				},
 				{
 					"name": "left_track_steels",
@@ -7037,6 +7031,10 @@
 					"name": "exhaust",
 					"parent": "other_components",
 					"pivot": [-20.83334, 23.19579, 49.97586],
+					"locators": {
+						"exhaust_smoke_1": [-6, 31, 52],
+						"exhaust_smoke_2": [6, 31, 52]
+					},
 					"poly_mesh": {
 						"normalized_uvs": true,
 						"positions": [

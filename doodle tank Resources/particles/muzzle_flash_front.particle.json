@@ -5,7 +5,7 @@
 			"identifier": "dt:muzzle_flash_front",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/particles/muzzle_flash_front_particle"
+				"texture": "textures/particle/muzzle_flash_front_particle"
 			}
 		},
 		"components": {

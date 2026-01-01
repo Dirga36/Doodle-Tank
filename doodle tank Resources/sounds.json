@@ -6,8 +6,7 @@
 					"ambient": "mob.irongolem.crack",
 					"death": "mob.irongolem.death",
 					"hurt": "mob.irongolem.hit",
-					"shoot": "mob.blaze.shoot",
-					"attack": "mob.irongolem.throw",
+					"shoot": "cannon_shot",
 					"fall.big": "random.anvil_land",
 					"step": {
 						"pitch": 1,
@@ -26,8 +25,7 @@
 					"ambient": "mob.irongolem.crack",
 					"death": "mob.irongolem.death",
 					"hurt": "mob.irongolem.hit",
-					"shoot": "mob.blaze.shoot",
-					"attack": "mob.irongolem.throw",
+					"shoot": "cannon_shot",
 					"fall.big": "random.anvil_land",
 					"step": {
 						"pitch": 1,
@@ -46,8 +44,7 @@
 					"ambient": "mob.irongolem.crack",
 					"death": "mob.irongolem.death",
 					"hurt": "mob.irongolem.hit",
-					"shoot": "mob.blaze.shoot",
-					"attack": "mob.irongolem.throw",
+					"shoot": "cannon_shot",
 					"fall.big": "random.anvil_land",
 					"step": {
 						"pitch": 1,

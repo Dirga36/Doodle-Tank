@@ -17,7 +17,8 @@
 			"particle_effects": {
 				"smoke_blast": "dt:smoke_blast",
 				"muzzle_flash_side": "dt:muzzle_flash_side",
-				"muzzle_flash_front": "dt:muzzle_flash_front"
+				"muzzle_flash_front": "dt:muzzle_flash_front",
+				"engine_smoke": "dt:engine_smoke"
 			},
 			"geometry": {
 				"default": "geometry.tiger_1",
@@ -27,6 +28,8 @@
 				"move": "animation.tiger_1.move",
 				"shoot": "animation.tiger_1.shoot",
 				"shooting": "controller.animation.tank.shooting",
+				"engine_smoke": "animation.tiger_1.engine_smoke_effect",
+				"smoking": "controller.animation.tank.smoking",
 				"turn": "animation.tank_rotation.turn",
 				"look": "animation.tank_rotation.look",
 				"look_at_target": "animation.common.look_at_target",
@@ -36,6 +39,7 @@
 				"animate": [
 					"move",
 					"shooting",
+					"smoking",
 					"turn",
 					"look",
 					"look_at_target",

@@ -22,6 +22,29 @@
           "blend_transition": 0.1
         }
       }
+    },
+    "controller.animation.tank.smoking": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "smoking": "query.health / query.max_health > 0.25"
+
+            }
+          ]
+        },
+        "smoking": {
+          "animations": [
+            "engine_smoke"
+          ],
+          "transitions": [
+            {
+              "default": "query.health / query.max_health < 0.25"
+            }
+          ],
+          "blend_transition": 0.1
+        }
+      }
     }
   }
 }

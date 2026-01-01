@@ -17,7 +17,8 @@
 			"particle_effects": {
 				"smoke_blast": "dt:smoke_blast",
 				"muzzle_flash_side": "dt:muzzle_flash_side",
-				"muzzle_flash_front": "dt:muzzle_flash_front"
+				"muzzle_flash_front": "dt:muzzle_flash_front",
+				"engine_smoke": "dt:engine_smoke"
 			},
 			"geometry": {
 				"default": "geometry.strv_103"
@@ -26,6 +27,8 @@
 				"move": "animation.strv_103.move",
 				"shoot": "animation.strv_103.shoot",
 				"shooting": "controller.animation.tank.shooting",
+				"engine_smoke": "animation.strv_103.engine_smoke_effect",
+				"smoking": "controller.animation.tank.smoking",
 				"turn": "animation.strv_103.turn",
 				"floating_info": "animation.floating_info.floating_info"
 			},
@@ -33,6 +36,7 @@
 				"animate": [
 					"move",
 					"shooting",
+					"smoking",
 					"turn",
 					"floating_info"
 				]

@@ -5,40 +5,88 @@
 			"loop": true,
 			"bones": {
 				"left_gear_1": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_2": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_3": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_4": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_5": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"left_gear_6": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_1": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_2": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_3": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_4": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_5": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				},
 				"right_gear_6": {
-					"rotation": ["query.modified_distance_moved * 20", 0, 0]
+					"rotation": [
+						"query.modified_distance_moved * 20",
+						0,
+						0
+					]
 				}
 			}
 		},
@@ -47,24 +95,46 @@
 			"bones": {
 				"chasis": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.0417": [-2.5, 0, 0],
-						"0.5": [0, 0, 0]
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.0417": [
+							-2.5,
+							0,
+							0
+						],
+						"0.5": [
+							0,
+							0,
+							0
+						]
 					}
 				}
 			},
 			"particle_effects": {
 				"0.0417": {
-					"effect": "muzzle_flash_front",
+					"effect": "dt:muzzle_flash_front",
 					"locator": "gun_tip"
 				},
 				"0.0833": {
-					"effect": "muzzle_flash_side",
+					"effect": "dt:muzzle_flash_side",
 					"locator": "gun_tip"
 				},
 				"0.125": {
-					"effect": "smoke_blast",
+					"effect": "dt:smoke_blast",
 					"locator": "gun_tip"
+				}
+			}
+		},
+		"animation.strv_103.engine_smoke_effect": {
+			"loop": true,
+			"animation_length": 0.0417,
+			"particle_effects": {
+				"0.0": {
+					"effect": "dt:engine_smoke",
+					"locator": "exhaust_smoke"
 				}
 			}
 		},
@@ -72,7 +142,11 @@
 			"loop": true,
 			"bones": {
 				"tank": {
-					"rotation": ["query.vertical_speed * -3", 0, 0]
+					"rotation": [
+						"query.vertical_speed * -3",
+						0,
+						0
+					]
 				}
 			}
 		}
