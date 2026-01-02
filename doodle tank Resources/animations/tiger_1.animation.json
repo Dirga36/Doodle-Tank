@@ -5,144 +5,64 @@
 			"loop": true,
 			"bones": {
 				"left_gear_1": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_2": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_3": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_4": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_5": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_6": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_7": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_8": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_9": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"left_gear_10": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_1": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_2": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_3": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_4": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_5": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_6": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_7": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_8": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_9": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				},
 				"right_gear_10": {
-					"rotation": [
-						"query.modified_distance_moved * 20",
-						0,
-						0
-					]
+					"rotation": ["query.modified_distance_moved * 20", 0, 0]
 				}
 			}
 		},
@@ -151,21 +71,9 @@
 			"bones": {
 				"suspension_barrel": {
 					"position": {
-						"0.0": [
-							0,
-							0,
-							0
-						],
-						"0.0417": [
-							0,
-							0,
-							10
-						],
-						"0.75": [
-							0,
-							0,
-							0
-						]
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 10],
+						"0.75": [0, 0, 0]
 					}
 				}
 			},
@@ -178,7 +86,7 @@
 		},
 		"animation.tiger_1.engine_smoke_effect": {
 			"loop": true,
-			"animation_length": 0.0417,
+			"animation_length": 1,
 			"particle_effects": {
 				"0.0": {
 					"effect": "engine_smoke",
