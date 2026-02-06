@@ -1,4 +1,5 @@
 ## Doodle Tank
+<img width="851" height="315" alt="repo-card" src="https://github.com/user-attachments/assets/306e39df-768f-4c8d-928b-aad9d02c2ac9" />
 
 Battle tank entity with Minecraft's basic behaviours, Theese tanks will destroys monster mobs in their sights.
 
